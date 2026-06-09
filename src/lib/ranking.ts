@@ -2,7 +2,7 @@
  * Multi-factor ranking algorithm for OnlyFans creators.
  *
  * Overall formula (weights sum to 1.0):
- *   overall = (review_score × 0.30) + (sexy_score × 0.25) + (authenticity_score × 0.45)
+ *   overall = (review_score × 0.20) + (sexy_score × 0.15) + (authenticity_score × 0.40) + (nude_score × 0.25)
  *
  * Authenticity uses a five-dimension model derived from public research signals.
  * Scores are editorial estimates — not verified DM audits.
@@ -20,9 +20,10 @@ import type {
 } from "./types";
 
 export const WEIGHTS = {
-  review: 0.3,
-  sexy: 0.25,
-  authenticity: 0.45,
+  review: 0.2,
+  sexy: 0.15,
+  authenticity: 0.4,
+  nude: 0.25,
 } as const;
 
 /** Dimension weights within the authenticity composite (sum to 1.0). */
@@ -171,14 +172,20 @@ export function normalizeSexyScore(value: number): number {
   return clamp(value);
 }
 
+export function normalizeNudeScore(value: number): number {
+  return clamp(value);
+}
+
 export function calculateOverallScore(scores: {
   review_score: number;
   sexy_score: number;
+  nude_score: number;
   authenticity_score: number;
 }): number {
   const overall =
     scores.review_score * WEIGHTS.review +
     scores.sexy_score * WEIGHTS.sexy +
+    scores.nude_score * WEIGHTS.nude +
     scores.authenticity_score * WEIGHTS.authenticity;
 
   return clamp(round1(overall));
@@ -188,14 +195,17 @@ export function buildScores(
   creatorId: number,
   reviews: Review[],
   signals: AuthenticitySignals,
-  sexyScore: number
+  sexyScore: number,
+  nudeScore: number
 ): Scores {
   const review_score = reviewScoreFromRatings(reviews);
   const { score, confidence, margin, tier } = buildAuthenticityResult(signals);
   const sexy_score = normalizeSexyScore(sexyScore);
+  const nude_score = normalizeNudeScore(nudeScore);
   const overall_rank_score = calculateOverallScore({
     review_score,
     sexy_score,
+    nude_score,
     authenticity_score: score,
   });
 
@@ -203,6 +213,7 @@ export function buildScores(
     creator_id: creatorId,
     review_score,
     sexy_score,
+    nude_score,
     authenticity_score: score,
     authenticity_confidence: confidence,
     authenticity_margin: margin,
@@ -391,6 +402,7 @@ export function sortCreators(
       c.scores.authenticity_confidence,
     reviews: (c: CreatorWithDetails) => c.scores.review_score,
     sexy: (c: CreatorWithDetails) => c.scores.sexy_score,
+    nude: (c: CreatorWithDetails) => c.scores.nude_score,
   };
 
   const getter = keyMap[sortBy ?? "overall"];
@@ -424,6 +436,12 @@ export function filterCreators(
     if (
       filters.maxPrice !== undefined &&
       creator.subscription_price > filters.maxPrice
+    ) {
+      return false;
+    }
+    if (
+      filters.minNude !== undefined &&
+      creator.scores.nude_score < filters.minNude
     ) {
       return false;
     }

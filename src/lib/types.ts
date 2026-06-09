@@ -39,6 +39,7 @@ export type Scores = {
   creator_id: number;
   review_score: number;
   sexy_score: number;
+  nude_score: number;
   authenticity_score: number;
   authenticity_confidence: number;
   authenticity_margin: number;
@@ -75,6 +76,7 @@ export type CreatorWithDetails = Creator & {
   scores: Scores;
   signals: AuthenticitySignals;
   reviews: Review[];
+  nude_score_notes?: string;
 };
 
 export type RankedCreator = CreatorWithDetails & {
@@ -87,7 +89,14 @@ export type RankingFilters = {
   minPrice?: number;
   maxPrice?: number;
   authenticityTier?: AuthenticityTier;
-  sortBy?: "overall" | "authenticity" | "authenticity_confidence" | "reviews" | "sexy";
+  sortBy?:
+    | "overall"
+    | "authenticity"
+    | "authenticity_confidence"
+    | "reviews"
+    | "sexy"
+    | "nude";
+  minNude?: number;
 };
 
 export type PlatformStats = {

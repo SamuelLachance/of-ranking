@@ -130,6 +130,11 @@ export default function CreatorCard({ creator, compact }: CreatorCardProps) {
           value={creator.scores.sexy_score}
           color="pink"
         />
+        <ScoreBar
+          label="Content Openness"
+          value={creator.scores.nude_score}
+          color="magenta"
+        />
       </div>
 
       <Link

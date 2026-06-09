@@ -9,12 +9,17 @@ export default function HomePage() {
     authenticityTier: "verified_human",
     sortBy: "authenticity",
   });
+  const topContentOpenness = getRankedCreators({ sortBy: "nude" });
 
   return (
     <main className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-10 lg:px-10 lg:py-16">
       <HeroSection />
       <StatsDashboard stats={stats} />
-      <FeaturedCreators creators={ranked} verifiedCreators={verifiedHuman} />
+      <FeaturedCreators
+        creators={ranked}
+        verifiedCreators={verifiedHuman}
+        contentOpennessCreators={topContentOpenness}
+      />
 
       <section className="glass-card border border-amber-500/20 bg-amber-500/5 p-6 text-sm text-white/70">
         <strong className="text-amber-200">Data transparency:</strong> Profiles
@@ -23,10 +28,10 @@ export default function HomePage() {
         subscriber audits or live platform telemetry.
       </section>
 
-      <section className="glass-card grid gap-6 p-8 md:grid-cols-3">
+      <section className="glass-card grid gap-6 p-8 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <p className="text-xs uppercase tracking-widest text-purple-300">
-            30% Weight
+            20% Weight
           </p>
           <h3 className="mt-1 text-lg font-semibold text-white">Review Score</h3>
           <p className="mt-2 text-sm text-white/60">
@@ -36,7 +41,7 @@ export default function HomePage() {
         </div>
         <div>
           <p className="text-xs uppercase tracking-widest text-pink-300">
-            25% Weight
+            15% Weight
           </p>
           <h3 className="mt-1 text-lg font-semibold text-white">Sexy Score</h3>
           <p className="mt-2 text-sm text-white/60">
@@ -45,8 +50,20 @@ export default function HomePage() {
           </p>
         </div>
         <div>
+          <p className="text-xs uppercase tracking-widest text-fuchsia-300">
+            25% Weight
+          </p>
+          <h3 className="mt-1 text-lg font-semibold text-white">
+            Content Openness
+          </h3>
+          <p className="mt-2 text-sm text-white/60">
+            Editorial estimate of how openly a creator shares explicit body
+            content, from public bios and press only.
+          </p>
+        </div>
+        <div>
           <p className="text-xs uppercase tracking-widest text-emerald-300">
-            45% Weight
+            40% Weight
           </p>
           <h3 className="mt-1 text-lg font-semibold text-white">
             Human Authenticity

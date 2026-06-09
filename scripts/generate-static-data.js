@@ -86,8 +86,10 @@ function resolveConfidence(dim, score) {
   return clamp(Math.round(confidence));
 }
 
-function calculateOverallScore(review, sexy, authenticity) {
-  return round1(clamp(review * 0.3 + sexy * 0.25 + authenticity * 0.45));
+function calculateOverallScore(review, sexy, nude, authenticity) {
+  return round1(
+    clamp(review * 0.2 + sexy * 0.15 + nude * 0.25 + authenticity * 0.4)
+  );
 }
 
 function buildSignalsFromSeed(creator, id) {
@@ -165,10 +167,13 @@ const creators = seedData.map((creator, index) => {
 
   const reviewScore = reviewScoreFromRatings(reviews);
 
+  const nudeScore = clamp(creator.nude_score ?? 50);
+
   const scores = {
     creator_id: id,
     review_score: round1(reviewScore),
     sexy_score: creator.sexy_score,
+    nude_score: nudeScore,
     authenticity_score: authenticityScore,
     authenticity_confidence: signals.confidence,
     authenticity_margin: authenticityMargin,
@@ -176,6 +181,7 @@ const creators = seedData.map((creator, index) => {
     overall_rank_score: calculateOverallScore(
       reviewScore,
       creator.sexy_score,
+      nudeScore,
       authenticityScore
     ),
     last_calculated: now,
@@ -191,6 +197,7 @@ const creators = seedData.map((creator, index) => {
     subscription_price: creator.subscription_price,
     created_at: createdAt,
     public_source: creator.public_source ?? null,
+    nude_score_notes: creator.nude_score_notes ?? null,
     reviews,
     scores,
     signals,
@@ -201,7 +208,7 @@ const bundle = {
   generated_at: new Date().toISOString(),
   disclaimer:
     "Editorial estimate from public signals only. Scores reflect publicly available marketing information, press coverage, and documented fan discourse — not verified DM audits or live platform telemetry. We do not scrape OnlyFans.",
-  methodology_version: "2.0-multidimensional",
+  methodology_version: "2.1-nude-score",
   creators,
 };
 

@@ -24,7 +24,7 @@ export default function RankingsFilters({
   return (
     <form
       method="get"
-      className="glass-card grid gap-4 p-5 md:grid-cols-2 lg:grid-cols-6"
+      className="glass-card grid gap-4 p-5 md:grid-cols-2 lg:grid-cols-7"
     >
       <div className="space-y-1.5">
         <label htmlFor="language" className="text-xs uppercase tracking-widest text-white/50">
@@ -119,6 +119,25 @@ export default function RankingsFilters({
       </div>
 
       <div className="space-y-1.5">
+        <label htmlFor="minNude" className="text-xs uppercase tracking-widest text-white/50">
+          Min Content Openness
+        </label>
+        <input
+          id="minNude"
+          name="minNude"
+          type="range"
+          min={0}
+          max={100}
+          step={5}
+          defaultValue={filters.minNude ?? 0}
+          className="w-full accent-fuchsia-500"
+        />
+        <p className="text-xs text-white/40">
+          {filters.minNude ?? 0}% minimum
+        </p>
+      </div>
+
+      <div className="space-y-1.5">
         <label htmlFor="sortBy" className="text-xs uppercase tracking-widest text-white/50">
           Sort By
         </label>
@@ -133,10 +152,11 @@ export default function RankingsFilters({
           <option value="authenticity_confidence">Authenticity Confidence</option>
           <option value="reviews">Reviews</option>
           <option value="sexy">Sexy Score</option>
+          <option value="nude">Content Openness</option>
         </select>
       </div>
 
-      <div className="flex items-end lg:col-span-6">
+      <div className="flex items-end lg:col-span-7">
         <button
           type="submit"
           className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-2.5 text-sm font-semibold text-white transition hover:opacity-90"

@@ -4,13 +4,14 @@ type ScoreBarProps = {
   label: string;
   value: number;
   max?: number;
-  color?: "purple" | "pink" | "green" | "yellow" | "red" | "cyan";
+  color?: "purple" | "pink" | "magenta" | "green" | "yellow" | "red" | "cyan";
   showValue?: boolean;
 };
 
 const colorMap = {
   purple: "from-purple-500 to-violet-400",
   pink: "from-pink-500 to-rose-400",
+  magenta: "from-fuchsia-600 to-pink-500",
   green: "from-emerald-500 to-green-400",
   yellow: "from-amber-500 to-yellow-400",
   red: "from-red-500 to-orange-400",

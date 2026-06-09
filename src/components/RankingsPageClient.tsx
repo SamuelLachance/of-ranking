@@ -15,7 +15,14 @@ type RankingsPageClientProps = {
 };
 
 function parseFilters(searchParams: URLSearchParams): RankingFilters {
-  const sortValues = ["overall", "authenticity", "reviews", "sexy"] as const;
+  const sortValues = [
+    "overall",
+    "authenticity",
+    "authenticity_confidence",
+    "reviews",
+    "sexy",
+    "nude",
+  ] as const;
   const sortParam = searchParams.get("sortBy");
   const sortBy = sortValues.includes(sortParam as (typeof sortValues)[number])
     ? (sortParam as RankingFilters["sortBy"])
@@ -31,6 +38,9 @@ function parseFilters(searchParams: URLSearchParams): RankingFilters {
       : undefined,
     maxPrice: searchParams.get("maxPrice")
       ? Number(searchParams.get("maxPrice"))
+      : undefined,
+    minNude: searchParams.get("minNude")
+      ? Number(searchParams.get("minNude"))
       : undefined,
     sortBy,
   };

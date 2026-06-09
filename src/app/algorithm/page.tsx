@@ -1,4 +1,4 @@
-import { Brain, Clock, MessageSquare, ShieldCheck, Sparkles, Zap } from "lucide-react";
+import { Brain, Clock, Eye, MessageSquare, ShieldCheck, Sparkles, Zap } from "lucide-react";
 import ScoreBar from "@/components/ScoreBar";
 import { getAllCreatorsWithDetails } from "@/lib/data";
 import {
@@ -79,6 +79,9 @@ export default function AlgorithmPage() {
   const bottomAuthentic = [...creators]
     .sort((a, b) => a.scores.authenticity_score - b.scores.authenticity_score)
     .slice(0, 3);
+  const topNude = [...creators]
+    .sort((a, b) => b.scores.nude_score - a.scores.nude_score)
+    .slice(0, 3);
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-10 lg:px-10 lg:py-16">
@@ -103,7 +106,8 @@ export default function AlgorithmPage() {
           Overall Score Formula
         </h2>
         <div className="rounded-xl border border-white/10 bg-black/30 p-6 font-mono text-sm text-purple-200">
-          overall = (review × 0.30) + (sexy × 0.25) + (authenticity × 0.45)
+          overall = (review × 0.20) + (sexy × 0.15) + (authenticity × 0.40) +
+          (nude × 0.25)
         </div>
         <div className="space-y-3">
           <ScoreBar
@@ -117,10 +121,99 @@ export default function AlgorithmPage() {
             color="pink"
           />
           <ScoreBar
+            label={`Content Openness (Nude Score) — ${(WEIGHTS.nude * 100).toFixed(0)}% weight`}
+            value={WEIGHTS.nude * 100}
+            color="magenta"
+          />
+          <ScoreBar
             label={`Authenticity Score — ${(WEIGHTS.authenticity * 100).toFixed(0)}% weight`}
             value={WEIGHTS.authenticity * 100}
             color="green"
           />
+        </div>
+        <p className="text-sm text-white/60">
+          Authenticity remains the dominant factor per our original product
+          vision. Content Openness helps surface creators who publicly market
+          explicit body content — weighted at 25%.
+        </p>
+      </section>
+
+      <section className="glass-card mb-8 space-y-6 p-8">
+        <h2 className="flex items-center gap-2 text-xl font-semibold text-white">
+          <Eye className="h-5 w-5 text-fuchsia-400" />
+          Content Openness Score (Nude Score)
+        </h2>
+        <p className="text-sm text-amber-200/80">
+          <strong>Editorial estimate from public signals only.</strong> We do
+          not scrape OnlyFans paywalls or verify subscriber content. Scores
+          reflect public bios, press interviews, Wikipedia, and promotional
+          language about content type.
+        </p>
+
+        <div className="overflow-x-auto">
+          <table className="w-full text-left text-sm">
+            <thead>
+              <tr className="border-b border-white/10 text-white/50">
+                <th className="pb-3 pr-4">Public Signal</th>
+                <th className="pb-3">Typical Score Impact</th>
+              </tr>
+            </thead>
+            <tbody className="text-white/70">
+              {[
+                [
+                  "Bio explicitly mentions nude / NSFW / explicit / uncensored",
+                  "+20–30 points (often 75–95 range)",
+                ],
+                [
+                  "Press describes full nude or explicit OF as primary offering",
+                  "+25–35 points",
+                ],
+                [
+                  "Lingerie-only, bikini, or tease marketing",
+                  "40–65 range",
+                ],
+                [
+                  "Celebrity OF launch with explicit content marketing",
+                  "70–90 range",
+                ],
+                [
+                  'Public "no nudity" or SFW-only statements',
+                  "10–30 range",
+                ],
+                [
+                  "Fitness / lifestyle with implied but not explicit content",
+                  "30–50 range",
+                ],
+                [
+                  "PPV nude bundles mentioned in public promo",
+                  "+10–15 bonus",
+                ],
+              ].map(([signal, impact]) => (
+                <tr key={signal} className="border-b border-white/5">
+                  <td className="py-3 pr-4 font-medium text-white">{signal}</td>
+                  <td className="py-3 text-fuchsia-300">{impact}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <p className="text-sm text-white/60">
+          Most top OF earners in our dataset score 75–95. Tease-only or
+          lingerie-focused creators typically land in the 40–65 band. Adult
+          industry veterans with documented explicit catalogs score highest.
+        </p>
+
+        <div className="rounded-xl border border-fuchsia-500/20 bg-fuchsia-500/5 p-5">
+          <h3 className="font-semibold text-fuchsia-300">Top Examples</h3>
+          <ul className="mt-3 space-y-2 text-sm text-white/70">
+            {topNude.map((c) => (
+              <li key={c.id}>
+                <span className="font-medium text-white">{c.name}</span> —{" "}
+                {c.scores.nude_score.toFixed(0)} Content Openness
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
@@ -312,7 +405,7 @@ export default function AlgorithmPage() {
 
       <p className="mt-8 text-center text-sm text-white/40">
         Editorial estimate from public signals only. No OnlyFans scraping. Not
-        affiliated with OnlyFans. Methodology version 2.0-multidimensional.
+        affiliated with OnlyFans. Methodology version 2.1-nude-score.
       </p>
     </main>
   );

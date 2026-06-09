@@ -145,6 +145,11 @@ export default async function CreatorDetailPage({ params }: PageProps) {
               color="pink"
             />
             <ScoreBar
+              label={`Content Openness / Nude Score (${(WEIGHTS.nude * 100).toFixed(0)}% weight)`}
+              value={creator.scores.nude_score}
+              color="magenta"
+            />
+            <ScoreBar
               label={`Authenticity (${(WEIGHTS.authenticity * 100).toFixed(0)}% weight)`}
               value={creator.scores.authenticity_score}
               color={tierBarColor[tier]}
@@ -163,10 +168,25 @@ export default async function CreatorDetailPage({ params }: PageProps) {
         {creator.signals.research_notes && (
           <div className="border-t border-white/10 p-8">
             <h2 className="mb-3 text-lg font-semibold text-white">
-              Why This Score
+              Why This Authenticity Score
             </h2>
             <p className="text-sm leading-relaxed text-white/70">
               {creator.signals.research_notes}
+            </p>
+          </div>
+        )}
+
+        {creator.nude_score_notes && (
+          <div className="border-t border-white/10 p-8">
+            <h2 className="mb-3 text-lg font-semibold text-white">
+              Content Signals (Editorial Estimate)
+            </h2>
+            <p className="mb-3 text-xs text-amber-200/70">
+              Based on public bios, press interviews, and promotional language
+              only — not paywalled content verification.
+            </p>
+            <p className="text-sm leading-relaxed text-white/70">
+              {creator.nude_score_notes}
             </p>
           </div>
         )}
