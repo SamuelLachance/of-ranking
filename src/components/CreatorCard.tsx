@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 import { ShieldCheck, Star } from "lucide-react";
 import ScoreBar from "@/components/ScoreBar";
 import {
-  AUTHENTICITY_THRESHOLDS,
-  getAuthenticityTier,
+  TIER_LABELS,
+  formatAuthenticityWithInterval,
 } from "@/lib/ranking";
-import type { RankedCreator } from "@/lib/types";
+import type { AuthenticityTier, RankedCreator } from "@/lib/types";
 import { LANGUAGE_FLAGS, formatPrice } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
@@ -17,29 +17,40 @@ type CreatorCardProps = {
   compact?: boolean;
 };
 
-const tierStyles = {
-  high: "border-emerald-500/30 bg-emerald-500/5",
-  medium: "border-amber-500/30 bg-amber-500/5",
-  low: "border-red-500/30 bg-red-500/5",
+const tierCardStyles: Record<AuthenticityTier, string> = {
+  verified_human: "border-emerald-500/30 bg-emerald-500/5",
+  likely_human: "border-green-500/25 bg-green-500/5",
+  uncertain: "border-amber-500/30 bg-amber-500/5",
+  likely_managed: "border-orange-500/30 bg-orange-500/5",
+  bot_risk: "border-red-500/30 bg-red-500/5",
 };
 
-const tierBarColors = {
-  high: "green" as const,
-  medium: "yellow" as const,
-  low: "red" as const,
+const tierBadgeStyles: Record<AuthenticityTier, string> = {
+  verified_human: "bg-emerald-500/20 text-emerald-300",
+  likely_human: "bg-green-500/15 text-green-300",
+  uncertain: "bg-amber-500/20 text-amber-300",
+  likely_managed: "bg-orange-500/20 text-orange-300",
+  bot_risk: "bg-red-500/20 text-red-300",
+};
+
+const tierBarColors: Record<AuthenticityTier, "green" | "yellow" | "red" | "cyan" | "pink" | "purple"> = {
+  verified_human: "green",
+  likely_human: "green",
+  uncertain: "yellow",
+  likely_managed: "yellow",
+  bot_risk: "red",
 };
 
 export default function CreatorCard({ creator, compact }: CreatorCardProps) {
-  const tier = getAuthenticityTier(creator.scores.authenticity_score);
-  const isVerified =
-    creator.scores.authenticity_score >= AUTHENTICITY_THRESHOLDS.humanVerified;
+  const tier = creator.scores.authenticity_tier;
+  const isVerified = tier === "verified_human";
 
   return (
     <motion.article
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       whileHover={{ y: -4 }}
-      className={cn("glass-card flex flex-col gap-4 p-5", tierStyles[tier])}
+      className={cn("glass-card flex flex-col gap-4 p-5", tierCardStyles[tier])}
     >
       <div className="flex items-start gap-4">
         <div className="relative shrink-0">
@@ -63,7 +74,7 @@ export default function CreatorCard({ creator, compact }: CreatorCardProps) {
             {isVerified && (
               <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/20 px-2 py-0.5 text-xs font-semibold text-emerald-300">
                 <ShieldCheck className="h-3 w-3" />
-                Human Verified
+                Verified Human
               </span>
             )}
           </div>
@@ -71,6 +82,14 @@ export default function CreatorCard({ creator, compact }: CreatorCardProps) {
             @{creator.username} · {LANGUAGE_FLAGS[creator.language] ?? "🌐"}{" "}
             {creator.language} · {formatPrice(creator.subscription_price)}/mo
           </p>
+          <span
+            className={cn(
+              "mt-1 inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide",
+              tierBadgeStyles[tier]
+            )}
+          >
+            {TIER_LABELS[tier]}
+          </span>
         </div>
         <div className="text-right">
           <p className="flex items-center gap-1 text-sm font-semibold text-white">
@@ -86,8 +105,17 @@ export default function CreatorCard({ creator, compact }: CreatorCardProps) {
       )}
 
       <div className="space-y-2">
+        <div className="flex items-center justify-between text-xs text-white/50">
+          <span>Authenticity</span>
+          <span>
+            {formatAuthenticityWithInterval(
+              creator.scores.authenticity_score,
+              creator.scores.authenticity_margin
+            )}
+          </span>
+        </div>
         <ScoreBar
-          label="Authenticity"
+          label="Score"
           value={creator.scores.authenticity_score}
           color={tierBarColors[tier]}
         />

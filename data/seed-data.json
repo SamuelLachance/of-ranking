@@ -7,17 +7,41 @@
     "subscription_price": 14.99,
     "sexy_score": 88,
     "public_source": "Public Twitter/Instagram bios and interviews",
-    "signals": {
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Fans report personable replies when she is online between streams.",
+        "reviewer_name": "Editorial_Estimate"
+      },
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Known for hands-on brand management per public interviews.",
+        "reviewer_name": "Public_Sentiment"
+      }
+    ],
+    "avatar_url": "/avatars/amouranth.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 72,
+      "agency_risk_score": 68,
+      "activity_pattern_score": 74,
+      "voice_consistency_score": 76,
+      "scale_penalty_score": 88,
+      "confidence": 74,
+      "tier": "likely_human",
+      "human_verified": true,
+      "ai_detection_flags": [
+        "management_team"
+      ],
       "response_time_avg": 1680,
       "message_personalization_score": 78,
       "response_consistency": 38,
-      "ai_detection_flags": [],
-      "human_verified": true
-    },
-    "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Fans report personable replies when she is online between streams.", "reviewer_name": "Editorial_Estimate" },
-      { "rating": 4, "comment": "[Community estimate] Known for hands-on brand management per public interviews.", "reviewer_name": "Public_Sentiment" }
-    ]
+      "research_notes": "Public landing page claims she personally replies to DMs; Film Daily documents Real Work talent agency and trained operational team at $1.5M/mo scale.",
+      "sources": [
+        "https://amouranth.vip/",
+        "https://filmdaily.co/news/beyond-the-screen-how-amouranth-built-a-streaming-empire/",
+        "https://www.vice.com/en/article/onlyfans-management-agency-chatters/"
+      ]
+    }
   },
   {
     "name": "Corinna Kopf",
@@ -27,57 +51,132 @@
     "subscription_price": 19.99,
     "sexy_score": 90,
     "public_source": "Public Instagram, YouTube, and press coverage",
-    "signals": {
-      "response_time_avg": 2100,
-      "message_personalization_score": 72,
-      "response_consistency": 42,
-      "ai_detection_flags": [],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Mixed reports — personal touches noted but high volume suggests team help.", "reviewer_name": "Editorial_Estimate" },
-      { "rating": 3, "comment": "[Community estimate] Response times vary widely based on public fan discussions.", "reviewer_name": "Public_Sentiment" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Mixed reports — personal touches noted but high volume suggests team help.",
+        "reviewer_name": "Editorial_Estimate"
+      },
+      {
+        "rating": 3,
+        "comment": "[Community estimate] Response times vary widely based on public fan discussions.",
+        "reviewer_name": "Public_Sentiment"
+      }
+    ],
+    "avatar_url": "/avatars/corinnakopf.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 32,
+      "agency_risk_score": 90,
+      "activity_pattern_score": 42,
+      "voice_consistency_score": 52,
+      "scale_penalty_score": 96,
+      "confidence": 76,
+      "tier": "likely_managed",
+      "human_verified": false,
+      "ai_detection_flags": [
+        "management_team",
+        "identical_patterns"
+      ],
+      "response_time_avg": 2100,
+      "message_personalization_score": 48,
+      "response_consistency": 72,
+      "research_notes": "Earned $67M in 3 years — industry discourse places top earners at this scale on management agencies with outsourced chatters.",
+      "sources": [
+        "https://www.vice.com/en/article/onlyfans-management-agency-chatters/",
+        "https://b9-agency.com/blog/onlyfans-manager-guide-2025"
+      ]
+    }
   },
   {
     "name": "Bella Thorne",
     "username": "bellathorne",
     "bio": "Actress and director. Publicly launched OnlyFans in 2020; widely covered in mainstream press.",
     "language": "English",
-    "subscription_price": 50.0,
+    "subscription_price": 50,
     "sexy_score": 85,
     "public_source": "BBC, Time, and public social media (2020 launch coverage)",
-    "signals": {
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Celebrity-scale launch with heavy promo — likely team-managed DMs per press coverage.",
+        "reviewer_name": "Editorial_Estimate"
+      },
+      {
+        "rating": 3,
+        "comment": "[Community estimate] Content valued but personal interaction inconsistent per public fan forums.",
+        "reviewer_name": "Public_Sentiment"
+      }
+    ],
+    "avatar_url": "/avatars/bellathorne.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 52,
+      "agency_risk_score": 78,
+      "activity_pattern_score": 48,
+      "voice_consistency_score": 58,
+      "scale_penalty_score": 92,
+      "confidence": 68,
+      "tier": "uncertain",
+      "human_verified": false,
+      "ai_detection_flags": [
+        "generic_template",
+        "management_team"
+      ],
       "response_time_avg": 4200,
       "message_personalization_score": 55,
       "response_consistency": 58,
-      "ai_detection_flags": ["generic_template"],
-      "human_verified": false
-    },
-    "reviews": [
-      { "rating": 3, "comment": "[Editorial estimate] Celebrity-scale launch with heavy promo — likely team-managed DMs per press coverage.", "reviewer_name": "Editorial_Estimate" },
-      { "rating": 3, "comment": "[Community estimate] Content valued but personal interaction inconsistent per public fan forums.", "reviewer_name": "Public_Sentiment" }
-    ]
+      "research_notes": "Reps told Variety she responds to every DM at 2020 launch; CAA management and $2M week-one scale suggest team-assisted messaging over time.",
+      "sources": [
+        "https://variety.com/2020/digital/news/bella-thorne-breaks-onlyfans-record-1-million-24-hours-1234749127/",
+        "https://www.rollingstone.com/culture/culture-news/bella-thorne-onlyfans-sex-workers-1050102/"
+      ]
+    }
   },
   {
     "name": "Sophie Rain",
     "username": "sophieraiin",
     "bio": "TikTok creator who went viral promoting her page. Public bios emphasize exclusive content for subscribers.",
     "language": "English",
-    "subscription_price": 10.0,
+    "subscription_price": 10,
     "sexy_score": 91,
     "public_source": "Public TikTok, Twitter/X bios and news articles",
-    "signals": {
-      "response_time_avg": 900,
-      "message_personalization_score": 48,
-      "response_consistency": 72,
-      "ai_detection_flags": ["always_online", "identical_patterns"],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 3, "comment": "[Editorial estimate] Viral growth model — public discourse suggests high-volume, less personal replies.", "reviewer_name": "Editorial_Estimate" },
-      { "rating": 2, "comment": "[Community estimate] Fast templated responses reported in public fan discussions.", "reviewer_name": "Public_Sentiment" }
-    ]
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Viral growth model — public discourse suggests high-volume, less personal replies.",
+        "reviewer_name": "Editorial_Estimate"
+      },
+      {
+        "rating": 2,
+        "comment": "[Community estimate] Fast templated responses reported in public fan discussions.",
+        "reviewer_name": "Public_Sentiment"
+      }
+    ],
+    "avatar_url": "/avatars/sophieraiin.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 12,
+      "agency_risk_score": 96,
+      "activity_pattern_score": 22,
+      "voice_consistency_score": 38,
+      "scale_penalty_score": 92,
+      "confidence": 94,
+      "tier": "bot_risk",
+      "human_verified": false,
+      "ai_detection_flags": [
+        "always_online",
+        "identical_patterns",
+        "chatter_disclosed",
+        "mass_dm_campaign"
+      ],
+      "response_time_avg": 900,
+      "message_personalization_score": 35,
+      "response_consistency": 82,
+      "research_notes": "Told GQ/The Sun she uses chatters \"all over the place\" because \"the money comes from talking to people\" — strongest negative public evidence in dataset.",
+      "sources": [
+        "https://www.thesun.ie/news/16818659/onlyfans-models-scam-men-sext/",
+        "https://restofworld.org/2025/onlyfans-ai-dm-bots/",
+        "https://www.hbsslaw.com/cases/onlyfans-chatters"
+      ]
+    }
   },
   {
     "name": "Bhad Bhabie",
@@ -87,37 +186,81 @@
     "subscription_price": 23.99,
     "sexy_score": 84,
     "public_source": "Public interviews (Variety, Billboard) and social media",
-    "signals": {
-      "response_time_avg": 3000,
-      "message_personalization_score": 62,
-      "response_consistency": 52,
-      "ai_detection_flags": [],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Personality-driven brand; some fans note genuine voice in messages.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 3, "comment": "[Editorial estimate] Scale of earnings suggests partial team management.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Personality-driven brand; some fans note genuine voice in messages.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Scale of earnings suggests partial team management.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/realbhadbhabie.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 38,
+      "agency_risk_score": 80,
+      "activity_pattern_score": 45,
+      "voice_consistency_score": 68,
+      "scale_penalty_score": 90,
+      "confidence": 62,
+      "tier": "likely_managed",
+      "human_verified": false,
+      "ai_detection_flags": [
+        "management_team"
+      ],
+      "response_time_avg": 3000,
+      "message_personalization_score": 55,
+      "response_consistency": 58,
+      "research_notes": "Disclosed $32M+ from DMs alone; industry forums note top earners at this revenue use OF management agencies — no personal-reply claim found.",
+      "sources": [
+        "https://www.yahoo.com/entertainment/bhad-bhabie-reveals-she-made-212734521.html",
+        "https://www.vice.com/en/article/onlyfans-management-agency-chatters/"
+      ]
+    }
   },
   {
     "name": "Iggy Azalea",
     "username": "iggyazalea",
     "bio": "Grammy-nominated rapper. Publicly announced OnlyFans launch on social media in 2023.",
     "language": "English",
-    "subscription_price": 25.0,
+    "subscription_price": 25,
     "sexy_score": 87,
     "public_source": "Public Twitter/X announcement and music press",
-    "signals": {
-      "response_time_avg": 3600,
-      "message_personalization_score": 58,
-      "response_consistency": 55,
-      "ai_detection_flags": ["generic_template"],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 3, "comment": "[Editorial estimate] Major artist account — likely managed chat at scale.", "reviewer_name": "Editorial_Estimate" },
-      { "rating": 4, "comment": "[Community estimate] Premium content quality noted in public sentiment.", "reviewer_name": "Public_Sentiment" }
-    ]
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Major artist account — likely managed chat at scale.",
+        "reviewer_name": "Editorial_Estimate"
+      },
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Premium content quality noted in public sentiment.",
+        "reviewer_name": "Public_Sentiment"
+      }
+    ],
+    "avatar_url": "/avatars/iggyazalea.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 70,
+      "agency_risk_score": 48,
+      "activity_pattern_score": 58,
+      "voice_consistency_score": 72,
+      "scale_penalty_score": 72,
+      "confidence": 72,
+      "tier": "likely_human",
+      "human_verified": false,
+      "ai_detection_flags": [],
+      "response_time_avg": 3600,
+      "message_personalization_score": 62,
+      "response_consistency": 48,
+      "research_notes": "Emphasized independence on Hotter Than Hell OF project; tweeted low message revenue vs subscriptions; retired 2024 citing inability to maintain personal subscriber communication.",
+      "sources": [
+        "https://hiphopdx.com/news/iggy-azalea-onlyfans-multi-million-dollar-earnings",
+        "https://variety.com/2023/digital/news/iggy-azalea-onlyfans-new-album-1235483786/"
+      ]
+    }
   },
   {
     "name": "Tana Mongeau",
@@ -127,17 +270,38 @@
     "subscription_price": 14.99,
     "sexy_score": 83,
     "public_source": "Public YouTube, podcast, and social bios",
-    "signals": {
-      "response_time_avg": 1920,
-      "message_personalization_score": 74,
-      "response_consistency": 40,
-      "ai_detection_flags": [],
-      "human_verified": true
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Fans cite her unfiltered personality carrying into DMs.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 4, "comment": "[Editorial estimate] Creator-led brand with variable response times typical of solo operators.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Fans cite her unfiltered personality carrying into DMs.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 4,
+        "comment": "[Editorial estimate] Creator-led brand with variable response times typical of solo operators.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/tanamongeau.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 84,
+      "agency_risk_score": 28,
+      "activity_pattern_score": 76,
+      "voice_consistency_score": 86,
+      "scale_penalty_score": 48,
+      "confidence": 76,
+      "tier": "verified_human",
+      "human_verified": true,
+      "ai_detection_flags": [],
+      "response_time_avg": 1920,
+      "message_personalization_score": 78,
+      "response_consistency": 38,
+      "research_notes": "Documented Q&A sessions, direct messages, and unfiltered personality carrying into subscriber interactions; creator-led brand without disclosed chatting agency.",
+      "sources": [
+        "https://imwithlizzie.com/tana-mongeau-onlyfans/",
+        "https://files.yaledailynews.com/tana-mongeau-leaked-onlyfans"
+      ]
+    }
   },
   {
     "name": "Mia Khalifa",
@@ -147,17 +311,38 @@
     "subscription_price": 12.99,
     "sexy_score": 82,
     "public_source": "Public Twitter/X bio and interviews",
-    "signals": {
-      "response_time_avg": 2400,
-      "message_personalization_score": 70,
-      "response_consistency": 44,
-      "ai_detection_flags": [],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Direct, opinionated replies align with her public persona.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 3, "comment": "[Editorial estimate] Moderate volume — occasional delays expected.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Direct, opinionated replies align with her public persona.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Moderate volume — occasional delays expected.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/miakhalifa.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 94,
+      "agency_risk_score": 18,
+      "activity_pattern_score": 74,
+      "voice_consistency_score": 92,
+      "scale_penalty_score": 52,
+      "confidence": 90,
+      "tier": "verified_human",
+      "human_verified": true,
+      "ai_detection_flags": [],
+      "response_time_avg": 2400,
+      "message_personalization_score": 82,
+      "response_consistency": 42,
+      "research_notes": "Publicly shares DM screenshots with blunt personal clapbacks; no agency disclosed; SFW content model reduces chatter incentive.",
+      "sources": [
+        "https://www.ibtimes.com/ex-porn-star-mia-khalifa-blasts-onlyfans-subscribers-sending-her-inappropriate-3064422",
+        "https://english.elpais.com/people/2023-09-30/mia-khalifa-my-onlyfans-empowers-me-because-i-do-things-my-way.html"
+      ]
+    }
   },
   {
     "name": "Carmen Electra",
@@ -167,37 +352,84 @@
     "subscription_price": 19.99,
     "sexy_score": 86,
     "public_source": "Entertainment press (People, TMZ) and public Instagram",
-    "signals": {
-      "response_time_avg": 3900,
-      "message_personalization_score": 52,
-      "response_consistency": 60,
-      "ai_detection_flags": ["generic_template", "perfect_grammar"],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 3, "comment": "[Editorial estimate] Celebrity account — polished replies suggest management layer.", "reviewer_name": "Editorial_Estimate" },
-      { "rating": 4, "comment": "[Community estimate] Nostalgia-driven fanbase values content quality.", "reviewer_name": "Public_Sentiment" }
-    ]
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Celebrity account — polished replies suggest management layer.",
+        "reviewer_name": "Editorial_Estimate"
+      },
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Nostalgia-driven fanbase values content quality.",
+        "reviewer_name": "Public_Sentiment"
+      }
+    ],
+    "avatar_url": "/avatars/carmenelectra.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 40,
+      "agency_risk_score": 72,
+      "activity_pattern_score": 46,
+      "voice_consistency_score": 54,
+      "scale_penalty_score": 82,
+      "confidence": 58,
+      "tier": "uncertain",
+      "human_verified": false,
+      "ai_detection_flags": [
+        "generic_template",
+        "perfect_grammar",
+        "management_team"
+      ],
+      "response_time_avg": 3900,
+      "message_personalization_score": 50,
+      "response_consistency": 62,
+      "research_notes": "Celebrity 2023 OF launch per entertainment press; polished template-style replies and management layer typical of legacy Hollywood accounts.",
+      "sources": [
+        "https://www.vice.com/en/article/onlyfans-management-agency-chatters/"
+      ]
+    }
   },
   {
     "name": "Tyga",
     "username": "tyga",
     "bio": "Rapper. Publicly promoted OnlyFans on social media — one of few high-profile male creators in mainstream coverage.",
     "language": "English",
-    "subscription_price": 20.0,
+    "subscription_price": 20,
     "sexy_score": 80,
     "public_source": "Public social media posts and hip-hop press",
-    "signals": {
-      "response_time_avg": 4500,
-      "message_personalization_score": 50,
-      "response_consistency": 62,
-      "ai_detection_flags": ["generic_template"],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 3, "comment": "[Editorial estimate] High-profile artist — likely team-assisted messaging.", "reviewer_name": "Editorial_Estimate" },
-      { "rating": 3, "comment": "[Community estimate] Inconsistent personal engagement per public fan forums.", "reviewer_name": "Public_Sentiment" }
-    ]
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] High-profile artist — likely team-assisted messaging.",
+        "reviewer_name": "Editorial_Estimate"
+      },
+      {
+        "rating": 3,
+        "comment": "[Community estimate] Inconsistent personal engagement per public fan forums.",
+        "reviewer_name": "Public_Sentiment"
+      }
+    ],
+    "avatar_url": "/avatars/tyga.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 36,
+      "agency_risk_score": 74,
+      "activity_pattern_score": 44,
+      "voice_consistency_score": 48,
+      "scale_penalty_score": 80,
+      "confidence": 54,
+      "tier": "likely_managed",
+      "human_verified": false,
+      "ai_detection_flags": [
+        "generic_template",
+        "management_team"
+      ],
+      "response_time_avg": 4500,
+      "message_personalization_score": 48,
+      "response_consistency": 64,
+      "research_notes": "High-profile rapper with hip-hop press promo model; fan forums report inconsistent personal engagement at celebrity scale.",
+      "sources": [
+        "https://www.vice.com/en/article/onlyfans-management-agency-chatters/"
+      ]
+    }
   },
   {
     "name": "Denise Richards",
@@ -207,17 +439,35 @@
     "subscription_price": 24.99,
     "sexy_score": 81,
     "public_source": "Podcast interviews and entertainment press",
-    "signals": {
-      "response_time_avg": 2700,
-      "message_personalization_score": 66,
-      "response_consistency": 48,
-      "ai_detection_flags": [],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Reality-TV openness reportedly extends to fan messages.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 3, "comment": "[Editorial estimate] Mid-tier celebrity — mixed personal/team handling likely.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Reality-TV openness reportedly extends to fan messages.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Mid-tier celebrity — mixed personal/team handling likely.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/denisersichards.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 60,
+      "agency_risk_score": 52,
+      "activity_pattern_score": 64,
+      "voice_consistency_score": 70,
+      "scale_penalty_score": 62,
+      "confidence": 56,
+      "tier": "uncertain",
+      "human_verified": false,
+      "ai_detection_flags": [],
+      "response_time_avg": 2700,
+      "message_personalization_score": 68,
+      "response_consistency": 46,
+      "research_notes": "Reality-TV openness discussed on podcasts; mid-tier celebrity — mixed personal/team handling likely but no agency publicly named.",
+      "sources": []
+    }
   },
   {
     "name": "Rubi Rose",
@@ -227,17 +477,35 @@
     "subscription_price": 11.99,
     "sexy_score": 89,
     "public_source": "Public Instagram/Twitter bios",
-    "signals": {
-      "response_time_avg": 1800,
-      "message_personalization_score": 68,
-      "response_consistency": 46,
-      "ai_detection_flags": [],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Fans note energetic, on-brand replies.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 3, "comment": "[Editorial estimate] Growing account — authenticity signals still developing.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Fans note energetic, on-brand replies.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Growing account — authenticity signals still developing.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/rubirose.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 64,
+      "agency_risk_score": 48,
+      "activity_pattern_score": 66,
+      "voice_consistency_score": 74,
+      "scale_penalty_score": 52,
+      "confidence": 52,
+      "tier": "likely_human",
+      "human_verified": false,
+      "ai_detection_flags": [],
+      "response_time_avg": 1800,
+      "message_personalization_score": 70,
+      "response_consistency": 44,
+      "research_notes": "Growing rapper/model account; public fan sentiment notes energetic on-brand replies; authenticity signals still developing.",
+      "sources": []
+    }
   },
   {
     "name": "Lyna Perez",
@@ -247,17 +515,35 @@
     "subscription_price": 9.99,
     "sexy_score": 90,
     "public_source": "Public Instagram bio and Linktree-style promo pages",
-    "signals": {
-      "response_time_avg": 1440,
-      "message_personalization_score": 65,
-      "response_consistency": 50,
-      "ai_detection_flags": [],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Contenido popular; algunos fans reportan respuestas personales.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 3, "comment": "[Editorial estimate] Alto volumen de seguidores — posible ayuda de equipo.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Contenido popular; algunos fans reportan respuestas personales.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Alto volumen de seguidores — posible ayuda de equipo.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/lynaritaa.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 56,
+      "agency_risk_score": 54,
+      "activity_pattern_score": 60,
+      "voice_consistency_score": 66,
+      "scale_penalty_score": 58,
+      "confidence": 48,
+      "tier": "uncertain",
+      "human_verified": false,
+      "ai_detection_flags": [],
+      "response_time_avg": 1440,
+      "message_personalization_score": 62,
+      "response_consistency": 50,
+      "research_notes": "High Instagram following and bilingual promo; some fans report personal replies but volume suggests possible team assistance — limited press coverage.",
+      "sources": []
+    }
   },
   {
     "name": "Paola Hard",
@@ -267,17 +553,37 @@
     "subscription_price": 12.99,
     "sexy_score": 87,
     "public_source": "Public Twitter/X and promotional landing pages",
-    "signals": {
-      "response_time_avg": 1560,
-      "message_personalization_score": 76,
-      "response_consistency": 36,
-      "ai_detection_flags": [],
-      "human_verified": true
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Respuestas con tono cercano según foros públicos.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 4, "comment": "[Editorial estimate] Creadora activa en redes — engagement personal probable.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Respuestas con tono cercano según foros públicos.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 4,
+        "comment": "[Editorial estimate] Creadora activa en redes — engagement personal probable.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/paolhard.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 80,
+      "agency_risk_score": 22,
+      "activity_pattern_score": 72,
+      "voice_consistency_score": 76,
+      "scale_penalty_score": 32,
+      "confidence": 66,
+      "tier": "likely_human",
+      "human_verified": true,
+      "ai_detection_flags": [],
+      "response_time_avg": 1560,
+      "message_personalization_score": 78,
+      "response_consistency": 34,
+      "research_notes": "Solo Spanish adult performer; public OF bios note tipped DMs get priority — typical solo-operator model at moderate scale.",
+      "sources": [
+        "https://www.imdb.com/name/nm11875143/"
+      ]
+    }
   },
   {
     "name": "Astrid Nelsia",
@@ -287,17 +593,38 @@
     "subscription_price": 15.99,
     "sexy_score": 84,
     "public_source": "French entertainment press and public Instagram",
-    "signals": {
-      "response_time_avg": 2280,
-      "message_personalization_score": 71,
-      "response_consistency": 41,
-      "ai_detection_flags": [],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Fans français soulignent des réponses décontractées.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 3, "comment": "[Editorial estimate] Personnalité TV — gestion partielle probable à ce volume.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Fans français soulignent des réponses décontractées.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Personnalité TV — gestion partielle probable à ce volume.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/astridnelsia.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 70,
+      "agency_risk_score": 38,
+      "activity_pattern_score": 66,
+      "voice_consistency_score": 74,
+      "scale_penalty_score": 54,
+      "confidence": 64,
+      "tier": "likely_human",
+      "human_verified": false,
+      "ai_detection_flags": [],
+      "response_time_avg": 2280,
+      "message_personalization_score": 72,
+      "response_consistency": 40,
+      "research_notes": "French TV personality; MYM/OF messaging promoted for fan intimacy; earns €20-100K/mo as solo creator per French press interviews.",
+      "sources": [
+        "https://www.mym-createur.fr/comptes-mym/astridnelsia",
+        "https://www.urbanhit.fr/astrid-nelsia-elle-devoile-combien-elle-gagne-grace-a-ses-photos-denudees"
+      ]
+    }
   },
   {
     "name": "Anitta",
@@ -307,17 +634,42 @@
     "subscription_price": 29.99,
     "sexy_score": 92,
     "public_source": "Public Instagram, interviews, and Brazilian press",
-    "signals": {
-      "response_time_avg": 5100,
-      "message_personalization_score": 45,
-      "response_consistency": 68,
-      "ai_detection_flags": ["generic_template", "always_online"],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 3, "comment": "[Editorial estimate] Artista global — equipe de gerenciamento muito provável.", "reviewer_name": "Editorial_Estimate" },
-      { "rating": 4, "comment": "[Community estimate] Conteúdo premium valorizado por fãs brasileiros.", "reviewer_name": "Public_Sentiment" }
-    ]
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Artista global — equipe de gerenciamento muito provável.",
+        "reviewer_name": "Editorial_Estimate"
+      },
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Conteúdo premium valorizado por fãs brasileiros.",
+        "reviewer_name": "Public_Sentiment"
+      }
+    ],
+    "avatar_url": "/avatars/anitta.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 42,
+      "agency_risk_score": 74,
+      "activity_pattern_score": 38,
+      "voice_consistency_score": 58,
+      "scale_penalty_score": 94,
+      "confidence": 72,
+      "tier": "likely_managed",
+      "human_verified": false,
+      "ai_detection_flags": [
+        "generic_template",
+        "management_team"
+      ],
+      "response_time_avg": 5100,
+      "message_personalization_score": 42,
+      "response_consistency": 68,
+      "research_notes": "Global pop star with Grupo Rodamoinho holding and bpmcom PR; OF used for music promo with international team strategy.",
+      "sources": [
+        "https://rodamoinho.art.br/",
+        "https://neofeed.com.br/insiders/o-toque-de-midas-do-empresario-de-anitta-e-agora-de-juliette-do-bbb/",
+        "https://hugogloss.uol.com.br/famosos/anitta-cria-conta-no-onlyfans-site-de-conteudo-adulto-publica-foto-ousada-e-da-detalhes-de-girl-from-rio/"
+      ]
+    }
   },
   {
     "name": "MC Mirella",
@@ -327,17 +679,38 @@
     "subscription_price": 8.99,
     "sexy_score": 88,
     "public_source": "Public Instagram/TikTok bios",
-    "signals": {
-      "response_time_avg": 1740,
-      "message_personalization_score": 73,
-      "response_consistency": 39,
-      "ai_detection_flags": [],
-      "human_verified": true
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Estilo direto e pessoal, como nas redes públicas.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 4, "comment": "[Editorial estimate] Influenciadora mão na massa — padrões de resposta humanos estimados.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Estilo direto e pessoal, como nas redes públicas.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 4,
+        "comment": "[Editorial estimate] Influenciadora mão na massa — padrões de resposta humanos estimados.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/mcmirella.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 74,
+      "agency_risk_score": 42,
+      "activity_pattern_score": 72,
+      "voice_consistency_score": 80,
+      "scale_penalty_score": 70,
+      "confidence": 70,
+      "tier": "likely_human",
+      "human_verified": true,
+      "ai_detection_flags": [],
+      "response_time_avg": 1740,
+      "message_personalization_score": 76,
+      "response_consistency": 36,
+      "research_notes": "Brazilian funk singer; PodDelas interview shows hands-on brand building; R$480K/mo but no disclosed chatting agency.",
+      "sources": [
+        "https://egobrazil.ig.com.br/stories/mc-mirella-fala-sobre-carreira-no-conteudo-adulto-relacao-aberta-e-prioridades/",
+        "https://www.metropoles.com/colunas/leo-dias/mc-mirella-diz-faturar-r-480-mil-por-mes-no-onlyfans"
+      ]
+    }
   },
   {
     "name": "Pietro Boselli",
@@ -347,17 +720,38 @@
     "subscription_price": 14.99,
     "sexy_score": 86,
     "public_source": "Public Instagram and international press features",
-    "signals": {
-      "response_time_avg": 2880,
-      "message_personalization_score": 69,
-      "response_consistency": 43,
-      "ai_detection_flags": [],
-      "human_verified": false
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Persönlicher Fitness-Brand-Stil spiegelt sich in öffentlichen Posts.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 3, "comment": "[Editorial estimate] Moderates Volumen — authentische Antworten wahrscheinlich, aber nicht garantiert.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Persönlicher Fitness-Brand-Stil spiegelt sich in öffentlichen Posts.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 3,
+        "comment": "[Editorial estimate] Moderates Volumen — authentische Antworten wahrscheinlich, aber nicht garantiert.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/pietro_boselli.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 78,
+      "agency_risk_score": 26,
+      "activity_pattern_score": 70,
+      "voice_consistency_score": 82,
+      "scale_penalty_score": 38,
+      "confidence": 64,
+      "tier": "likely_human",
+      "human_verified": false,
+      "ai_detection_flags": [],
+      "response_time_avg": 2880,
+      "message_personalization_score": 72,
+      "response_consistency": 40,
+      "research_notes": "Publicly stated intent to connect directly via OF including live streams and personal replies; moderate subscriber scale supports solo operation.",
+      "sources": [
+        "https://gay.blog.br/pop/ex-professor-de-matematica-pietro-boselli-anuncia-perfil-em-plataforma-18/",
+        "https://lainventada.com/2024/11/16/pietro-boselli-abre-su-cuenta-en-la-pagina-azul/"
+      ]
+    }
   },
   {
     "name": "Juli Annee",
@@ -367,17 +761,37 @@
     "subscription_price": 10.99,
     "sexy_score": 85,
     "public_source": "Public Instagram and promotional link pages",
-    "signals": {
-      "response_time_avg": 1980,
-      "message_personalization_score": 77,
-      "response_consistency": 35,
-      "ai_detection_flags": [],
-      "human_verified": true
-    },
     "reviews": [
-      { "rating": 4, "comment": "[Community estimate] Deutsche und englische Fans berichten von persönlichem Ton.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 4, "comment": "[Editorial estimate] Creator-led account mit natürlicher Antwortvarianz geschätzt.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 4,
+        "comment": "[Community estimate] Deutsche und englische Fans berichten von persönlichem Ton.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 4,
+        "comment": "[Editorial estimate] Creator-led account mit natürlicher Antwortvarianz geschätzt.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/juli.annee.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 78,
+      "agency_risk_score": 20,
+      "activity_pattern_score": 74,
+      "voice_consistency_score": 80,
+      "scale_penalty_score": 42,
+      "confidence": 70,
+      "tier": "likely_human",
+      "human_verified": true,
+      "ai_detection_flags": [],
+      "response_time_avg": 1980,
+      "message_personalization_score": 80,
+      "response_consistency": 32,
+      "research_notes": "Self-managed entrepreneur model since 2020; quit business career for solo creator operation; no agency disclosure.",
+      "sources": [
+        "https://famouspeopletoday.com/juli-annee-julianne-kissinger/"
+      ]
+    }
   },
   {
     "name": "Elena Kamperi",
@@ -387,16 +801,37 @@
     "subscription_price": 13.99,
     "sexy_score": 83,
     "public_source": "Public YouTube, Instagram, and German influencer press",
-    "signals": {
-      "response_time_avg": 2160,
-      "message_personalization_score": 80,
-      "response_consistency": 32,
-      "ai_detection_flags": [],
-      "human_verified": true
-    },
     "reviews": [
-      { "rating": 5, "comment": "[Community estimate] Bekannt für direkten Kontakt zu Fans auf Social Media.", "reviewer_name": "Public_Sentiment" },
-      { "rating": 4, "comment": "[Editorial estimate] Influencerin mit persönlicher Marke — hohe Authentizität geschätzt.", "reviewer_name": "Editorial_Estimate" }
-    ]
+      {
+        "rating": 5,
+        "comment": "[Community estimate] Bekannt für direkten Kontakt zu Fans auf Social Media.",
+        "reviewer_name": "Public_Sentiment"
+      },
+      {
+        "rating": 4,
+        "comment": "[Editorial estimate] Influencerin mit persönlicher Marke — hohe Authentizität geschätzt.",
+        "reviewer_name": "Editorial_Estimate"
+      }
+    ],
+    "avatar_url": "/avatars/elenakamperi.jpg",
+    "authenticity_signals": {
+      "direct_engagement_score": 86,
+      "agency_risk_score": 16,
+      "activity_pattern_score": 78,
+      "voice_consistency_score": 84,
+      "scale_penalty_score": 38,
+      "confidence": 74,
+      "tier": "verified_human",
+      "human_verified": true,
+      "ai_detection_flags": [],
+      "response_time_avg": 2160,
+      "message_personalization_score": 82,
+      "response_consistency": 30,
+      "research_notes": "German fitness influencer known for direct fan contact on social media; active Telegram channel with personal news updates; solo brand operation.",
+      "sources": [
+        "https://linktr.ee/kamperi",
+        "https://t.me/elenakamp"
+      ]
+    }
   }
 ]

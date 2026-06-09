@@ -5,11 +5,12 @@ import AuthenticityChart from "@/components/AuthenticityChart";
 import ScoreBar from "@/components/ScoreBar";
 import { getAllCreatorsWithDetails, getCreatorById } from "@/lib/data";
 import {
-  AUTHENTICITY_THRESHOLDS,
-  getAuthenticityInsights,
-  getAuthenticityTier,
+  TIER_LABELS,
   WEIGHTS,
+  formatAuthenticityWithInterval,
+  getAuthenticityInsights,
 } from "@/lib/ranking";
+import type { AuthenticityTier } from "@/lib/types";
 import { LANGUAGE_FLAGS, formatPrice } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
@@ -23,6 +24,33 @@ export function generateStaticParams() {
   }));
 }
 
+const tierBorder: Record<AuthenticityTier, string> = {
+  verified_human: "border-emerald-500/30",
+  likely_human: "border-green-500/25",
+  uncertain: "border-amber-500/30",
+  likely_managed: "border-orange-500/30",
+  bot_risk: "border-red-500/30",
+};
+
+const tierBadge: Record<AuthenticityTier, string> = {
+  verified_human: "bg-emerald-500/20 text-emerald-300",
+  likely_human: "bg-green-500/15 text-green-300",
+  uncertain: "bg-amber-500/20 text-amber-300",
+  likely_managed: "bg-orange-500/20 text-orange-300",
+  bot_risk: "bg-red-500/20 text-red-300",
+};
+
+const tierBarColor: Record<
+  AuthenticityTier,
+  "green" | "yellow" | "red"
+> = {
+  verified_human: "green",
+  likely_human: "green",
+  uncertain: "yellow",
+  likely_managed: "yellow",
+  bot_risk: "red",
+};
+
 export default async function CreatorDetailPage({ params }: PageProps) {
   const { id } = await params;
   const creatorId = Number(id);
@@ -32,19 +60,12 @@ export default async function CreatorDetailPage({ params }: PageProps) {
   const creator = getCreatorById(creatorId);
   if (!creator) notFound();
 
-  const tier = getAuthenticityTier(creator.scores.authenticity_score);
-  const isVerified =
-    creator.scores.authenticity_score >= AUTHENTICITY_THRESHOLDS.humanVerified;
+  const tier = creator.scores.authenticity_tier;
+  const isVerified = tier === "verified_human";
   const insights = getAuthenticityInsights(
     creator.signals,
     creator.scores.authenticity_score
   );
-
-  const tierBorder = {
-    high: "border-emerald-500/30",
-    medium: "border-amber-500/30",
-    low: "border-red-500/30",
-  };
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-10 lg:px-10 lg:py-16">
@@ -69,9 +90,17 @@ export default async function CreatorDetailPage({ params }: PageProps) {
               {isVerified && (
                 <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/20 px-3 py-1 text-sm font-semibold text-emerald-300">
                   <ShieldCheck className="h-4 w-4" />
-                  Human Verified
+                  Verified Human
                 </span>
               )}
+              <span
+                className={cn(
+                  "rounded-full px-3 py-1 text-sm font-semibold",
+                  tierBadge[tier]
+                )}
+              >
+                {TIER_LABELS[tier]}
+              </span>
             </div>
             <p className="text-white/50">
               @{creator.username} · {LANGUAGE_FLAGS[creator.language] ?? "🌐"}{" "}
@@ -79,12 +108,24 @@ export default async function CreatorDetailPage({ params }: PageProps) {
             </p>
             <p className="text-white/70">{creator.bio}</p>
             <p className="text-xs text-amber-200/70">
-              Scores and reviews are editorial estimates based on public signals
-              — not verified subscriber audits.
+              Editorial estimate from public signals — not a verified subscriber
+              audit or live DM analysis.
             </p>
-            <div className="flex items-center gap-2 text-lg font-semibold text-white">
-              <Star className="h-5 w-5 text-amber-400" />
-              Overall Score: {creator.scores.overall_rank_score.toFixed(1)}
+            <div className="flex flex-wrap items-center gap-4 text-sm">
+              <span className="flex items-center gap-2 font-semibold text-white">
+                <Star className="h-5 w-5 text-amber-400" />
+                Overall: {creator.scores.overall_rank_score.toFixed(1)}
+              </span>
+              <span className="text-emerald-300">
+                Authenticity:{" "}
+                {formatAuthenticityWithInterval(
+                  creator.scores.authenticity_score,
+                  creator.scores.authenticity_margin
+                )}{" "}
+                <span className="text-white/40">
+                  ({creator.scores.authenticity_confidence}% confidence)
+                </span>
+              </span>
             </div>
           </div>
         </div>
@@ -105,36 +146,50 @@ export default async function CreatorDetailPage({ params }: PageProps) {
             <ScoreBar
               label={`Authenticity (${(WEIGHTS.authenticity * 100).toFixed(0)}% weight)`}
               value={creator.scores.authenticity_score}
-              color={tier === "high" ? "green" : tier === "medium" ? "yellow" : "red"}
+              color={tierBarColor[tier]}
             />
           </div>
 
           <AuthenticityChart
             signals={creator.signals}
             authenticityScore={creator.scores.authenticity_score}
+            confidence={creator.scores.authenticity_confidence}
+            margin={creator.scores.authenticity_margin}
+            tier={tier}
           />
         </div>
+
+        {creator.signals.research_notes && (
+          <div className="border-t border-white/10 p-8">
+            <h2 className="mb-3 text-lg font-semibold text-white">
+              Why This Score
+            </h2>
+            <p className="text-sm leading-relaxed text-white/70">
+              {creator.signals.research_notes}
+            </p>
+          </div>
+        )}
 
         <div className="grid gap-6 border-t border-white/10 p-8 md:grid-cols-2">
           {insights.positive.length > 0 && (
             <div className="rounded-xl border border-emerald-500/20 bg-emerald-500/5 p-5">
-              <h3 className="font-semibold text-emerald-300">
-                Why we think {creator.name.split(" ")[0]} is real
-              </h3>
+              <h3 className="font-semibold text-emerald-300">Green Flags</h3>
               <ul className="mt-3 space-y-2 text-sm text-white/70">
-                {insights.positive.map((item) => (
-                  <li key={item} className="flex gap-2">
-                    <span className="text-emerald-400">✓</span>
-                    {item}
-                  </li>
-                ))}
+                {insights.positive
+                  .filter((item) => !item.startsWith("Research:"))
+                  .map((item) => (
+                    <li key={item} className="flex gap-2">
+                      <span className="text-emerald-400">✓</span>
+                      {item}
+                    </li>
+                  ))}
               </ul>
             </div>
           )}
 
           {insights.concerns.length > 0 && (
             <div className="rounded-xl border border-red-500/20 bg-red-500/5 p-5">
-              <h3 className="font-semibold text-red-300">Authenticity concerns</h3>
+              <h3 className="font-semibold text-red-300">Red Flags</h3>
               <ul className="mt-3 space-y-2 text-sm text-white/70">
                 {insights.concerns.map((item) => (
                   <li key={item} className="flex gap-2">
@@ -149,7 +204,7 @@ export default async function CreatorDetailPage({ params }: PageProps) {
 
         <div className="border-t border-white/10 p-8">
           <h2 className="mb-4 text-lg font-semibold text-white">
-            Subscriber Reviews ({creator.reviews.length})
+            Editorial Reviews ({creator.reviews.length})
           </h2>
           <div className="space-y-4">
             {creator.reviews.map((review) => (
