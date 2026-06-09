@@ -1,0 +1,55 @@
+{
+  "_comment": "Verified portrait URLs. Wikipedia/Wikimedia preferred; unavatar uses public social profile photos.",
+  "corinnakopf": {
+    "url": "https://unavatar.io/twitch/corinnakopf",
+    "source": "Twitch public profile photo via unavatar.io"
+  },
+  "sophieraiin": {
+    "url": "https://unavatar.io/tiktok/sophieraiin",
+    "source": "TikTok public profile photo via unavatar.io"
+  },
+  "amouranth": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Amouranth_at_DreamHack_Atlanta_2024.jpg",
+    "source": "Wikipedia — Amouranth"
+  },
+  "bellathorne": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bella_Thorne_OnlyFans_3.jpg",
+    "source": "Wikipedia — Bella Thorne"
+  },
+  "realbhadbhabie": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bhad_Bhabie_passport.jpg",
+    "source": "Wikipedia — Bhad Bhabie"
+  },
+  "iggyazalea": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Iggy_Azalea%2C_Main_Stage_EXIT_Festival_2022_1_%28cropped2%29.jpg",
+    "source": "Wikipedia — Iggy Azalea"
+  },
+  "tanamongeau": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tana_Mongeau_in_Six_Feet_Above_podcast_02-24_-_2.png",
+    "source": "Wikipedia — Tana Mongeau"
+  },
+  "miakhalifa": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mia_Khalifa_in_2019.png",
+    "source": "Wikipedia — Mia Khalifa"
+  },
+  "carmenelectra": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Carmen_Electra_2013.jpg",
+    "source": "Wikipedia — Carmen Electra"
+  },
+  "tyga": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tyga_-_Openair_Frauenfeld_2019_02.jpg",
+    "source": "Wikipedia — Tyga"
+  },
+  "denisersichards": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Denise_Richards_and_Kellie_Martin_2012_%28cropped%29.jpg",
+    "source": "Wikipedia — Denise Richards"
+  },
+  "rubirose": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Rubi_Rose.jpg",
+    "source": "Wikipedia — Rubi Rose"
+  },
+  "anitta": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Anitta_for_Attractive_Mindset_podcast_02.jpg",
+    "source": "Wikipedia — Anitta (singer)"
+  }
+}

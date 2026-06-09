@@ -1,7 +1,7 @@
 /**
- * Fetches creator profile photos via image search (parallel).
- * Tries Google Images first; falls back to Bing + Wikipedia when Google blocks bots.
- * Saves to public/avatars/<username>.jpg — no OnlyFans scraping.
+ * Fetches verified creator portrait photos.
+ * Priority: manual overrides → Wikipedia API → Bing Images → unavatar.io → Dicebear.
+ * Validates images before saving (size, aspect ratio, URL heuristics).
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -9,11 +9,20 @@ import { setTimeout as sleep } from "node:timers/promises";
 
 const avatarsDir = path.resolve("public", "avatars");
 const seedPath = path.resolve("data", "seed-data.json");
+const overridesPath = path.resolve("data", "avatar-overrides.json");
+
+const force = process.argv.includes("--force");
+const MIN_BYTES = 15 * 1024;
 
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 
-/** Wikipedia page titles for REST API lookup */
+/** @type {Record<string, { url: string; source?: string }>} */
+const OVERRIDES = fs.existsSync(overridesPath)
+  ? JSON.parse(fs.readFileSync(overridesPath, "utf-8"))
+  : {};
+
+/** Wikipedia page titles for REST/API lookup */
 const WIKI_TITLES = {
   amouranth: "Amouranth",
   corinnakopf: "Corinna_Kopf",
@@ -28,21 +37,112 @@ const WIKI_TITLES = {
   rubirose: "Rubi_Rose",
   anitta: "Anitta_(singer)",
   pietro_boselli: "Pietro_Boselli",
+  sophieraiin: "Sophie_Rain",
+  blacchyna: "Blac_Chyna",
+  belledelphine: "Belle_Delphine",
+  amberrose: "Amber_Rose",
+  tylerposey: "Tyler_Posey",
+  treysongz: "Trey_Songz",
+  lanarhoades: "Lana_Rhoades",
+  madisonbeer: "Madison_Beer",
+  amandabynes: "Amanda_Bynes",
+  iamcardib: "Cardi_B",
+  neekolul: "Neekolul",
+  lilyallenftse500: "Lily_Allen",
+  dreadematteo: "Drea_de_Matteo",
+  jordynwoods: "Jordyn_Woods",
+  sommerray: "Sommer_Ray",
+  angelawhite: "Angela_White",
+  rileyreid: "Riley_Reid",
+  abelladanger: "Abella_Danger",
+  whitney: "Whitney_Cummings",
+  sonjamorgan: "Sonja_Morgan",
+  ericamena: "Erica_Mena",
+  coco: "Coco_Austin",
+  austinmahone: "Austin_Mahone",
+  f1nn5ter: "F1NN5TER",
+  ironmouse: "Ironmouse",
+  evaelfie: "Eva_Elfie",
+  autumnfalls: "Autumn_Falls",
+  emilywillis: "Emily_Willis",
+  vinasky: "Vina_Sky",
+  renogold: "Reno_Gold",
+  danniiharwood: "Danni_Harwood",
+  milamondell: "Mila_Mondell",
+  claramorgane: "Clara_Morgane",
+  anissakate: "Anissa_Kate",
+  sabrinasabrok: "Sabrina_Sabrok",
+  mathildtantot: "Mathilde_Tantot",
+  paulinetantot: "Pauline_Tantot",
+  martinavismara: "Martina_Vismara",
+  bernardtomic: "Bernard_Tomic",
+  vanessasierra: "Vanessa_Sierra",
+  jemwolfie: "Jem_Wolfie",
+  larsapippen: "Larsa_Pippen",
+  lottiemossof: "Lottie_Moss",
+  shannamoakler: "Shanna_Moakler",
+  meganbartonhanson: "Megan_Barton-Hanson",
+  iamsafaree: "Safaree",
+  alexadamsxxx: "Alex_Adams_(actor)",
+  chloesaxon: "Chloe_Saxon",
+  salicerose: "Salice_Rose",
+  lilianaheartsss: "Liliana_Hearts",
+  cintiacossio: "Cintia_Cossio",
+  aidacortesll: "Aida_Cortes",
+  katyaelisehenrysworld: "Katya_Elise_Henry",
+  camillaxaraujo: "Camilla_Araújo",
+  candetinelli: "Cande_Tinelli",
+  djkhaledandfatjoe: "DJ_Khaled",
+  hannahowo: "Hannah_Owo",
+  bonnieblue: "Bonnie_Blue",
+  yinyleon: "Yiny_Leon",
+  trukait: "Tru_Kait",
+  victoryaxo: "Victoryaxo",
+  azul_hermosa: "Azul_Hermosa",
+  nessaoriley: "Nessa_O'Reilly",
+  fitbryceadams: "Bryce_Adams",
+  megnutt02: "Megan_Nutt",
+  gracecharis: "Grace_Charis",
+  indiefoxx: "Indiefoxx",
+  morgpie: "Morgpie",
+  emilyblack: "Emily_Black",
+  faithlianne: "Faith_Lianne",
+  arikytsya: "Ari_Kytsya",
+  peachjars: "PeachJars",
+  skylarmaexo: "Skylar_Mae",
+  ariellaferrera: "Ariella_Ferrera",
+  projektmelody: "Projekt_Melody",
+  filian: "Filian_(streamer)",
 };
 
-function dicebearUrl(username) {
-  return `https://api.dicebear.com/7.x/personas/jpeg?seed=${encodeURIComponent(username)}&size=400`;
-}
+/** Preferred unavatar platform per creator username */
+const UNAVATAR_PLATFORM = {
+  sophieraiin: "tiktok",
+  corinnakopf: "twitch",
+};
+
+const URL_REJECT =
+  /cartoon|anime|illustration|clipart|logo|favicon|placeholder|coloring|minecraft|dobrik|gollum|group.?photo|class.?photo|school.?children|children.?class|armbruster|limoandhearse|pinimg\.com/i;
+
+const USERNAME_REJECT = {
+  corinnakopf: /dobrik|david/i,
+  sophieraiin: /cartoon|minecraft|coloring|school|children|anime/i,
+};
 
 function wikiThumbToLarge(url) {
   return url.replace(/\/thumb\/(.+)\/\d+px-[^/]+$/, "/$1");
 }
 
-function buildQueries(name) {
+function dicebearUrl(username) {
+  return `https://api.dicebear.com/7.x/personas/jpeg?seed=${encodeURIComponent(username)}&size=400`;
+}
+
+function buildQueries(name, username) {
   return [
-    `"${name}" onlyfans portrait`,
-    `"${name}" headshot`,
-    `${name} portrait photo`,
+    `"${name}" site:wikipedia.org portrait filetype:jpg`,
+    `"${name}" onlyfans creator portrait`,
+    `"${name}" influencer headshot`,
+    `"${username}" onlyfans portrait`,
   ];
 }
 
@@ -59,14 +159,6 @@ function filterImageUrls(urls) {
   );
 }
 
-function extractGoogleUrls(html) {
-  const urls = new Set();
-  for (const m of html.matchAll(/"ou":"(https?:[^"\\]+)"/g)) {
-    urls.add(m[1].replace(/\\u003d/g, "=").replace(/\\u0026/g, "&"));
-  }
-  return filterImageUrls([...urls]);
-}
-
 function extractBingUrls(html) {
   const urls = new Set();
   for (const m of html.matchAll(/murl&quot;:&quot;(https?:[^&]+?)&quot;/g)) {
@@ -78,24 +170,84 @@ function extractBingUrls(html) {
   return filterImageUrls([...urls]);
 }
 
-async function searchGoogleImages(queries) {
-  for (const query of queries) {
-    const url = `https://www.google.com/search?q=${encodeURIComponent(query)}&tbm=isch&hl=en`;
-    try {
-      const res = await fetch(url, {
-        headers: { "User-Agent": UA, Accept: "text/html", "Accept-Language": "en-US,en;q=0.9" },
-      });
-      if (!res.ok) continue;
-      const urls = extractGoogleUrls(await res.text());
-      if (urls.length) return { urls, engine: "google", query };
-    } catch {
-      /* try next query */
+function readImageDimensions(buffer) {
+  if (buffer[0] === 0xff && buffer[1] === 0xd8) {
+    let offset = 2;
+    while (offset < buffer.length - 8) {
+      if (buffer[offset] !== 0xff) break;
+      const marker = buffer[offset + 1];
+      const length = buffer.readUInt16BE(offset + 2);
+      if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8) {
+        return {
+          height: buffer.readUInt16BE(offset + 5),
+          width: buffer.readUInt16BE(offset + 7),
+        };
+      }
+      offset += 2 + length;
     }
   }
-  return { urls: [], engine: "google" };
+
+  if (
+    buffer.slice(0, 8).toString("ascii") === "\x89PNG\r\n\x1a\n" &&
+    buffer.length >= 24
+  ) {
+    return {
+      width: buffer.readUInt32BE(16),
+      height: buffer.readUInt32BE(20),
+    };
+  }
+
+  if (buffer.length >= 30 && buffer.slice(0, 4).toString("ascii") === "RIFF") {
+    return {
+      width: buffer.readUInt16LE(26) + 1,
+      height: buffer.readUInt16LE(28) + 1,
+    };
+  }
+
+  return null;
+}
+
+function validateImage(buffer, url, username, rejections) {
+  if (buffer.length < MIN_BYTES) {
+    rejections.push({ url, reason: `too small (${buffer.length}b, min ${MIN_BYTES}b)` });
+    return false;
+  }
+
+  const lower = url.toLowerCase();
+  if (URL_REJECT.test(lower)) {
+    rejections.push({ url, reason: "URL matches reject pattern (cartoon/logo/group/etc.)" });
+    return false;
+  }
+
+  const userReject = USERNAME_REJECT[username];
+  if (userReject?.test(lower)) {
+    rejections.push({ url, reason: "URL blocked for this creator" });
+    return false;
+  }
+
+  const dims = readImageDimensions(buffer);
+  if (dims?.width && dims?.height) {
+    if (dims.width > dims.height * 2.2) {
+      rejections.push({
+        url,
+        reason: `landscape group-shot ratio ${dims.width}x${dims.height}`,
+      });
+      return false;
+    }
+    if (dims.height < dims.width * 0.55) {
+      rejections.push({
+        url,
+        reason: `not portrait-oriented ${dims.width}x${dims.height}`,
+      });
+      return false;
+    }
+  }
+
+  return true;
 }
 
 async function searchBingImages(queries) {
+  const all = [];
   for (const query of queries) {
     const url = `https://www.bing.com/images/search?q=${encodeURIComponent(query)}&qft=+filterui:photo-photo&first=1`;
     try {
@@ -104,12 +256,14 @@ async function searchBingImages(queries) {
       });
       if (!res.ok) continue;
       const urls = extractBingUrls(await res.text());
-      if (urls.length) return { urls, engine: "bing", query };
+      all.push(...urls);
+      if (all.length >= 8) break;
+      await sleep(300);
     } catch {
       /* try next query */
     }
   }
-  return { urls: [], engine: "bing" };
+  return [...new Set(all)];
 }
 
 async function fetchWikipediaImage(username) {
@@ -117,21 +271,38 @@ async function fetchWikipediaImage(username) {
   if (!title) return null;
   try {
     const res = await fetch(
-      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
+      `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&format=json&pithumbsize=800&pilicense=any`,
       { headers: { "User-Agent": "of-ranking-avatar-fetch/1.0" } }
     );
-    if (!res.ok) return null;
-    const data = await res.json();
-    if (!data.thumbnail?.source) return null;
-    return wikiThumbToLarge(data.thumbnail.source);
+    const text = await res.text();
+    if (text.startsWith("You are")) return null;
+    const data = JSON.parse(text);
+    const page = Object.values(data.query?.pages || {})[0];
+    if (page?.missing || !page?.thumbnail?.source) return null;
+    return wikiThumbToLarge(page.thumbnail.source);
   } catch {
     return null;
   }
 }
 
-async function downloadImage(url, outPath, retries = 3) {
+function unavatarCandidates(username) {
+  const preferred = UNAVATAR_PLATFORM[username];
+  const platforms = preferred
+    ? [preferred, "instagram", "twitter", "youtube", "tiktok", "twitch"]
+    : ["instagram", "twitter", "youtube", "tiktok", "twitch"];
+  const seen = new Set();
+  const urls = [];
+  for (const p of platforms) {
+    if (seen.has(p)) continue;
+    seen.add(p);
+    urls.push(`https://unavatar.io/${p}/${encodeURIComponent(username)}`);
+  }
+  return urls;
+}
+
+async function downloadCandidate(url, outPath, username, rejections, retries = 4) {
   let lastErr;
-  for (let i = 0; i < retries; i++) {
+  for (let attempt = 0; attempt < retries; attempt++) {
     try {
       const res = await fetch(url, {
         headers: {
@@ -141,27 +312,37 @@ async function downloadImage(url, outPath, retries = 3) {
         },
         redirect: "follow",
       });
+
+      if (res.status === 429 && attempt < retries - 1) {
+        await sleep(1500 * (attempt + 1));
+        continue;
+      }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const contentType = res.headers.get("content-type") || "";
+      if (!contentType.startsWith("image/")) {
+        rejections.push({ url, reason: `not an image (${contentType})` });
+        return null;
+      }
+
       const buffer = Buffer.from(await res.arrayBuffer());
-      if (buffer.length < 800) throw new Error(`Too small (${buffer.length}b)`);
+      if (!validateImage(buffer, res.url || url, username, rejections)) return null;
+
       fs.writeFileSync(outPath, buffer);
-      return buffer.length;
+      return { url: res.url || url, size: buffer.length };
     } catch (err) {
       lastErr = err;
-      await sleep(400 * (i + 1));
+      if (attempt < retries - 1) await sleep(800 * (attempt + 1));
     }
   }
-  throw lastErr;
+  rejections.push({ url, reason: lastErr?.message || "download failed" });
+  return null;
 }
 
-async function tryDownloadCandidates(urls, outPath) {
-  for (const imgUrl of urls.slice(0, 6)) {
-    try {
-      const size = await downloadImage(imgUrl, outPath);
-      return { url: imgUrl, size };
-    } catch {
-      /* next candidate */
-    }
+async function tryDownloadCandidates(urls, outPath, username, rejections, limit = 5) {
+  for (const imgUrl of urls.slice(0, limit)) {
+    const hit = await downloadCandidate(imgUrl, outPath, username, rejections);
+    if (hit) return hit;
   }
   return null;
 }
@@ -169,68 +350,69 @@ async function tryDownloadCandidates(urls, outPath) {
 async function fetchCreatorAvatar(creator, index) {
   const { username, name } = creator;
   const outPath = path.join(avatarsDir, `${username}.jpg`);
-  const queries = buildQueries(name);
-  const attempts = [];
+  const rejections = [];
+  const queries = buildQueries(name, username);
 
-  await sleep(index * 120);
+  await sleep(index * 80);
 
-  const google = await searchGoogleImages(queries);
-  if (google.urls.length) {
-    const hit = await tryDownloadCandidates(google.urls, outPath);
-    if (hit) {
-      return { username, ok: true, source: "google", ...hit };
-    }
-    attempts.push("google:download failed");
-  } else {
-    attempts.push("google:no results (bot block)");
-  }
-
-  const wikiUrl = await fetchWikipediaImage(username);
-  if (wikiUrl) {
-    try {
-      const size = await downloadImage(wikiUrl, outPath);
-      return { username, ok: true, source: "wikipedia", url: wikiUrl, size, fallback: true };
-    } catch (err) {
-      attempts.push(`wikipedia:${err.message}`);
-    }
-  }
-
-  const bing = await searchBingImages(queries);
-  if (bing.urls.length) {
-    const hit = await tryDownloadCandidates(bing.urls, outPath);
+  const override = OVERRIDES[username];
+  if (override?.url) {
+    const hit = await tryDownloadCandidates([override.url], outPath, username, rejections, 1);
     if (hit) {
       return {
         username,
         ok: true,
-        source: "bing",
-        query: bing.query,
-        fallback: true,
+        source: "override",
+        label: override.source || "avatar-overrides.json",
+        rejections,
         ...hit,
       };
     }
-    attempts.push("bing:download failed");
-  } else {
-    attempts.push("bing:no results");
+  }
+
+  const wikiUrl = await fetchWikipediaImage(username);
+  if (wikiUrl) {
+    const hit = await tryDownloadCandidates([wikiUrl], outPath, username, rejections, 1);
+    if (hit) {
+      return { username, ok: true, source: "wikipedia", rejections, ...hit };
+    }
+  }
+
+  const bingUrls = await searchBingImages(queries);
+  if (bingUrls.length) {
+    const hit = await tryDownloadCandidates(bingUrls, outPath, username, rejections, 5);
+    if (hit) {
+      return { username, ok: true, source: "bing", rejections, ...hit };
+    }
+  }
+
+  const unavatarUrls = unavatarCandidates(username);
+  const unavatarHit = await tryDownloadCandidates(unavatarUrls, outPath, username, rejections, 5);
+  if (unavatarHit) {
+    return { username, ok: true, source: "unavatar", rejections, ...unavatarHit };
   }
 
   const dicebear = dicebearUrl(username);
   try {
-    const size = await downloadImage(dicebear, outPath);
-    return {
-      username,
-      ok: true,
-      source: "dicebear",
-      url: dicebear,
-      size,
-      fallback: true,
-      attempts,
-    };
+    const hit = await downloadCandidate(dicebear, outPath, username, rejections);
+    if (hit) {
+      return {
+        username,
+        ok: true,
+        source: "dicebear",
+        fallback: true,
+        rejections,
+        ...hit,
+      };
+    }
   } catch (err) {
-    return { username, ok: false, attempts: [...attempts, `dicebear:${err.message}`] };
+    rejections.push({ url: dicebear, reason: err.message });
   }
+
+  return { username, ok: false, rejections };
 }
 
-const CONCURRENCY = 15;
+const CONCURRENCY = 8;
 
 async function runPool(items, worker, limit) {
   const results = new Array(items.length);
@@ -243,9 +425,7 @@ async function runPool(items, worker, limit) {
     }
   }
 
-  await Promise.all(
-    Array.from({ length: Math.min(limit, items.length) }, runWorker)
-  );
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, runWorker));
   return results;
 }
 
@@ -254,34 +434,45 @@ async function main() {
   fs.mkdirSync(avatarsDir, { recursive: true });
 
   const seedData = JSON.parse(fs.readFileSync(seedPath, "utf-8"));
-  const missing = seedData.filter(
-    (c) => !fs.existsSync(path.join(avatarsDir, `${c.username}.jpg`))
-  );
+  const targets = force
+    ? seedData
+    : seedData.filter((c) => !fs.existsSync(path.join(avatarsDir, `${c.username}.jpg`)));
 
   console.log(
-    `Fetching ${missing.length} avatars (${seedData.length - missing.length} cached), concurrency ${CONCURRENCY}...\n`
+    `${force ? "Force re-fetching" : "Fetching"} ${targets.length} avatars (${seedData.length - targets.length} cached), concurrency ${CONCURRENCY}...\n`
   );
 
   const results =
-    missing.length > 0
-      ? await runPool(missing, fetchCreatorAvatar, CONCURRENCY)
-      : [];
+    targets.length > 0 ? await runPool(targets, fetchCreatorAvatar, CONCURRENCY) : [];
 
   let ok = 0;
-  let google = 0;
+  let overrideCount = 0;
+  let wikiCount = 0;
+  let bingCount = 0;
+  let unavatarCount = 0;
   let fallback = 0;
   const failures = [];
 
   for (const result of results) {
+    if (result.rejections?.length) {
+      for (const r of result.rejections) {
+        console.log(`  ⊘ ${result.username}: rejected ${r.url?.slice(0, 90)} — ${r.reason}`);
+      }
+    }
+
     if (result.ok) {
       ok++;
-      if (result.source === "google") google++;
+      if (result.source === "override") overrideCount++;
+      else if (result.source === "wikipedia") wikiCount++;
+      else if (result.source === "bing") bingCount++;
+      else if (result.source === "unavatar") unavatarCount++;
       else fallback++;
-      const tag = result.fallback ? ` [fallback: ${result.source}]` : "";
+
+      const tag = result.fallback ? " [fallback]" : "";
       console.log(`✓ ${result.username} (${result.size}b, ${result.source})${tag}`);
     } else {
       failures.push(result);
-      console.error(`✗ ${result.username}: ${result.attempts.join("; ")}`);
+      console.error(`✗ ${result.username}: all sources failed`);
     }
   }
 
@@ -292,9 +483,9 @@ async function main() {
 
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);
   console.log(
-    `\nDone in ${elapsed}s: ${ok}/${missing.length} fetched (${google} Google, ${fallback} fallback), ${failures.length} failed, ${seedData.length - missing.length} cached`
+    `\nDone in ${elapsed}s: ${ok}/${targets.length} fetched (${overrideCount} override, ${wikiCount} wiki, ${bingCount} bing, ${unavatarCount} unavatar, ${fallback} dicebear), ${failures.length} failed, ${seedData.length - targets.length} cached`
   );
-  process.exit(0);
+  process.exit(failures.length > 0 ? 1 : 0);
 }
 
 main();
