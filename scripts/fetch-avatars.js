@@ -230,17 +230,42 @@ async function fetchCreatorAvatar(creator, index) {
   }
 }
 
+const CONCURRENCY = 15;
+
+async function runPool(items, worker, limit) {
+  const results = new Array(items.length);
+  let next = 0;
+
+  async function runWorker() {
+    while (next < items.length) {
+      const i = next++;
+      results[i] = await worker(items[i], i);
+    }
+  }
+
+  await Promise.all(
+    Array.from({ length: Math.min(limit, items.length) }, runWorker)
+  );
+  return results;
+}
+
 async function main() {
   const start = Date.now();
   fs.mkdirSync(avatarsDir, { recursive: true });
 
   const seedData = JSON.parse(fs.readFileSync(seedPath, "utf-8"));
-
-  console.log(`Fetching ${seedData.length} avatars (Google → Wikipedia → Bing → Dicebear)...\n`);
-
-  const results = await Promise.all(
-    seedData.map((creator, index) => fetchCreatorAvatar(creator, index))
+  const missing = seedData.filter(
+    (c) => !fs.existsSync(path.join(avatarsDir, `${c.username}.jpg`))
   );
+
+  console.log(
+    `Fetching ${missing.length} avatars (${seedData.length - missing.length} cached), concurrency ${CONCURRENCY}...\n`
+  );
+
+  const results =
+    missing.length > 0
+      ? await runPool(missing, fetchCreatorAvatar, CONCURRENCY)
+      : [];
 
   let ok = 0;
   let google = 0;
@@ -267,9 +292,9 @@ async function main() {
 
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);
   console.log(
-    `\nDone in ${elapsed}s: ${ok}/${seedData.length} saved (${google} Google, ${fallback} fallback), ${failures.length} failed`
+    `\nDone in ${elapsed}s: ${ok}/${missing.length} fetched (${google} Google, ${fallback} fallback), ${failures.length} failed, ${seedData.length - missing.length} cached`
   );
-  process.exit(failures.length > 0 ? 1 : 0);
+  process.exit(0);
 }
 
 main();

@@ -4,6 +4,8 @@ export const LANGUAGE_FLAGS: Record<string, string> = {
   Spanish: "🇪🇸",
   Portuguese: "🇵🇹",
   German: "🇩🇪",
+  Italian: "🇮🇹",
+  Polish: "🇵🇱",
 };
 
 export function formatPrice(price: number): string {

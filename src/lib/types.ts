@@ -3,7 +3,9 @@ export type Language =
   | "French"
   | "Spanish"
   | "Portuguese"
-  | "German";
+  | "German"
+  | "Italian"
+  | "Polish";
 
 export type AuthenticityTier =
   | "verified_human"
