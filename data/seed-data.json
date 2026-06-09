@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Amouranth",
+    "username": "amouranth",
+    "bio": "Twitch streamer and cosplayer. Public social bios promote direct fan engagement and personal brand content.",
+    "language": "English",
+    "subscription_price": 14.99,
+    "sexy_score": 88,
+    "public_source": "Public Twitter/Instagram bios and interviews",
+    "signals": {
+      "response_time_avg": 1680,
+      "message_personalization_score": 78,
+      "response_consistency": 38,
+      "ai_detection_flags": [],
+      "human_verified": true
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Fans report personable replies when she is online between streams.", "reviewer_name": "Editorial_Estimate" },
+      { "rating": 4, "comment": "[Community estimate] Known for hands-on brand management per public interviews.", "reviewer_name": "Public_Sentiment" }
+    ]
+  },
+  {
+    "name": "Corinna Kopf",
+    "username": "corinnakopf",
+    "bio": "Influencer and streamer. Publicly links OnlyFans across social platforms; promotes exclusive behind-the-scenes content.",
+    "language": "English",
+    "subscription_price": 19.99,
+    "sexy_score": 90,
+    "public_source": "Public Instagram, YouTube, and press coverage",
+    "signals": {
+      "response_time_avg": 2100,
+      "message_personalization_score": 72,
+      "response_consistency": 42,
+      "ai_detection_flags": [],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Mixed reports — personal touches noted but high volume suggests team help.", "reviewer_name": "Editorial_Estimate" },
+      { "rating": 3, "comment": "[Community estimate] Response times vary widely based on public fan discussions.", "reviewer_name": "Public_Sentiment" }
+    ]
+  },
+  {
+    "name": "Bella Thorne",
+    "username": "bellathorne",
+    "bio": "Actress and director. Publicly launched OnlyFans in 2020; widely covered in mainstream press.",
+    "language": "English",
+    "subscription_price": 50.0,
+    "sexy_score": 85,
+    "public_source": "BBC, Time, and public social media (2020 launch coverage)",
+    "signals": {
+      "response_time_avg": 4200,
+      "message_personalization_score": 55,
+      "response_consistency": 58,
+      "ai_detection_flags": ["generic_template"],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 3, "comment": "[Editorial estimate] Celebrity-scale launch with heavy promo — likely team-managed DMs per press coverage.", "reviewer_name": "Editorial_Estimate" },
+      { "rating": 3, "comment": "[Community estimate] Content valued but personal interaction inconsistent per public fan forums.", "reviewer_name": "Public_Sentiment" }
+    ]
+  },
+  {
+    "name": "Sophie Rain",
+    "username": "sophieraiin",
+    "bio": "TikTok creator who went viral promoting her page. Public bios emphasize exclusive content for subscribers.",
+    "language": "English",
+    "subscription_price": 10.0,
+    "sexy_score": 91,
+    "public_source": "Public TikTok, Twitter/X bios and news articles",
+    "signals": {
+      "response_time_avg": 900,
+      "message_personalization_score": 48,
+      "response_consistency": 72,
+      "ai_detection_flags": ["always_online", "identical_patterns"],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 3, "comment": "[Editorial estimate] Viral growth model — public discourse suggests high-volume, less personal replies.", "reviewer_name": "Editorial_Estimate" },
+      { "rating": 2, "comment": "[Community estimate] Fast templated responses reported in public fan discussions.", "reviewer_name": "Public_Sentiment" }
+    ]
+  },
+  {
+    "name": "Bhad Bhabie",
+    "username": "realbhadbhabie",
+    "bio": "Rapper and influencer. Publicly discussed record OnlyFans earnings in interviews and social posts.",
+    "language": "English",
+    "subscription_price": 23.99,
+    "sexy_score": 84,
+    "public_source": "Public interviews (Variety, Billboard) and social media",
+    "signals": {
+      "response_time_avg": 3000,
+      "message_personalization_score": 62,
+      "response_consistency": 52,
+      "ai_detection_flags": [],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Personality-driven brand; some fans note genuine voice in messages.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 3, "comment": "[Editorial estimate] Scale of earnings suggests partial team management.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Iggy Azalea",
+    "username": "iggyazalea",
+    "bio": "Grammy-nominated rapper. Publicly announced OnlyFans launch on social media in 2023.",
+    "language": "English",
+    "subscription_price": 25.0,
+    "sexy_score": 87,
+    "public_source": "Public Twitter/X announcement and music press",
+    "signals": {
+      "response_time_avg": 3600,
+      "message_personalization_score": 58,
+      "response_consistency": 55,
+      "ai_detection_flags": ["generic_template"],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 3, "comment": "[Editorial estimate] Major artist account — likely managed chat at scale.", "reviewer_name": "Editorial_Estimate" },
+      { "rating": 4, "comment": "[Community estimate] Premium content quality noted in public sentiment.", "reviewer_name": "Public_Sentiment" }
+    ]
+  },
+  {
+    "name": "Tana Mongeau",
+    "username": "tanamongeau",
+    "bio": "YouTuber and podcaster. Openly promotes her page across YouTube, Twitter, and Instagram.",
+    "language": "English",
+    "subscription_price": 14.99,
+    "sexy_score": 83,
+    "public_source": "Public YouTube, podcast, and social bios",
+    "signals": {
+      "response_time_avg": 1920,
+      "message_personalization_score": 74,
+      "response_consistency": 40,
+      "ai_detection_flags": [],
+      "human_verified": true
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Fans cite her unfiltered personality carrying into DMs.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 4, "comment": "[Editorial estimate] Creator-led brand with variable response times typical of solo operators.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Mia Khalifa",
+    "username": "miakhalifa",
+    "bio": "Media personality and advocate. Public social bios link subscription content; active on Twitter/X.",
+    "language": "English",
+    "subscription_price": 12.99,
+    "sexy_score": 82,
+    "public_source": "Public Twitter/X bio and interviews",
+    "signals": {
+      "response_time_avg": 2400,
+      "message_personalization_score": 70,
+      "response_consistency": 44,
+      "ai_detection_flags": [],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Direct, opinionated replies align with her public persona.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 3, "comment": "[Editorial estimate] Moderate volume — occasional delays expected.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Carmen Electra",
+    "username": "carmenelectra",
+    "bio": "Actress and model. Publicly joined OnlyFans in 2023 per mainstream entertainment press.",
+    "language": "English",
+    "subscription_price": 19.99,
+    "sexy_score": 86,
+    "public_source": "Entertainment press (People, TMZ) and public Instagram",
+    "signals": {
+      "response_time_avg": 3900,
+      "message_personalization_score": 52,
+      "response_consistency": 60,
+      "ai_detection_flags": ["generic_template", "perfect_grammar"],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 3, "comment": "[Editorial estimate] Celebrity account — polished replies suggest management layer.", "reviewer_name": "Editorial_Estimate" },
+      { "rating": 4, "comment": "[Community estimate] Nostalgia-driven fanbase values content quality.", "reviewer_name": "Public_Sentiment" }
+    ]
+  },
+  {
+    "name": "Tyga",
+    "username": "tyga",
+    "bio": "Rapper. Publicly promoted OnlyFans on social media — one of few high-profile male creators in mainstream coverage.",
+    "language": "English",
+    "subscription_price": 20.0,
+    "sexy_score": 80,
+    "public_source": "Public social media posts and hip-hop press",
+    "signals": {
+      "response_time_avg": 4500,
+      "message_personalization_score": 50,
+      "response_consistency": 62,
+      "ai_detection_flags": ["generic_template"],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 3, "comment": "[Editorial estimate] High-profile artist — likely team-assisted messaging.", "reviewer_name": "Editorial_Estimate" },
+      { "rating": 3, "comment": "[Community estimate] Inconsistent personal engagement per public fan forums.", "reviewer_name": "Public_Sentiment" }
+    ]
+  },
+  {
+    "name": "Denise Richards",
+    "username": "denisersichards",
+    "bio": "Actress and reality TV star. Publicly discussed joining OnlyFans on podcasts and entertainment news.",
+    "language": "English",
+    "subscription_price": 24.99,
+    "sexy_score": 81,
+    "public_source": "Podcast interviews and entertainment press",
+    "signals": {
+      "response_time_avg": 2700,
+      "message_personalization_score": 66,
+      "response_consistency": 48,
+      "ai_detection_flags": [],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Reality-TV openness reportedly extends to fan messages.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 3, "comment": "[Editorial estimate] Mid-tier celebrity — mixed personal/team handling likely.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Rubi Rose",
+    "username": "rubirose",
+    "bio": "Rapper and model. Public Instagram and Twitter bios link her subscription page.",
+    "language": "English",
+    "subscription_price": 11.99,
+    "sexy_score": 89,
+    "public_source": "Public Instagram/Twitter bios",
+    "signals": {
+      "response_time_avg": 1800,
+      "message_personalization_score": 68,
+      "response_consistency": 46,
+      "ai_detection_flags": [],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Fans note energetic, on-brand replies.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 3, "comment": "[Editorial estimate] Growing account — authenticity signals still developing.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Lyna Perez",
+    "username": "lynaritaa",
+    "bio": "Latina model and influencer. Public Instagram bio links OnlyFans; bilingual EN/ES content promoted on social.",
+    "language": "Spanish",
+    "subscription_price": 9.99,
+    "sexy_score": 90,
+    "public_source": "Public Instagram bio and Linktree-style promo pages",
+    "signals": {
+      "response_time_avg": 1440,
+      "message_personalization_score": 65,
+      "response_consistency": 50,
+      "ai_detection_flags": [],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Contenido popular; algunos fans reportan respuestas personales.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 3, "comment": "[Editorial estimate] Alto volumen de seguidores — posible ayuda de equipo.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Paola Hard",
+    "username": "paolhard",
+    "bio": "Spanish content creator. Public social profiles promote exclusive videos and direct fan access.",
+    "language": "Spanish",
+    "subscription_price": 12.99,
+    "sexy_score": 87,
+    "public_source": "Public Twitter/X and promotional landing pages",
+    "signals": {
+      "response_time_avg": 1560,
+      "message_personalization_score": 76,
+      "response_consistency": 36,
+      "ai_detection_flags": [],
+      "human_verified": true
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Respuestas con tono cercano según foros públicos.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 4, "comment": "[Editorial estimate] Creadora activa en redes — engagement personal probable.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Astrid Nelsia",
+    "username": "astridnelsia",
+    "bio": "French reality TV personality. Publicly discussed her OnlyFans career in French media interviews.",
+    "language": "French",
+    "subscription_price": 15.99,
+    "sexy_score": 84,
+    "public_source": "French entertainment press and public Instagram",
+    "signals": {
+      "response_time_avg": 2280,
+      "message_personalization_score": 71,
+      "response_consistency": 41,
+      "ai_detection_flags": [],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Fans français soulignent des réponses décontractées.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 3, "comment": "[Editorial estimate] Personnalité TV — gestion partielle probable à ce volume.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Anitta",
+    "username": "anitta",
+    "bio": "Brazilian pop superstar. Public social channels promote exclusive subscriber content for Portuguese-speaking fans.",
+    "language": "Portuguese",
+    "subscription_price": 29.99,
+    "sexy_score": 92,
+    "public_source": "Public Instagram, interviews, and Brazilian press",
+    "signals": {
+      "response_time_avg": 5100,
+      "message_personalization_score": 45,
+      "response_consistency": 68,
+      "ai_detection_flags": ["generic_template", "always_online"],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 3, "comment": "[Editorial estimate] Artista global — equipe de gerenciamento muito provável.", "reviewer_name": "Editorial_Estimate" },
+      { "rating": 4, "comment": "[Community estimate] Conteúdo premium valorizado por fãs brasileiros.", "reviewer_name": "Public_Sentiment" }
+    ]
+  },
+  {
+    "name": "MC Mirella",
+    "username": "mcmirella",
+    "bio": "Brazilian funk singer and influencer. Publicly promotes her page on Instagram and TikTok to Portuguese-speaking fans.",
+    "language": "Portuguese",
+    "subscription_price": 8.99,
+    "sexy_score": 88,
+    "public_source": "Public Instagram/TikTok bios",
+    "signals": {
+      "response_time_avg": 1740,
+      "message_personalization_score": 73,
+      "response_consistency": 39,
+      "ai_detection_flags": [],
+      "human_verified": true
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Estilo direto e pessoal, como nas redes públicas.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 4, "comment": "[Editorial estimate] Influenciadora mão na massa — padrões de resposta humanos estimados.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Pietro Boselli",
+    "username": "pietro_boselli",
+    "bio": "Model and former engineering lecturer. Public Instagram promotes fitness and lifestyle subscriber content.",
+    "language": "German",
+    "subscription_price": 14.99,
+    "sexy_score": 86,
+    "public_source": "Public Instagram and international press features",
+    "signals": {
+      "response_time_avg": 2880,
+      "message_personalization_score": 69,
+      "response_consistency": 43,
+      "ai_detection_flags": [],
+      "human_verified": false
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Persönlicher Fitness-Brand-Stil spiegelt sich in öffentlichen Posts.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 3, "comment": "[Editorial estimate] Moderates Volumen — authentische Antworten wahrscheinlich, aber nicht garantiert.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Juli Annee",
+    "username": "juli.annee",
+    "bio": "German-American model. Public social bios link subscription content; active bilingual promo in EN/DE.",
+    "language": "German",
+    "subscription_price": 10.99,
+    "sexy_score": 85,
+    "public_source": "Public Instagram and promotional link pages",
+    "signals": {
+      "response_time_avg": 1980,
+      "message_personalization_score": 77,
+      "response_consistency": 35,
+      "ai_detection_flags": [],
+      "human_verified": true
+    },
+    "reviews": [
+      { "rating": 4, "comment": "[Community estimate] Deutsche und englische Fans berichten von persönlichem Ton.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 4, "comment": "[Editorial estimate] Creator-led account mit natürlicher Antwortvarianz geschätzt.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  },
+  {
+    "name": "Elena Kamperi",
+    "username": "elenakamperi",
+    "bio": "German fitness influencer. Public Instagram and YouTube promote her subscription page to German-speaking audiences.",
+    "language": "German",
+    "subscription_price": 13.99,
+    "sexy_score": 83,
+    "public_source": "Public YouTube, Instagram, and German influencer press",
+    "signals": {
+      "response_time_avg": 2160,
+      "message_personalization_score": 80,
+      "response_consistency": 32,
+      "ai_detection_flags": [],
+      "human_verified": true
+    },
+    "reviews": [
+      { "rating": 5, "comment": "[Community estimate] Bekannt für direkten Kontakt zu Fans auf Social Media.", "reviewer_name": "Public_Sentiment" },
+      { "rating": 4, "comment": "[Editorial estimate] Influencerin mit persönlicher Marke — hohe Authentizität geschätzt.", "reviewer_name": "Editorial_Estimate" }
+    ]
+  }
+]

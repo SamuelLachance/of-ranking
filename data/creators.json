@@ -1,0 +1,926 @@
+{
+  "generated_at": "2026-06-09T22:36:09.679Z",
+  "disclaimer": "Creator profiles use publicly available marketing information only. Scores and reviews are editorial estimates — not verified audits or live platform data.",
+  "creators": [
+    {
+      "id": 1,
+      "name": "Amouranth",
+      "username": "amouranth",
+      "bio": "Twitch streamer and cosplayer. Public social bios promote direct fan engagement and personal brand content.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=amouranth",
+      "language": "English",
+      "subscription_price": 14.99,
+      "created_at": "2025-07-04T22:36:09.678Z",
+      "public_source": "Public Twitter/Instagram bios and interviews",
+      "reviews": [
+        {
+          "id": 101,
+          "creator_id": 1,
+          "rating": 4,
+          "comment": "[Community estimate] Fans report personable replies when she is online between streams.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 102,
+          "creator_id": 1,
+          "rating": 4,
+          "comment": "[Community estimate] Known for hands-on brand management per public interviews.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 1,
+        "review_score": 75,
+        "sexy_score": 88,
+        "authenticity_score": 94.3,
+        "overall_rank_score": 86.9,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 1,
+        "response_time_avg": 1680,
+        "message_personalization_score": 78,
+        "response_consistency": 38,
+        "ai_detection_flags": "[]",
+        "human_verified": true,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Corinna Kopf",
+      "username": "corinnakopf",
+      "bio": "Influencer and streamer. Publicly links OnlyFans across social platforms; promotes exclusive behind-the-scenes content.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=corinnakopf",
+      "language": "English",
+      "subscription_price": 19.99,
+      "created_at": "2025-12-01T22:36:09.678Z",
+      "public_source": "Public Instagram, YouTube, and press coverage",
+      "reviews": [
+        {
+          "id": 201,
+          "creator_id": 2,
+          "rating": 4,
+          "comment": "[Community estimate] Mixed reports — personal touches noted but high volume suggests team help.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 202,
+          "creator_id": 2,
+          "rating": 3,
+          "comment": "[Community estimate] Response times vary widely based on public fan discussions.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 2,
+        "review_score": 62.5,
+        "sexy_score": 90,
+        "authenticity_score": 83.4,
+        "overall_rank_score": 78.8,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 2,
+        "response_time_avg": 2100,
+        "message_personalization_score": 72,
+        "response_consistency": 42,
+        "ai_detection_flags": "[]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bella Thorne",
+      "username": "bellathorne",
+      "bio": "Actress and director. Publicly launched OnlyFans in 2020; widely covered in mainstream press.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=bellathorne",
+      "language": "English",
+      "subscription_price": 50,
+      "created_at": "2026-03-23T22:36:09.678Z",
+      "public_source": "BBC, Time, and public social media (2020 launch coverage)",
+      "reviews": [
+        {
+          "id": 301,
+          "creator_id": 3,
+          "rating": 3,
+          "comment": "[Editorial estimate] Celebrity-scale launch with heavy promo — likely team-managed DMs per press coverage.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 302,
+          "creator_id": 3,
+          "rating": 3,
+          "comment": "[Community estimate] Content valued but personal interaction inconsistent per public fan forums.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 3,
+        "review_score": 50,
+        "sexy_score": 85,
+        "authenticity_score": 70.3,
+        "overall_rank_score": 67.9,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 3,
+        "response_time_avg": 4200,
+        "message_personalization_score": 55,
+        "response_consistency": 58,
+        "ai_detection_flags": "[\"generic_template\"]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Sophie Rain",
+      "username": "sophieraiin",
+      "bio": "TikTok creator who went viral promoting her page. Public bios emphasize exclusive content for subscribers.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=sophieraiin",
+      "language": "English",
+      "subscription_price": 10,
+      "created_at": "2025-10-20T22:36:09.678Z",
+      "public_source": "Public TikTok, Twitter/X bios and news articles",
+      "reviews": [
+        {
+          "id": 401,
+          "creator_id": 4,
+          "rating": 3,
+          "comment": "[Editorial estimate] Viral growth model — public discourse suggests high-volume, less personal replies.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 402,
+          "creator_id": 4,
+          "rating": 2,
+          "comment": "[Community estimate] Fast templated responses reported in public fan discussions.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 4,
+        "review_score": 37.5,
+        "sexy_score": 91,
+        "authenticity_score": 61.8,
+        "overall_rank_score": 61.8,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 4,
+        "response_time_avg": 900,
+        "message_personalization_score": 48,
+        "response_consistency": 72,
+        "ai_detection_flags": "[\"always_online\",\"identical_patterns\"]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Bhad Bhabie",
+      "username": "realbhadbhabie",
+      "bio": "Rapper and influencer. Publicly discussed record OnlyFans earnings in interviews and social posts.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=realbhadbhabie",
+      "language": "English",
+      "subscription_price": 23.99,
+      "created_at": "2026-01-24T22:36:09.678Z",
+      "public_source": "Public interviews (Variety, Billboard) and social media",
+      "reviews": [
+        {
+          "id": 501,
+          "creator_id": 5,
+          "rating": 4,
+          "comment": "[Community estimate] Personality-driven brand; some fans note genuine voice in messages.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 502,
+          "creator_id": 5,
+          "rating": 3,
+          "comment": "[Editorial estimate] Scale of earnings suggests partial team management.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 5,
+        "review_score": 62.5,
+        "sexy_score": 84,
+        "authenticity_score": 77.7,
+        "overall_rank_score": 74.7,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 5,
+        "response_time_avg": 3000,
+        "message_personalization_score": 62,
+        "response_consistency": 52,
+        "ai_detection_flags": "[]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Iggy Azalea",
+      "username": "iggyazalea",
+      "bio": "Grammy-nominated rapper. Publicly announced OnlyFans launch on social media in 2023.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=iggyazalea",
+      "language": "English",
+      "subscription_price": 25,
+      "created_at": "2026-01-22T22:36:09.678Z",
+      "public_source": "Public Twitter/X announcement and music press",
+      "reviews": [
+        {
+          "id": 601,
+          "creator_id": 6,
+          "rating": 3,
+          "comment": "[Editorial estimate] Major artist account — likely managed chat at scale.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 602,
+          "creator_id": 6,
+          "rating": 4,
+          "comment": "[Community estimate] Premium content quality noted in public sentiment.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 6,
+        "review_score": 62.5,
+        "sexy_score": 87,
+        "authenticity_score": 72,
+        "overall_rank_score": 72.9,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 6,
+        "response_time_avg": 3600,
+        "message_personalization_score": 58,
+        "response_consistency": 55,
+        "ai_detection_flags": "[\"generic_template\"]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Tana Mongeau",
+      "username": "tanamongeau",
+      "bio": "YouTuber and podcaster. Openly promotes her page across YouTube, Twitter, and Instagram.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=tanamongeau",
+      "language": "English",
+      "subscription_price": 14.99,
+      "created_at": "2026-03-23T22:36:09.678Z",
+      "public_source": "Public YouTube, podcast, and social bios",
+      "reviews": [
+        {
+          "id": 701,
+          "creator_id": 7,
+          "rating": 4,
+          "comment": "[Community estimate] Fans cite her unfiltered personality carrying into DMs.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 702,
+          "creator_id": 7,
+          "rating": 4,
+          "comment": "[Editorial estimate] Creator-led brand with variable response times typical of solo operators.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 7,
+        "review_score": 75,
+        "sexy_score": 83,
+        "authenticity_score": 92.6,
+        "overall_rank_score": 84.9,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 7,
+        "response_time_avg": 1920,
+        "message_personalization_score": 74,
+        "response_consistency": 40,
+        "ai_detection_flags": "[]",
+        "human_verified": true,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mia Khalifa",
+      "username": "miakhalifa",
+      "bio": "Media personality and advocate. Public social bios link subscription content; active on Twitter/X.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=miakhalifa",
+      "language": "English",
+      "subscription_price": 12.99,
+      "created_at": "2025-06-27T22:36:09.678Z",
+      "public_source": "Public Twitter/X bio and interviews",
+      "reviews": [
+        {
+          "id": 801,
+          "creator_id": 8,
+          "rating": 4,
+          "comment": "[Community estimate] Direct, opinionated replies align with her public persona.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 802,
+          "creator_id": 8,
+          "rating": 3,
+          "comment": "[Editorial estimate] Moderate volume — occasional delays expected.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 8,
+        "review_score": 62.5,
+        "sexy_score": 82,
+        "authenticity_score": 82.3,
+        "overall_rank_score": 76.3,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 8,
+        "response_time_avg": 2400,
+        "message_personalization_score": 70,
+        "response_consistency": 44,
+        "ai_detection_flags": "[]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Carmen Electra",
+      "username": "carmenelectra",
+      "bio": "Actress and model. Publicly joined OnlyFans in 2023 per mainstream entertainment press.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=carmenelectra",
+      "language": "English",
+      "subscription_price": 19.99,
+      "created_at": "2025-09-05T22:36:09.678Z",
+      "public_source": "Entertainment press (People, TMZ) and public Instagram",
+      "reviews": [
+        {
+          "id": 901,
+          "creator_id": 9,
+          "rating": 3,
+          "comment": "[Editorial estimate] Celebrity account — polished replies suggest management layer.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        },
+        {
+          "id": 902,
+          "creator_id": 9,
+          "rating": 4,
+          "comment": "[Community estimate] Nostalgia-driven fanbase values content quality.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.678Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 9,
+        "review_score": 62.5,
+        "sexy_score": 86,
+        "authenticity_score": 66.3,
+        "overall_rank_score": 70.1,
+        "last_calculated": "2026-06-09T22:36:09.678Z"
+      },
+      "signals": {
+        "creator_id": 9,
+        "response_time_avg": 3900,
+        "message_personalization_score": 52,
+        "response_consistency": 60,
+        "ai_detection_flags": "[\"generic_template\",\"perfect_grammar\"]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.678Z"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Tyga",
+      "username": "tyga",
+      "bio": "Rapper. Publicly promoted OnlyFans on social media — one of few high-profile male creators in mainstream coverage.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=tyga",
+      "language": "English",
+      "subscription_price": 20,
+      "created_at": "2025-12-25T22:36:09.679Z",
+      "public_source": "Public social media posts and hip-hop press",
+      "reviews": [
+        {
+          "id": 1001,
+          "creator_id": 10,
+          "rating": 3,
+          "comment": "[Editorial estimate] High-profile artist — likely team-assisted messaging.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1002,
+          "creator_id": 10,
+          "rating": 3,
+          "comment": "[Community estimate] Inconsistent personal engagement per public fan forums.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 10,
+        "review_score": 50,
+        "sexy_score": 80,
+        "authenticity_score": 67.7,
+        "overall_rank_score": 65.5,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 10,
+        "response_time_avg": 4500,
+        "message_personalization_score": 50,
+        "response_consistency": 62,
+        "ai_detection_flags": "[\"generic_template\"]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Denise Richards",
+      "username": "denisersichards",
+      "bio": "Actress and reality TV star. Publicly discussed joining OnlyFans on podcasts and entertainment news.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=denisersichards",
+      "language": "English",
+      "subscription_price": 24.99,
+      "created_at": "2026-01-31T22:36:09.679Z",
+      "public_source": "Podcast interviews and entertainment press",
+      "reviews": [
+        {
+          "id": 1101,
+          "creator_id": 11,
+          "rating": 4,
+          "comment": "[Community estimate] Reality-TV openness reportedly extends to fan messages.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1102,
+          "creator_id": 11,
+          "rating": 3,
+          "comment": "[Editorial estimate] Mid-tier celebrity — mixed personal/team handling likely.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 11,
+        "review_score": 62.5,
+        "sexy_score": 81,
+        "authenticity_score": 80,
+        "overall_rank_score": 75,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 11,
+        "response_time_avg": 2700,
+        "message_personalization_score": 66,
+        "response_consistency": 48,
+        "ai_detection_flags": "[]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Rubi Rose",
+      "username": "rubirose",
+      "bio": "Rapper and model. Public Instagram and Twitter bios link her subscription page.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=rubirose",
+      "language": "English",
+      "subscription_price": 11.99,
+      "created_at": "2026-04-20T22:36:09.679Z",
+      "public_source": "Public Instagram/Twitter bios",
+      "reviews": [
+        {
+          "id": 1201,
+          "creator_id": 12,
+          "rating": 4,
+          "comment": "[Community estimate] Fans note energetic, on-brand replies.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1202,
+          "creator_id": 12,
+          "rating": 3,
+          "comment": "[Editorial estimate] Growing account — authenticity signals still developing.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 12,
+        "review_score": 62.5,
+        "sexy_score": 89,
+        "authenticity_score": 81.2,
+        "overall_rank_score": 77.5,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 12,
+        "response_time_avg": 1800,
+        "message_personalization_score": 68,
+        "response_consistency": 46,
+        "ai_detection_flags": "[]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Lyna Perez",
+      "username": "lynaritaa",
+      "bio": "Latina model and influencer. Public Instagram bio links OnlyFans; bilingual EN/ES content promoted on social.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=lynaritaa",
+      "language": "Spanish",
+      "subscription_price": 9.99,
+      "created_at": "2025-07-15T22:36:09.679Z",
+      "public_source": "Public Instagram bio and Linktree-style promo pages",
+      "reviews": [
+        {
+          "id": 1301,
+          "creator_id": 13,
+          "rating": 4,
+          "comment": "[Community estimate] Contenido popular; algunos fans reportan respuestas personales.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1302,
+          "creator_id": 13,
+          "rating": 3,
+          "comment": "[Editorial estimate] Alto volumen de seguidores — posible ayuda de equipo.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 13,
+        "review_score": 62.5,
+        "sexy_score": 90,
+        "authenticity_score": 79.2,
+        "overall_rank_score": 76.9,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 13,
+        "response_time_avg": 1440,
+        "message_personalization_score": 65,
+        "response_consistency": 50,
+        "ai_detection_flags": "[]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Paola Hard",
+      "username": "paolhard",
+      "bio": "Spanish content creator. Public social profiles promote exclusive videos and direct fan access.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=paolhard",
+      "language": "Spanish",
+      "subscription_price": 12.99,
+      "created_at": "2025-08-06T22:36:09.679Z",
+      "public_source": "Public Twitter/X and promotional landing pages",
+      "reviews": [
+        {
+          "id": 1401,
+          "creator_id": 14,
+          "rating": 4,
+          "comment": "[Community estimate] Respuestas con tono cercano según foros públicos.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1402,
+          "creator_id": 14,
+          "rating": 4,
+          "comment": "[Editorial estimate] Creadora activa en redes — engagement personal probable.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 14,
+        "review_score": 75,
+        "sexy_score": 87,
+        "authenticity_score": 94.2,
+        "overall_rank_score": 86.6,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 14,
+        "response_time_avg": 1560,
+        "message_personalization_score": 76,
+        "response_consistency": 36,
+        "ai_detection_flags": "[]",
+        "human_verified": true,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Astrid Nelsia",
+      "username": "astridnelsia",
+      "bio": "French reality TV personality. Publicly discussed her OnlyFans career in French media interviews.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=astridnelsia",
+      "language": "French",
+      "subscription_price": 15.99,
+      "created_at": "2026-05-28T22:36:09.679Z",
+      "public_source": "French entertainment press and public Instagram",
+      "reviews": [
+        {
+          "id": 1501,
+          "creator_id": 15,
+          "rating": 4,
+          "comment": "[Community estimate] Fans français soulignent des réponses décontractées.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1502,
+          "creator_id": 15,
+          "rating": 3,
+          "comment": "[Editorial estimate] Personnalité TV — gestion partielle probable à ce volume.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 15,
+        "review_score": 62.5,
+        "sexy_score": 84,
+        "authenticity_score": 83.4,
+        "overall_rank_score": 77.3,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 15,
+        "response_time_avg": 2280,
+        "message_personalization_score": 71,
+        "response_consistency": 41,
+        "ai_detection_flags": "[]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Anitta",
+      "username": "anitta",
+      "bio": "Brazilian pop superstar. Public social channels promote exclusive subscriber content for Portuguese-speaking fans.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=anitta",
+      "language": "Portuguese",
+      "subscription_price": 29.99,
+      "created_at": "2026-03-18T22:36:09.679Z",
+      "public_source": "Public Instagram, interviews, and Brazilian press",
+      "reviews": [
+        {
+          "id": 1601,
+          "creator_id": 16,
+          "rating": 3,
+          "comment": "[Editorial estimate] Artista global — equipe de gerenciamento muito provável.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1602,
+          "creator_id": 16,
+          "rating": 4,
+          "comment": "[Community estimate] Conteúdo premium valorizado por fãs brasileiros.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 16,
+        "review_score": 62.5,
+        "sexy_score": 92,
+        "authenticity_score": 61.6,
+        "overall_rank_score": 69.5,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 16,
+        "response_time_avg": 5100,
+        "message_personalization_score": 45,
+        "response_consistency": 68,
+        "ai_detection_flags": "[\"generic_template\",\"always_online\"]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 17,
+      "name": "MC Mirella",
+      "username": "mcmirella",
+      "bio": "Brazilian funk singer and influencer. Publicly promotes her page on Instagram and TikTok to Portuguese-speaking fans.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=mcmirella",
+      "language": "Portuguese",
+      "subscription_price": 8.99,
+      "created_at": "2025-09-13T22:36:09.679Z",
+      "public_source": "Public Instagram/TikTok bios",
+      "reviews": [
+        {
+          "id": 1701,
+          "creator_id": 17,
+          "rating": 4,
+          "comment": "[Community estimate] Estilo direto e pessoal, como nas redes públicas.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1702,
+          "creator_id": 17,
+          "rating": 4,
+          "comment": "[Editorial estimate] Influenciadora mão na massa — padrões de resposta humanos estimados.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 17,
+        "review_score": 75,
+        "sexy_score": 88,
+        "authenticity_score": 92.5,
+        "overall_rank_score": 86.1,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 17,
+        "response_time_avg": 1740,
+        "message_personalization_score": 73,
+        "response_consistency": 39,
+        "ai_detection_flags": "[]",
+        "human_verified": true,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Pietro Boselli",
+      "username": "pietro_boselli",
+      "bio": "Model and former engineering lecturer. Public Instagram promotes fitness and lifestyle subscriber content.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=pietro_boselli",
+      "language": "German",
+      "subscription_price": 14.99,
+      "created_at": "2025-11-10T22:36:09.679Z",
+      "public_source": "Public Instagram and international press features",
+      "reviews": [
+        {
+          "id": 1801,
+          "creator_id": 18,
+          "rating": 4,
+          "comment": "[Community estimate] Persönlicher Fitness-Brand-Stil spiegelt sich in öffentlichen Posts.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1802,
+          "creator_id": 18,
+          "rating": 3,
+          "comment": "[Editorial estimate] Moderates Volumen — authentische Antworten wahrscheinlich, aber nicht garantiert.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 18,
+        "review_score": 62.5,
+        "sexy_score": 86,
+        "authenticity_score": 82.2,
+        "overall_rank_score": 77.2,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 18,
+        "response_time_avg": 2880,
+        "message_personalization_score": 69,
+        "response_consistency": 43,
+        "ai_detection_flags": "[]",
+        "human_verified": false,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Juli Annee",
+      "username": "juli.annee",
+      "bio": "German-American model. Public social bios link subscription content; active bilingual promo in EN/DE.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=juli.annee",
+      "language": "German",
+      "subscription_price": 10.99,
+      "created_at": "2026-04-28T22:36:09.679Z",
+      "public_source": "Public Instagram and promotional link pages",
+      "reviews": [
+        {
+          "id": 1901,
+          "creator_id": 19,
+          "rating": 4,
+          "comment": "[Community estimate] Deutsche und englische Fans berichten von persönlichem Ton.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 1902,
+          "creator_id": 19,
+          "rating": 4,
+          "comment": "[Editorial estimate] Creator-led account mit natürlicher Antwortvarianz geschätzt.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 19,
+        "review_score": 75,
+        "sexy_score": 85,
+        "authenticity_score": 94.8,
+        "overall_rank_score": 86.4,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 19,
+        "response_time_avg": 1980,
+        "message_personalization_score": 77,
+        "response_consistency": 35,
+        "ai_detection_flags": "[]",
+        "human_verified": true,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Elena Kamperi",
+      "username": "elenakamperi",
+      "bio": "German fitness influencer. Public Instagram and YouTube promote her subscription page to German-speaking audiences.",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=elenakamperi",
+      "language": "German",
+      "subscription_price": 13.99,
+      "created_at": "2025-07-08T22:36:09.679Z",
+      "public_source": "Public YouTube, Instagram, and German influencer press",
+      "reviews": [
+        {
+          "id": 2001,
+          "creator_id": 20,
+          "rating": 5,
+          "comment": "[Community estimate] Bekannt für direkten Kontakt zu Fans auf Social Media.",
+          "reviewer_name": "Public_Sentiment",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        },
+        {
+          "id": 2002,
+          "creator_id": 20,
+          "rating": 4,
+          "comment": "[Editorial estimate] Influencerin mit persönlicher Marke — hohe Authentizität geschätzt.",
+          "reviewer_name": "Editorial_Estimate",
+          "created_at": "2026-06-09T22:36:09.679Z"
+        }
+      ],
+      "scores": {
+        "creator_id": 20,
+        "review_score": 87.5,
+        "sexy_score": 83,
+        "authenticity_score": 96.5,
+        "overall_rank_score": 90.4,
+        "last_calculated": "2026-06-09T22:36:09.679Z"
+      },
+      "signals": {
+        "creator_id": 20,
+        "response_time_avg": 2160,
+        "message_personalization_score": 80,
+        "response_consistency": 32,
+        "ai_detection_flags": "[]",
+        "human_verified": true,
+        "last_checked": "2026-06-09T22:36:09.679Z"
+      }
+    }
+  ]
+}
