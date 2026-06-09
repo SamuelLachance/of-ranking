@@ -9,6 +9,7 @@ import {
   formatAuthenticityWithInterval,
 } from "@/lib/ranking";
 import type { AuthenticityTier, RankedCreator } from "@/lib/types";
+import CreatorAvatar from "@/components/CreatorAvatar";
 import { LANGUAGE_FLAGS, formatPrice } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
@@ -54,10 +55,10 @@ export default function CreatorCard({ creator, compact }: CreatorCardProps) {
     >
       <div className="flex items-start gap-4">
         <div className="relative shrink-0">
-          <img
+          <CreatorAvatar
             src={creator.avatar_url}
-            alt={creator.name}
-            className="h-14 w-14 rounded-2xl border border-white/10 bg-white/5 object-cover"
+            name={creator.name}
+            className="h-20 w-20"
           />
           <span className="absolute -bottom-1 -right-1 rounded-full bg-black/80 px-1.5 py-0.5 text-xs">
             #{creator.rank}

@@ -11,6 +11,7 @@ import {
   getAuthenticityInsights,
 } from "@/lib/ranking";
 import type { AuthenticityTier } from "@/lib/types";
+import CreatorAvatar from "@/components/CreatorAvatar";
 import { LANGUAGE_FLAGS, formatPrice } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
@@ -79,10 +80,10 @@ export default async function CreatorDetailPage({ params }: PageProps) {
 
       <div className={cn("glass-card overflow-hidden", tierBorder[tier])}>
         <div className="flex flex-col gap-6 p-8 md:flex-row md:items-start">
-          <img
+          <CreatorAvatar
             src={creator.avatar_url}
-            alt={creator.name}
-            className="h-24 w-24 rounded-2xl border border-white/10 bg-white/5"
+            name={creator.name}
+            className="h-48 w-48 shrink-0"
           />
           <div className="flex-1 space-y-3">
             <div className="flex flex-wrap items-center gap-3">
