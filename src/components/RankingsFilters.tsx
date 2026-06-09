@@ -1,12 +1,21 @@
 "use client";
 
 import { Filter, Globe } from "lucide-react";
-import type { RankingFilters } from "@/lib/types";
+import { TIER_LABELS } from "@/lib/ranking";
+import type { AuthenticityTier, RankingFilters } from "@/lib/types";
 
 type RankingsFiltersProps = {
   languages: string[];
   filters: RankingFilters;
 };
+
+const TIER_OPTIONS: AuthenticityTier[] = [
+  "verified_human",
+  "likely_human",
+  "uncertain",
+  "likely_managed",
+  "bot_risk",
+];
 
 export default function RankingsFilters({
   languages,
@@ -15,7 +24,7 @@ export default function RankingsFilters({
   return (
     <form
       method="get"
-      className="glass-card grid gap-4 p-5 md:grid-cols-2 lg:grid-cols-5"
+      className="glass-card grid gap-4 p-5 md:grid-cols-2 lg:grid-cols-6"
     >
       <div className="space-y-1.5">
         <label htmlFor="language" className="text-xs uppercase tracking-widest text-white/50">
@@ -37,6 +46,25 @@ export default function RankingsFilters({
             ))}
           </select>
         </div>
+      </div>
+
+      <div className="space-y-1.5">
+        <label htmlFor="authenticityTier" className="text-xs uppercase tracking-widest text-white/50">
+          Authenticity Tier
+        </label>
+        <select
+          id="authenticityTier"
+          name="authenticityTier"
+          defaultValue={filters.authenticityTier ?? ""}
+          className="w-full rounded-xl border border-white/10 bg-black/30 px-3 py-2 text-sm text-white outline-none"
+        >
+          <option value="">All tiers</option>
+          {TIER_OPTIONS.map((tier) => (
+            <option key={tier} value={tier}>
+              {TIER_LABELS[tier]}
+            </option>
+          ))}
+        </select>
       </div>
 
       <div className="space-y-1.5">
@@ -101,13 +129,14 @@ export default function RankingsFilters({
           className="w-full rounded-xl border border-white/10 bg-black/30 px-3 py-2 text-sm text-white outline-none"
         >
           <option value="overall">Overall Rank</option>
-          <option value="authenticity">Authenticity</option>
+          <option value="authenticity">Authenticity Score</option>
+          <option value="authenticity_confidence">Authenticity Confidence</option>
           <option value="reviews">Reviews</option>
           <option value="sexy">Sexy Score</option>
         </select>
       </div>
 
-      <div className="flex items-end lg:col-span-5">
+      <div className="flex items-end lg:col-span-6">
         <button
           type="submit"
           className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-2.5 text-sm font-semibold text-white transition hover:opacity-90"

@@ -5,6 +5,13 @@ export type Language =
   | "Portuguese"
   | "German";
 
+export type AuthenticityTier =
+  | "verified_human"
+  | "likely_human"
+  | "uncertain"
+  | "likely_managed"
+  | "bot_risk";
+
 export type Creator = {
   id: number;
   name: string;
@@ -14,6 +21,7 @@ export type Creator = {
   language: Language | string;
   subscription_price: number;
   created_at: string;
+  public_source?: string | null;
 };
 
 export type Review = {
@@ -30,17 +38,34 @@ export type Scores = {
   review_score: number;
   sexy_score: number;
   authenticity_score: number;
+  authenticity_confidence: number;
+  authenticity_margin: number;
+  authenticity_tier: AuthenticityTier;
   overall_rank_score: number;
   last_calculated: string;
 };
 
-export type AuthenticitySignals = {
+/** Multi-dimensional authenticity signals from public research. */
+export type AuthenticityDimensionScores = {
+  direct_engagement_score: number;
+  agency_risk_score: number;
+  activity_pattern_score: number;
+  voice_consistency_score: number;
+  scale_penalty_score: number;
+  confidence: number;
+  tier: AuthenticityTier;
+  research_notes: string;
+  sources: string[];
+  human_verified: boolean;
+  ai_detection_flags: string[];
+};
+
+export type AuthenticitySignals = AuthenticityDimensionScores & {
   creator_id: number;
+  /** Legacy timing fields retained for chart compatibility */
   response_time_avg: number;
   message_personalization_score: number;
   response_consistency: number;
-  ai_detection_flags: string;
-  human_verified: boolean;
   last_checked: string;
 };
 
@@ -59,7 +84,8 @@ export type RankingFilters = {
   minAuthenticity?: number;
   minPrice?: number;
   maxPrice?: number;
-  sortBy?: "overall" | "authenticity" | "reviews" | "sexy";
+  authenticityTier?: AuthenticityTier;
+  sortBy?: "overall" | "authenticity" | "authenticity_confidence" | "reviews" | "sexy";
 };
 
 export type PlatformStats = {
@@ -67,4 +93,5 @@ export type PlatformStats = {
   avgAuthenticity: number;
   languages: string[];
   humanVerifiedCount: number;
+  verifiedHumanCount: number;
 };

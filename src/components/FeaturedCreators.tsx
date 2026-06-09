@@ -8,43 +8,88 @@ import type { RankedCreator } from "@/lib/types";
 
 type FeaturedCreatorsProps = {
   creators: RankedCreator[];
+  verifiedCreators?: RankedCreator[];
 };
 
-export default function FeaturedCreators({ creators }: FeaturedCreatorsProps) {
+export default function FeaturedCreators({
+  creators,
+  verifiedCreators = [],
+}: FeaturedCreatorsProps) {
   const featured = creators.slice(0, 3);
+  const topVerified = verifiedCreators.slice(0, 3);
 
   return (
-    <section className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <p className="text-sm uppercase tracking-[0.3em] text-white/50">
-            Top Ranked
-          </p>
-          <h2 className="text-2xl font-semibold text-white">
-            Featured Creators
-          </h2>
-        </div>
-        <Link
-          href="/rankings"
-          className="inline-flex items-center gap-1 text-sm font-semibold text-pink-300 hover:text-pink-200"
-        >
-          View all <ArrowRight className="h-4 w-4" />
-        </Link>
-      </div>
+    <>
+      {topVerified.length > 0 && (
+        <section className="space-y-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-sm uppercase tracking-[0.3em] text-emerald-400/80">
+                Highest Public Evidence
+              </p>
+              <h2 className="text-2xl font-semibold text-white">
+                Top Verified Human Creators
+              </h2>
+              <p className="mt-1 text-sm text-white/50">
+                Editorial estimates — creators with strongest public signals of
+                personal fan engagement
+              </p>
+            </div>
+            <Link
+              href="/rankings?authenticityTier=verified_human"
+              className="inline-flex items-center gap-1 text-sm font-semibold text-emerald-300 hover:text-emerald-200"
+            >
+              Filter all <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
 
-      <div className="grid gap-5 lg:grid-cols-3">
-        {featured.map((creator, index) => (
-          <motion.div
-            key={creator.id}
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.12 }}
+          <div className="grid gap-5 lg:grid-cols-3">
+            {topVerified.map((creator, index) => (
+              <motion.div
+                key={creator.id}
+                initial={{ opacity: 0, y: 24 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1 }}
+              >
+                <CreatorCard creator={creator} />
+              </motion.div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section className="space-y-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <p className="text-sm uppercase tracking-[0.3em] text-white/50">
+              Top Ranked
+            </p>
+            <h2 className="text-2xl font-semibold text-white">
+              Featured Creators
+            </h2>
+          </div>
+          <Link
+            href="/rankings"
+            className="inline-flex items-center gap-1 text-sm font-semibold text-pink-300 hover:text-pink-200"
           >
-            <CreatorCard creator={creator} />
-          </motion.div>
-        ))}
-      </div>
-    </section>
+            View all <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
+
+        <div className="grid gap-5 lg:grid-cols-3">
+          {featured.map((creator, index) => (
+            <motion.div
+              key={creator.id}
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.12 }}
+            >
+              <CreatorCard creator={creator} />
+            </motion.div>
+          ))}
+        </div>
+      </section>
+    </>
   );
 }
 
@@ -58,7 +103,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-white/70"
         >
           <ShieldCheck className="h-4 w-4 text-emerald-400" />
-          Public Data Only · Editorial Rankings
+          Editorial Estimate · Public Signals Only
         </motion.p>
 
         <motion.h1
@@ -77,9 +122,9 @@ export function HeroSection() {
           transition={{ delay: 0.2 }}
           className="text-lg text-white/70"
         >
-          OF Ranking uses a Human Authenticity Score to surface creators who
-          interact directly — no AI, no chatbots, no outsourced replies. Review
-          scores and appeal matter, but authenticity is weighted highest.
+          OF Ranking uses a five-dimension Human Authenticity Score researched
+          from public press, interviews, and documented fan discourse — not
+          verified DM audits. Authenticity is weighted highest at 45%.
         </motion.p>
 
         <motion.div

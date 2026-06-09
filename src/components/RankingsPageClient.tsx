@@ -11,15 +11,38 @@ type RankingsPageClientProps = {
   allCreators: CreatorWithDetails[];
 };
 
+const SORT_VALUES = [
+  "overall",
+  "authenticity",
+  "authenticity_confidence",
+  "reviews",
+  "sexy",
+] as const;
+
+const TIER_VALUES = [
+  "verified_human",
+  "likely_human",
+  "uncertain",
+  "likely_managed",
+  "bot_risk",
+] as const;
+
 function parseFilters(searchParams: URLSearchParams): RankingFilters {
-  const sortValues = ["overall", "authenticity", "reviews", "sexy"] as const;
   const sortParam = searchParams.get("sortBy");
-  const sortBy = sortValues.includes(sortParam as (typeof sortValues)[number])
+  const sortBy = SORT_VALUES.includes(sortParam as (typeof SORT_VALUES)[number])
     ? (sortParam as RankingFilters["sortBy"])
     : "overall";
 
+  const tierParam = searchParams.get("authenticityTier");
+  const authenticityTier = TIER_VALUES.includes(
+    tierParam as (typeof TIER_VALUES)[number]
+  )
+    ? (tierParam as RankingFilters["authenticityTier"])
+    : undefined;
+
   return {
     language: searchParams.get("language") || undefined,
+    authenticityTier,
     minAuthenticity: searchParams.get("minAuthenticity")
       ? Number(searchParams.get("minAuthenticity"))
       : undefined,

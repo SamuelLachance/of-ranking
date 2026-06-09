@@ -6,64 +6,135 @@ const outputPath = path.resolve("data", "creators.json");
 
 const seedData = JSON.parse(fs.readFileSync(seedPath, "utf-8"));
 
+const AUTHENTICITY_DIMENSION_WEIGHTS = {
+  direct_engagement: 0.25,
+  agency_risk_inverted: 0.25,
+  activity_pattern: 0.2,
+  voice_consistency: 0.15,
+  scale_penalty_inverted: 0.15,
+};
+
+const TIER_THRESHOLDS = {
+  verified_human: 80,
+  likely_human: 60,
+  uncertain: 40,
+  likely_managed: 20,
+};
+
+const clamp = (v, min = 0, max = 100) => Math.min(max, Math.max(min, v));
+const round1 = (v) => Math.round(v * 10) / 10;
+
 function reviewScoreFromRatings(reviews) {
   if (reviews.length === 0) return 50;
   const avg = reviews.reduce((s, r) => s + r.rating, 0) / reviews.length;
-  return Math.min(100, Math.max(0, ((avg - 1) / 4) * 100));
+  return clamp(((avg - 1) / 4) * 100);
 }
 
-function scoreResponseTiming(avgSeconds, consistency) {
-  let score = 50;
-  if (avgSeconds < 5) score -= 35;
-  else if (avgSeconds < 30) score -= 15;
-  else if (avgSeconds >= 120 && avgSeconds <= 7200) score += 25;
-  else if (avgSeconds > 7200) score += 10;
-  score += (100 - consistency) * 0.35;
-  return Math.min(100, Math.max(0, score));
+function getTierFromScore(score) {
+  if (score >= TIER_THRESHOLDS.verified_human) return "verified_human";
+  if (score >= TIER_THRESHOLDS.likely_human) return "likely_human";
+  if (score >= TIER_THRESHOLDS.uncertain) return "uncertain";
+  if (score >= TIER_THRESHOLDS.likely_managed) return "likely_managed";
+  return "bot_risk";
 }
 
-function scoreAiFlags(flags) {
-  const penalties = {
-    instant_response: 18,
-    generic_template: 15,
-    always_online: 12,
-    perfect_grammar: 10,
-    identical_patterns: 14,
-    no_sleep_pattern: 10,
-    copy_paste_detected: 16,
-  };
-  let score = 100;
-  for (const flag of flags) {
-    score -= penalties[flag] ?? 8;
+function signalDisagreementPenalty(dim) {
+  const humanSignals = [
+    dim.direct_engagement_score,
+    dim.activity_pattern_score,
+    dim.voice_consistency_score,
+    100 - dim.agency_risk_score,
+    100 - dim.scale_penalty_score,
+  ];
+  const spread = Math.max(...humanSignals) - Math.min(...humanSignals);
+  if (spread > 50) return 18;
+  if (spread > 35) return 10;
+  if (spread > 25) return 5;
+  return 0;
+}
+
+function getConfidenceMargin(confidence) {
+  return Math.round((100 - confidence) * 0.12);
+}
+
+function calculateAuthenticityScore(dim) {
+  const w = AUTHENTICITY_DIMENSION_WEIGHTS;
+  let raw =
+    dim.direct_engagement_score * w.direct_engagement +
+    (100 - dim.agency_risk_score) * w.agency_risk_inverted +
+    dim.activity_pattern_score * w.activity_pattern +
+    dim.voice_consistency_score * w.voice_consistency +
+    (100 - dim.scale_penalty_score) * w.scale_penalty_inverted;
+
+  const flagPenalty = Math.min(25, (dim.ai_detection_flags?.length ?? 0) * 4);
+  raw -= flagPenalty;
+
+  if (dim.human_verified && dim.direct_engagement_score >= 70) {
+    raw += 5;
   }
-  return Math.min(100, Math.max(0, score));
+
+  return clamp(round1(raw));
 }
 
-function calculateAuthenticityScore(signals) {
-  const timingScore = scoreResponseTiming(
-    signals.response_time_avg,
-    signals.response_consistency
-  );
-  const personalizationScore = Math.min(
-    100,
-    Math.max(0, signals.message_personalization_score)
-  );
-  const aiFlagScore = scoreAiFlags(signals.ai_detection_flags ?? []);
-  const verifiedBonus = signals.human_verified ? 8 : 0;
-
-  const raw =
-    timingScore * 0.28 +
-    personalizationScore * 0.32 +
-    aiFlagScore * 0.25 +
-    (100 - signals.response_consistency) * 0.15 +
-    verifiedBonus;
-
-  return Math.round(Math.min(100, Math.max(0, raw)) * 10) / 10;
+function resolveConfidence(dim, score) {
+  let confidence = clamp(dim.confidence);
+  confidence -= signalDisagreementPenalty(dim);
+  confidence += Math.min(8, (dim.sources?.length ?? 0) * 2);
+  if (dim.human_verified && dim.direct_engagement_score >= 75) confidence += 5;
+  if (score >= 80 && dim.agency_risk_score >= 70) confidence -= 12;
+  if (score <= 30 && dim.agency_risk_score <= 30) confidence -= 10;
+  return clamp(Math.round(confidence));
 }
 
 function calculateOverallScore(review, sexy, authenticity) {
-  const overall = review * 0.3 + sexy * 0.25 + authenticity * 0.45;
-  return Math.round(Math.min(100, Math.max(0, overall)) * 10) / 10;
+  return round1(clamp(review * 0.3 + sexy * 0.25 + authenticity * 0.45));
+}
+
+function buildSignalsFromSeed(creator, id) {
+  const raw = creator.authenticity_signals ?? creator.signals ?? {};
+  const dim = {
+    direct_engagement_score: raw.direct_engagement_score ?? 50,
+    agency_risk_score: raw.agency_risk_score ?? 50,
+    activity_pattern_score: raw.activity_pattern_score ?? 50,
+    voice_consistency_score: raw.voice_consistency_score ?? 50,
+    scale_penalty_score: raw.scale_penalty_score ?? 50,
+    confidence: raw.confidence ?? 50,
+    tier: raw.tier ?? "uncertain",
+    research_notes: raw.research_notes ?? "",
+    sources: raw.sources ?? [],
+    human_verified: Boolean(raw.human_verified),
+    ai_detection_flags: raw.ai_detection_flags ?? [],
+    response_time_avg: raw.response_time_avg ?? 1800,
+    message_personalization_score: raw.message_personalization_score ?? 50,
+    response_consistency: raw.response_consistency ?? 50,
+  };
+
+  const score = calculateAuthenticityScore(dim);
+  const confidence = resolveConfidence(dim, score);
+  const margin = getConfidenceMargin(confidence);
+  const tier =
+    dim.tier && dim.tier !== "uncertain" ? dim.tier : getTierFromScore(score);
+
+  return {
+    creator_id: id,
+    direct_engagement_score: dim.direct_engagement_score,
+    agency_risk_score: dim.agency_risk_score,
+    activity_pattern_score: dim.activity_pattern_score,
+    voice_consistency_score: dim.voice_consistency_score,
+    scale_penalty_score: dim.scale_penalty_score,
+    confidence,
+    tier,
+    research_notes: dim.research_notes,
+    sources: dim.sources,
+    human_verified: dim.human_verified,
+    ai_detection_flags: dim.ai_detection_flags,
+    response_time_avg: dim.response_time_avg,
+    message_personalization_score: dim.message_personalization_score,
+    response_consistency: dim.response_consistency,
+    last_checked: new Date().toISOString(),
+    _computed_score: score,
+    _computed_margin: margin,
+  };
 }
 
 const creators = seedData.map((creator, index) => {
@@ -76,15 +147,12 @@ const creators = seedData.map((creator, index) => {
     new Date(Date.now() - Math.floor(Math.random() * 365) * 86400000).toISOString();
   const now = new Date().toISOString();
 
-  const signals = {
-    creator_id: id,
-    response_time_avg: creator.signals.response_time_avg,
-    message_personalization_score: creator.signals.message_personalization_score,
-    response_consistency: creator.signals.response_consistency,
-    ai_detection_flags: JSON.stringify(creator.signals.ai_detection_flags ?? []),
-    human_verified: Boolean(creator.signals.human_verified),
-    last_checked: now,
-  };
+  const built = buildSignalsFromSeed(creator, id);
+  const {
+    _computed_score: authenticityScore,
+    _computed_margin: authenticityMargin,
+    ...signals
+  } = built;
 
   const reviews = creator.reviews.map((review, reviewIndex) => ({
     id: id * 100 + reviewIndex + 1,
@@ -96,16 +164,15 @@ const creators = seedData.map((creator, index) => {
   }));
 
   const reviewScore = reviewScoreFromRatings(reviews);
-  const authenticityScore = calculateAuthenticityScore({
-    ...creator.signals,
-    ai_detection_flags: creator.signals.ai_detection_flags ?? [],
-  });
 
   const scores = {
     creator_id: id,
-    review_score: Math.round(reviewScore * 10) / 10,
+    review_score: round1(reviewScore),
     sexy_score: creator.sexy_score,
     authenticity_score: authenticityScore,
+    authenticity_confidence: signals.confidence,
+    authenticity_margin: authenticityMargin,
+    authenticity_tier: signals.tier,
     overall_rank_score: calculateOverallScore(
       reviewScore,
       creator.sexy_score,
@@ -133,7 +200,8 @@ const creators = seedData.map((creator, index) => {
 const bundle = {
   generated_at: new Date().toISOString(),
   disclaimer:
-    "Creator profiles use publicly available marketing information only. Scores and reviews are editorial estimates — not verified audits or live platform data.",
+    "Editorial estimate from public signals only. Scores reflect publicly available marketing information, press coverage, and documented fan discourse — not verified DM audits or live platform telemetry. We do not scrape OnlyFans.",
+  methodology_version: "2.0-multidimensional",
   creators,
 };
 

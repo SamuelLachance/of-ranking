@@ -5,12 +5,16 @@ import { getPlatformStats, getRankedCreators } from "@/lib/data";
 export default function HomePage() {
   const stats = getPlatformStats();
   const ranked = getRankedCreators({ sortBy: "overall" });
+  const verifiedHuman = getRankedCreators({
+    authenticityTier: "verified_human",
+    sortBy: "authenticity",
+  });
 
   return (
     <main className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-10 lg:px-10 lg:py-16">
       <HeroSection />
       <StatsDashboard stats={stats} />
-      <FeaturedCreators creators={ranked} />
+      <FeaturedCreators creators={ranked} verifiedCreators={verifiedHuman} />
 
       <section className="glass-card border border-amber-500/20 bg-amber-500/5 p-6 text-sm text-white/70">
         <strong className="text-amber-200">Data transparency:</strong> Profiles

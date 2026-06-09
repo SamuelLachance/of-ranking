@@ -19,3 +19,12 @@ export function formatResponseTime(seconds: number): string {
 export function cn(...classes: (string | false | undefined)[]): string {
   return classes.filter(Boolean).join(" ");
 }
+
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+/** Resolve a public asset path for GitHub Pages basePath in production. */
+export function publicAsset(path: string): string {
+  if (path.startsWith("http://") || path.startsWith("https://")) return path;
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  return `${BASE_PATH}${normalized}`;
+}
