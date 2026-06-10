@@ -14,12 +14,23 @@ export type AuthenticityTier =
   | "likely_managed"
   | "bot_risk";
 
+export type AvatarSource =
+  | "override"
+  | "unavatar"
+  | "wikipedia"
+  | "wikimedia"
+  | "bing"
+  | "fallback";
+
 export type Creator = {
   id: number;
   name: string;
   username: string;
   bio: string;
   avatar_url: string;
+  avatar_source?: AvatarSource;
+  avatar_verified?: boolean;
+  avatar_fallback?: boolean;
   language: Language | string;
   subscription_price: number;
   created_at: string;

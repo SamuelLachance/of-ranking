@@ -84,6 +84,8 @@ export default async function CreatorDetailPage({ params }: PageProps) {
             src={creator.avatar_url}
             name={creator.name}
             className="h-48 w-48 shrink-0"
+            verified={creator.avatar_verified}
+            fallback={creator.avatar_fallback}
           />
           <div className="flex-1 space-y-3">
             <div className="flex flex-wrap items-center gap-3">

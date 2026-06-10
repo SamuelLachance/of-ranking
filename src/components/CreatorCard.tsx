@@ -59,6 +59,8 @@ export default function CreatorCard({ creator, compact }: CreatorCardProps) {
             src={creator.avatar_url}
             name={creator.name}
             className="h-20 w-20"
+            verified={creator.avatar_verified}
+            fallback={creator.avatar_fallback}
           />
           <span className="absolute -bottom-1 -right-1 rounded-full bg-black/80 px-1.5 py-0.5 text-xs">
             #{creator.rank}

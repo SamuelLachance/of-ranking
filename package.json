@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build-avatar-overrides": "node scripts/build-avatar-overrides.mjs",
     "fetch-avatars": "node scripts/fetch-avatars.js",
     "generate-data": "node scripts/generate-static-data.js",
     "predev": "npm run generate-data",

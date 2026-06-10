@@ -1,1028 +1,1226 @@
 {
-  "_comment": "Verified portrait URLs. Wikipedia/Wikimedia preferred; unavatar uses public social profile photos. fallback=true uses Dicebear initials.",
   "amouranth": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Amouranth_at_DreamHack_Atlanta_2024.jpg",
-    "source": "Wikipedia — Amouranth",
     "size": 76048
   },
   "corinnakopf": {
+    "source": "override",
+    "fallback": false,
     "url": "https://unavatar.io/twitch/corinnakopf",
-    "source": "twitch @corinnakopf via unavatar.io",
     "size": 112230
   },
   "bellathorne": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bella_Thorne_OnlyFans_3.jpg",
-    "source": "Wikipedia — Bella Thorne",
     "size": 81127
   },
   "sophieraiin": {
+    "source": "override",
+    "fallback": false,
     "url": "https://unavatar.io/tiktok/sophieraiin",
-    "source": "tiktok @sophieraiin via unavatar.io",
     "size": 184311
   },
   "realbhadbhabie": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bhad_Bhabie_passport.jpg",
-    "source": "Wikipedia — Bhad Bhabie",
     "size": 24094
   },
   "iggyazalea": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Iggy_Azalea%2C_Main_Stage_EXIT_Festival_2022_1_%28cropped2%29.jpg",
-    "source": "Wikipedia — Iggy Azalea",
     "size": 3278088
   },
   "tanamongeau": {
-    "url": "https://unavatar.io/twitter/tanamongeau",
-    "source": "twitter @tanamongeau via unavatar.io",
+    "source": "override",
+    "fallback": false,
+    "url": "https://unavatar.io/x/tanamongeau",
     "size": 23142
   },
   "miakhalifa": {
+    "source": "override",
+    "fallback": false,
     "url": "https://unavatar.io/tiktok/miakhalifa",
-    "source": "tiktok @miakhalifa via unavatar.io",
     "size": 70705
   },
   "carmenelectra": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Carmen_Electra_2013.jpg",
-    "source": "Wikipedia — Carmen Electra",
-    "size": 355399
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=carmenelectra&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7699
   },
   "tyga": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tyga_-_Openair_Frauenfeld_2019_02.jpg",
-    "source": "Wikipedia — Tyga",
     "size": 4290019
   },
   "denisersichards": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Denise_Richards_and_Kellie_Martin_2012_%28cropped%29.jpg",
-    "source": "Wikipedia — Denise Richards",
-    "size": 520226
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=denisersichards&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7396
   },
   "rubirose": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Rubi_Rose.jpg",
-    "source": "Wikipedia — Rubi Rose",
     "size": 2223151
   },
   "lynaritaa": {
-    "url": "https://unavatar.io/twitter/lynaritaa",
-    "source": "twitter @lynaritaa via unavatar.io",
+    "source": "override",
+    "fallback": false,
+    "url": "https://unavatar.io/x/lynaritaa",
     "size": 846864
   },
   "paolhard": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=paolhard&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7506
   },
   "astridnelsia": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=astridnelsia&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8036
   },
   "anitta": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Anitta_for_Attractive_Mindset_podcast_02.jpg",
-    "source": "Wikipedia — Anitta (singer)",
-    "size": 59195
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=anitta&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 8050
   },
   "mcmirella": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=mcmirella&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8461
   },
   "pietro_boselli": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=pietro_boselli&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7741
   },
   "juli.annee": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=juli.annee&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7279
   },
   "elenakamperi": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=elenakamperi&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6422
   },
   "blacchyna": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Blac_Chyna_by_dvsross_%28cropped%29_2.jpg",
-    "source": "Wikipedia — Blac Chyna",
     "size": 673869
   },
   "belledelphine": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Belle_Delphine_-_2020-b_%28cropped%29.png",
-    "source": "Wikipedia — Belle Delphine",
-    "size": 384962
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=belledelphine&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7465
   },
   "fitbryceadams": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=fitbryceadams&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6400
   },
   "ericamena": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Erica_Mena_on_Pure_DOPE.jpg",
-    "source": "Wikipedia — Erica Mena",
-    "size": 236694
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=ericamena&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7357
   },
   "jordynwoods": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Jordyn_Woods_2019.png",
-    "source": "Wikipedia — Jordyn Woods",
-    "size": 435272
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=jordynwoods&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7461
   },
   "jemwolfie": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=jemwolfie&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6590
   },
   "amberrose": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Amber_Rose_2018_by_Glenn_Francis.jpg",
-    "source": "Wikipedia — Amber Rose",
-    "size": 2974938
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=amberrose&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 8753
   },
   "larsapippen": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Larsa_Pippen_OnlyFans_2.jpg",
-    "source": "Wikipedia — Larsa Pippen",
-    "size": 57332
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=larsapippen&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7082
   },
   "tylerposey": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Tyler_Posey_at_Galaxy_Con_Richmond_%2855177563609%29.jpg",
-    "source": "Wikimedia Commons — Tyler Posey at Galaxy Con Richmond (55177563609).jpg",
     "size": 4254073
   },
   "dreadematteo": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Drea_de_Matteo_feb_2015.jpg",
-    "source": "Wikipedia — Drea de Matteo",
     "size": 1772464
   },
   "lilyallenftse500": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/El_Rey_Theatre_-_Lily_Allen_04_25_2018_-4_%2828125957447%29_%28cropped%29.jpg",
-    "source": "Wikipedia — Lily Allen",
-    "size": 1085112
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=lilyallenftse500&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 6190
   },
   "lottiemossof": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Lottie_E._Wilson.jpg",
-    "source": "Wikimedia Commons — Lottie E. Wilson.jpg",
-    "size": 41399
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=lottiemossof&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7383
   },
   "samisheen": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=samisheen&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8035
   },
   "sonjamorgan": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Sonja_Morgan_at_September_2025_Downton_Abbey_The_Grand_Finale_Premiere_in_New_York_%28cropped%29.jpg",
-    "source": "Wikipedia — Sonja Morgan",
-    "size": 893509
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=sonjamorgan&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 8260
   },
   "whitney": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Whitney_Cummings_2019.png",
-    "source": "Wikipedia — Whitney Cummings",
-    "size": 127464
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=whitney&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 8547
   },
   "shannamoakler": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Shanna_Moakler_2010.jpg",
-    "source": "Wikipedia — Shanna Moakler",
-    "size": 459108
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=shannamoakler&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7434
   },
   "meganbartonhanson": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Megan_Barton_Hanson_on_Mae_Muller.jpg",
-    "source": "Wikipedia — Megan Barton-Hanson",
     "size": 86306
   },
   "treysongz": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Trey_Songs_%286936188686%29.jpg",
-    "source": "Wikimedia Commons — Trey Songs (6936188686).jpg",
-    "size": 1128846
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=treysongz&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7080
   },
   "lanarhoades": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lana_Rhoades_2-2017_%28cropped%29.jpg",
-    "source": "Wikipedia — Lana Rhoades",
-    "size": 712130
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=lanarhoades&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7082
   },
   "iamsafaree": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=iamsafaree&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7195
   },
   "madisonbeer": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Madison_Beer_%40_Greek_Theatre_L.A._06_13_2024_%2853839434064%29_%28cropped_3x4%29.jpg",
-    "source": "Wikipedia — Madison Beer",
-    "size": 2019527
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=madisonbeer&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 8700
   },
   "coco": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Nicole_%22Coco%22_Austin_at_the_Tribeca_Film_Festival.jpg",
-    "source": "Wikipedia — Coco Austin",
-    "size": 1433821
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=coco&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7933
   },
   "amandabynes": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Amanda_Bynes_on_the_Red_Carpet_%28cropped2%29.jpg",
-    "source": "Wikipedia — Amanda Bynes",
     "size": 551122
   },
   "piamia": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Pia_Mia_2019_by_Glenn_Francis.jpg",
-    "source": "Wikipedia — Pia Mia",
     "size": 1537953
   },
   "austinmahone": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Get_Sweaty_With_Social_Media_Stars_King_Bach%2C_Austin_Mahone_%26_India_Love.jpg",
-    "source": "Wikipedia — Austin Mahone",
-    "size": 106890
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=austinmahone&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7768
   },
   "alexadamsxxx": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=alexadamsxxx&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7103
   },
   "gem101": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=gem101&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7443
   },
   "sommerray": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=sommerray&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8260
   },
   "chloesaxon": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=chloesaxon&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7239
   },
   "gracecharis": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=gracecharis&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8079
   },
   "megnutt02": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=megnutt02&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8027
   },
   "iamcardib": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Cardi_B_March_2024.png",
-    "source": "Wikipedia — Cardi B",
     "size": 757001
   },
   "carmenelectravip": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=carmenelectravip&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7699
   },
   "salicerose": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=salicerose&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8035
   },
   "daniellachavez": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=daniellachavez&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8043
   },
   "keyalves": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Key_Alves_2023.png",
-    "source": "Wikipedia — Key Alves",
-    "size": 177137
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=keyalves&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7325
   },
   "francety": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=francety&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7182
   },
   "lilianaheartsss": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=lilianaheartsss&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6190
   },
   "cintiacossio": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=cintiacossio&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6929
   },
   "aidacortesll": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=aidacortesll&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7206
   },
   "katyaelisehenrysworld": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=katyaelisehenrysworld&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8091
   },
   "camillaxaraujo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=camillaxaraujo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7699
   },
   "chimocurves": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Joaqu%C3%ADn_Sorolla_y_Bastida_-_El_Pescador_%281889%29.jpg",
-    "source": "Wikimedia Commons — Joaquín Sorolla y Bastida - El Pescador (1889).jpg",
-    "size": 1357355
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=chimocurves&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7239
   },
   "candetinelli": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=candetinelli&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7699
   },
   "michelleerabbit": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=michelleerabbit&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7684
   },
   "andreitax_garcia": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=andreitax_garcia&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8215
   },
   "veebaby1612": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=veebaby1612&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7362
   },
   "valeng222": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=valeng222&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8021
   },
   "criss-geithner": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=criss-geithner&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7910
   },
   "jostasy": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=jostasy&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7461
   },
   "lauravansalazar": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Laura_van_der_heijden-1452632517.jpeg",
-    "source": "Wikimedia Commons — Laura van der heijden-1452632517.jpeg",
-    "size": 727752
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=lauravansalazar&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7082
   },
   "yuslopez": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=yuslopez&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7449
   },
   "sariahxoxo": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Venetsianov_old_man.jpg",
-    "source": "Wikimedia Commons — Venetsianov old man.jpg",
     "size": 155451
   },
   "misslavoie": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=misslavoie&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7684
   },
   "antonellarios": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=antonellarios&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8050
   },
   "anaespinolavip": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=anaespinolavip&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8050
   },
   "giulia.rosa": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=giulia.rosa&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8079
   },
   "esterb": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=esterb&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7345
   },
   "karolrosado": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=karolrosado&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8091
   },
   "valentinaabello": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=valentinaabello&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8021
   },
   "adelaguerravip": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=adelaguerravip&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8089
   },
   "latinalight": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=latinalight&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7082
   },
   "twinsabello": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=twinsabello&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8152
   },
   "hayleytothemax": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=hayleytothemax&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7554
   },
   "kristenrodz": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=kristenrodz&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8065
   },
   "itsaliyahmarie": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=itsaliyahmarie&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6065
   },
   "victoriavalentinaf": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=victoriavalentinaf&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7062
   },
   "stefanypiett": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=stefanypiett&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7085
   },
   "toni-camille": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=toni-camille&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6869
   },
   "jessxo13": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=jessxo13&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6590
   },
   "sabrinasabrok": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=sabrinasabrok&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8035
   },
   "fratianyy": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=fratianyy&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7182
   },
   "thaliarestrepo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=thaliarestrepo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6619
   },
   "gabrielladecarvalho": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=gabrielladecarvalho&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8256
   },
   "emmmyxo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=emmmyxo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8021
   },
   "lore.galvez": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=lore.galvez&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7244
   },
   "keikotepes": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=keikotepes&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7325
   },
   "tatizaqui.ofc": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=tatizaqui.ofc&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7502
   },
   "mathildtantot": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=mathildtantot&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8700
   },
   "paulinetantot": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=paulinetantot&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7506
   },
   "claramorgane": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Clara_Morgane_1_%28portrait_cropped%29.jpg",
-    "source": "Wikipedia — Clara Morgane",
     "size": 376046
   },
   "nathalieandreani": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=nathalieandreani&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8043
   },
   "anissakate": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=anissakate&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8050
   },
   "shannakress": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=shannakress&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7434
   },
   "amandinepellissard": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=amandinepellissard&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8753
   },
   "sarahfraisou": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=sarahfraisou&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8035
   },
   "polska": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Kazimiera_I%C5%82%C5%82akowicz%C3%B3wna.jpg",
-    "source": "Wikimedia Commons — Kazimiera Iłłakowiczówna.jpg",
-    "size": 1010481
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=polska&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7872
   },
   "theonlynati": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Giovanni_Antonio_Fasolo_-_Portrait_of_a_gentleman_and_a_child_with_a_dog.jpg",
-    "source": "Wikimedia Commons — Giovanni Antonio Fasolo - Portrait of a gentleman and a child with a dog.jpg",
-    "size": 3280854
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=theonlynati&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 6619
   },
   "juliane_krauss": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=juliane_krauss&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7210
   },
   "tamytation_free": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=tamytation_free&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6347
   },
   "germanjasmin": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Jasmin_Moghbeli_official_portrait.jpg",
-    "source": "Wikimedia Commons — Jasmin Moghbeli official portrait.jpg",
-    "size": 3282419
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=germanjasmin&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7443
   },
   "siljeofficial": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Silje_Torp%2C_portrait.jpg",
-    "source": "Wikimedia Commons — Silje Torp, portrait.jpg",
-    "size": 415211
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=siljeofficial&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7089
   },
   "briannaboops": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=briannaboops&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8064
   },
   "luna.bianchi": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=luna.bianchi&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7001
   },
   "martinavismara": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=martinavismara&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8700
   },
   "giulianacabrazia": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=giulianacabrazia&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7238
   },
   "ilariaborgonovo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=ilariaborgonovo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6133
   },
   "vi_olivero": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=vi_olivero&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8315
   },
   "chiarabellinii": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=chiarabellinii&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7239
   },
   "tessaa.x0": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=tessaa.x0&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7345
   },
   "excinderella": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=excinderella&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7642
   },
   "your_lovely_girl_vlada": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Jacques-Louis_David_-_Equestrian_portrait_of_Stanis%C5%82aw_Kostka_Potocki_-_Google_Art_Project.jpg",
-    "source": "Wikimedia Commons — Jacques-Louis David - Equestrian portrait of Stanisław Kostka Potocki - Google Art Project.jpg",
     "size": 2076441
   },
   "renogold": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=renogold&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7305
   },
   "danniiharwood": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=danniiharwood&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8043
   },
   "milamondell": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=milamondell&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
-  },
-  "djkhaledandfatjoe": {
-    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=djkhaledandfatjoe&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (duo account — no single portrait)",
-    "fallback": true
+    "size": 7684
   },
   "bellathorneoff": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=bellathorneoff&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7465
   },
   "neekolul": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=neekolul&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7477
   },
   "indiefoxx": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=indiefoxx&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7175
   },
   "morgpie": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Morgpie_at_Renfaire_by_Knut_Spildrejorde.jpg",
-    "source": "Wikipedia — Morgpie",
     "size": 81144
   },
   "hannahowo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=hannahowo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7554
   },
   "skylarmaexo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=skylarmaexo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7878
   },
   "emilyblack": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=emilyblack&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8021
   },
   "bonnieblue": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/The_blue_and_the_gray%2C_or%2C_The_Civil_War_as_seen_by_a_boy_-_a_story_of_patriotism_and_adventure_in_our_war_for_the_Union_%281898%29_%2814576418859%29.jpg",
-    "source": "Wikimedia Commons — The blue and the gray, or, The Civil War as seen by a boy - a story of patriotism and adventure in our war for the Union (1898) (14576418859).jpg",
-    "size": 4320847
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=bonnieblue&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 8309
   },
   "faithlianne": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=faithlianne&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7330
   },
   "arikytsya": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=arikytsya&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8033
   },
   "marleny1": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=marleny1&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8700
   },
   "waifumiia": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=waifumiia&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8977
   },
   "peachjars": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=peachjars&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6925
   },
   "avarosabella": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=avarosabella&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8012
   },
   "barbirican": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=barbirican&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8170
   },
   "alliavocado": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=alliavocado&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7103
   },
   "chloe.sasha": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=chloe.sasha&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7733
   },
   "victoryaxo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=victoryaxo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7062
   },
   "trukait": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=trukait&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7080
   },
   "romimalaspina": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Romina_Malaspina.jpg",
-    "source": "Wikipedia — Romina Malaspina",
     "size": 30980
   },
   "yinyleon": {
-    "url": "https://unavatar.io/twitter/yinyleon",
-    "source": "twitter @yinyleon via unavatar.io",
+    "source": "override",
+    "fallback": false,
+    "url": "https://unavatar.io/x/yinyleon",
     "size": 27873
   },
   "misstiff": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=misstiff&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7684
   },
   "stephrodriguez": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=stephrodriguez&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7085
   },
   "carolinasamani": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=carolinasamani&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7699
   },
   "georginnalatinaa": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Georgina_Weldon_by_Elliott_%26_Fry.jpg",
-    "source": "Wikimedia Commons — Georgina Weldon by Elliott & Fry.jpg",
-    "size": 3873435
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=georginnalatinaa&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7443
   },
   "paolavegaoficial": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=paolavegaoficial&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7506
   },
   "danielarb2000": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=danielarb2000&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8043
   },
   "solyluna24": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=solyluna24&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8260
   },
   "shunli_mei": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=shunli_mei&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8512
   },
   "daniellenicollee": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Journalist_Danielle_Nicole_Smith_in_2019.jpg",
-    "source": "Wikimedia Commons — Journalist Danielle Nicole Smith in 2019.jpg",
     "size": 449304
   },
   "andreaortiz01": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=andreaortiz01&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8050
   },
   "dulcesoltero": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=dulcesoltero&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7733
   },
   "jadelewinsky": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=jadelewinsky&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7279
   },
   "lorenapeach": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=lorenapeach&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7383
   },
   "p0ison": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Cramps1982-07.jpg",
-    "source": "Wikimedia Commons — Cramps1982-07.jpg",
     "size": 96546
   },
   "abellacroft": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=abellacroft&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8188
   },
   "julietabejarano": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=julietabejarano&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6884
   },
   "amayablue1985": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=amayablue1985&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8753
   },
   "danielac1509": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=danielac1509&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8043
   },
   "alejandroospina": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=alejandroospina&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7103
   },
   "danielmontoya": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=danielmontoya&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8043
   },
   "vanessasierra": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=vanessasierra&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8021
   },
   "bernardtomic": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bernard_Tomi%C4%87_%282025_DC_Open%29_03_%28cropped%29.jpg",
-    "source": "Wikipedia — Bernard Tomic",
     "size": 856035
   },
   "nessaoriley": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=nessaoriley&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7477
   },
   "azul_hermosa": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=azul_hermosa&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7554
   },
   "angelawhite": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Angela_White_2019_by_Glenn_Francis.jpg",
-    "source": "Wikipedia — Angela White",
-    "size": 10363443
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=angelawhite&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 8050
   },
   "rileyreid": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Riley_Reid_2019_by_Glenn_Francis.jpg",
-    "source": "Wikipedia — Riley Reid",
-    "size": 3034894
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=rileyreid&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7100
   },
   "abelladanger": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Abella_Danger_Tux_2017_%28portrait_cropped%29.jpg",
-    "source": "Wikipedia — Abella Danger",
     "size": 190727
   },
   "autumnfalls": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=autumnfalls&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7768
   },
   "emilywillis": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Emily_Willis_on_Holly_Randall_Unfiltered_%28portrait_cropped%29.jpg",
-    "source": "Wikipedia — Emily Willis",
     "size": 79540
   },
   "vinasky": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=vinasky&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7062
   },
   "kazumisworld": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/%E9%9D%92%E6%A3%AE%E7%9C%8C_%E8%AD%B0%E9%95%B7_%E4%B8%89%E6%A9%8B%E4%B8%80%E4%B8%89.jpg",
-    "source": "Wikimedia Commons — 青森県 議長 三橋一三.jpg",
-    "size": 199985
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=kazumisworld&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 8091
   },
   "cobie": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Vrouwen_naar_de_Olympische_Zomerspelen_1948.jpg",
-    "source": "Wikimedia Commons — Vrouwen naar de Olympische Zomerspelen 1948.jpg",
     "size": 199892
   },
   "princessemily": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Lucas_Cranach_d.%C3%84._-_Bildnis_einer_jungen_Frau_%28Statens_Museum_for_Kunst%29.jpg",
-    "source": "Wikimedia Commons — Lucas Cranach d.Ä. - Bildnis einer jungen Frau (Statens Museum for Kunst).jpg",
-    "size": 4537241
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=princessemily&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 7718
   },
   "nicoleponxo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=nicoleponxo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7175
   },
   "arikytsyafree": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=arikytsyafree&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8033
   },
   "buffpup": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=buffpup&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7711
   },
   "filian": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=filian&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6400
   },
   "ironmouse": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/en/0/0e/Ironmouse_YT_Portrait.png",
-    "source": "Wikipedia — Ironmouse",
     "size": 307359
   },
   "projektmelody": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Projekt_Melody.png",
-    "source": "Wikipedia — Projekt Melody",
     "size": 81074
   },
   "camilaelle": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=camilaelle&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7699
   },
   "ariellaferrera": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=ariellaferrera&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8033
   },
   "evaelfie": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Eva_Elfie_at_CS2_on_ohnepixel.jpg",
-    "source": "Wikipedia — Eva Elfie",
     "size": 35680
   },
   "solazola": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=solazola&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8260
   },
   "littlepuck": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=littlepuck&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6190
   },
   "mewslut": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=mewslut&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8027
   },
   "f1nn5ter": {
+    "source": "override",
+    "fallback": false,
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/F1NN5TER_cat_ears_crop.jpg",
-    "source": "Wikipedia — F1NN5TER",
     "size": 112639
   },
   "quqco": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=quqco&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8274
   },
   "meowriza": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=meowriza&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8027
   },
   "valeriakepler": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=valeriakepler&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8021
   },
   "chantaldaniela": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=chantaldaniela&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7239
   },
   "f_iona": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ciri_Cosplay_%28The_Witcher_3_Wild_Hunt%29_%E2%80%A2_2.jpg",
-    "source": "Wikimedia Commons — Ciri Cosplay (The Witcher 3 Wild Hunt) • 2.jpg",
-    "size": 11581918
+    "source": "fallback",
+    "fallback": true,
+    "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=f_iona&size=400&backgroundColor=ec4899,8b5cf6",
+    "size": 6400
   },
   "isabellaroy": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=isabellaroy&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7117
   },
   "shivashanti420": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=shivashanti420&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7434
   },
   "savagexcherry": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=savagexcherry&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 8035
   },
   "sandra_russo": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=sandra_russo&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7911
   },
   "itsalessandrarusso": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=itsalessandrarusso&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 6065
   },
   "diamondgirl_ul": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=diamondgirl_ul&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7733
   },
   "lovely_kira": {
+    "source": "fallback",
+    "fallback": true,
     "url": "https://api.dicebear.com/7.x/initials/jpeg?seed=lovely_kira&size=400&backgroundColor=ec4899,8b5cf6",
-    "source": "Dicebear initials (no verified portrait found)",
-    "fallback": true
+    "size": 7039
   }
 }

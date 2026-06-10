@@ -43,7 +43,10 @@
       ]
     },
     "nude_score": 52,
-    "nude_score_notes": "Fan reviews and press describe lingerie/cosplay/swimwear focus without full nudity; public landing page markets 'exclusive content' but discourse consistently labels her non-nude with pasties/tease marketing."
+    "nude_score_notes": "Fan reviews and press describe lingerie/cosplay/swimwear focus without full nudity; public landing page markets 'exclusive content' but discourse consistently labels her non-nude with pasties/tease marketing.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Corinna Kopf",
@@ -89,7 +92,10 @@
       ]
     },
     "nude_score": 84,
-    "nude_score_notes": "Press and public social promos market 'exclusive' and explicit behind-the-scenes content; celebrity OF launch framed around adult content access."
+    "nude_score_notes": "Press and public social promos market 'exclusive' and explicit behind-the-scenes content; celebrity OF launch framed around adult content access.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Bella Thorne",
@@ -135,7 +141,10 @@
       ]
     },
     "nude_score": 82,
-    "nude_score_notes": "Rolling Stone and press documented her OF launch promoting explicit content; one of the first celebrity explicit-marketing debuts on the platform."
+    "nude_score_notes": "Rolling Stone and press documented her OF launch promoting explicit content; one of the first celebrity explicit-marketing debuts on the platform.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Sophie Rain",
@@ -184,7 +193,10 @@
       ]
     },
     "nude_score": 58,
-    "nude_score_notes": "Multiple interviews (Yahoo, Full Send, GQ) state she avoids full nudity and keeps content 'reserved'; heavy thirst-trap marketing but public claims no nude posts."
+    "nude_score_notes": "Multiple interviews (Yahoo, Full Send, GQ) state she avoids full nudity and keeps content 'reserved'; heavy thirst-trap marketing but public claims no nude posts.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Bhad Bhabie",
@@ -229,7 +241,10 @@
       ]
     },
     "nude_score": 87,
-    "nude_score_notes": "Variety/Billboard interviews on record OF earnings; public brand centers on explicit adult content marketing."
+    "nude_score_notes": "Variety/Billboard interviews on record OF earnings; public brand centers on explicit adult content marketing.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Iggy Azalea",
@@ -272,7 +287,10 @@
       ]
     },
     "nude_score": 83,
-    "nude_score_notes": "Celebrity OF with public promos emphasizing explicit photos and videos for subscribers."
+    "nude_score_notes": "Celebrity OF with public promos emphasizing explicit photos and videos for subscribers.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Tana Mongeau",
@@ -315,7 +333,10 @@
       ]
     },
     "nude_score": 82,
-    "nude_score_notes": "Influencer OF launch publicly marketed around explicit and uncensored subscriber content."
+    "nude_score_notes": "Influencer OF launch publicly marketed around explicit and uncensored subscriber content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Mia Khalifa",
@@ -358,7 +379,10 @@
       ]
     },
     "nude_score": 88,
-    "nude_score_notes": "Former adult film star; press universally describes explicit content as her OF primary offering."
+    "nude_score_notes": "Former adult film star; press universally describes explicit content as her OF primary offering.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Carmen Electra",
@@ -404,7 +428,10 @@
       ]
     },
     "nude_score": 65,
-    "nude_score_notes": "Celebrity OF with lingerie and implied-nude marketing; Playboy background cited in public bios."
+    "nude_score_notes": "Celebrity OF with lingerie and implied-nude marketing; Playboy background cited in public bios.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Tyga",
@@ -449,7 +476,10 @@
       ]
     },
     "nude_score": 42,
-    "nude_score_notes": "Male rapper; public OF promos focus on music/lifestyle rather than body-explicit content."
+    "nude_score_notes": "Male rapper; public OF promos focus on music/lifestyle rather than body-explicit content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Denise Richards",
@@ -489,7 +519,10 @@
       "sources": []
     },
     "nude_score": 58,
-    "nude_score_notes": "Celebrity subscription page publicly marketed with lingerie and behind-the-scenes content; no press claims of hardcore explicit catalog."
+    "nude_score_notes": "Celebrity subscription page publicly marketed with lingerie and behind-the-scenes content; no press claims of hardcore explicit catalog.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Rubi Rose",
@@ -529,7 +562,10 @@
       "sources": []
     },
     "nude_score": 83,
-    "nude_score_notes": "Rapper/model OF publicly promoted with explicit photo and video language in social bios."
+    "nude_score_notes": "Rapper/model OF publicly promoted with explicit photo and video language in social bios.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Lyna Perez",
@@ -569,7 +605,10 @@
       "sources": []
     },
     "nude_score": 78,
-    "nude_score_notes": "Instagram model OF; public promos emphasize exclusive lingerie and nude-style PPV bundles."
+    "nude_score_notes": "Instagram model OF; public promos emphasize exclusive lingerie and nude-style PPV bundles.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Paola Hard",
@@ -611,7 +650,10 @@
       ]
     },
     "nude_score": 90,
-    "nude_score_notes": "Adult content creator; public bios and press describe explicit videos as core subscription offering."
+    "nude_score_notes": "Adult content creator; public bios and press describe explicit videos as core subscription offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Astrid Nelsia",
@@ -654,7 +696,10 @@
       ]
     },
     "nude_score": 80,
-    "nude_score_notes": "French influencer OF; public social promos market uncensored exclusive content."
+    "nude_score_notes": "French influencer OF; public social promos market uncensored exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Anitta",
@@ -701,7 +746,10 @@
       ]
     },
     "nude_score": 78,
-    "nude_score_notes": "Brazilian pop star OF launch covered in press with explicit content marketing language."
+    "nude_score_notes": "Brazilian pop star OF launch covered in press with explicit content marketing language.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "MC Mirella",
@@ -744,7 +792,10 @@
       ]
     },
     "nude_score": 82,
-    "nude_score_notes": "Brazilian creator; public bios promote explicit photos and videos for subscribers."
+    "nude_score_notes": "Brazilian creator; public bios promote explicit photos and videos for subscribers.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Pietro Boselli",
@@ -787,7 +838,10 @@
       ]
     },
     "nude_score": 48,
-    "nude_score_notes": "Male fitness model; public content described as shirtless fitness and lifestyle, not explicit nude catalog."
+    "nude_score_notes": "Male fitness model; public content described as shirtless fitness and lifestyle, not explicit nude catalog.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Juli Annee",
@@ -829,7 +883,10 @@
       ]
     },
     "nude_score": 55,
-    "nude_score_notes": "Instagram model known for lingerie and bikini marketing; public bios emphasize tease content."
+    "nude_score_notes": "Instagram model known for lingerie and bikini marketing; public bios emphasize tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Elena Kamperi",
@@ -872,7 +929,10 @@
       ]
     },
     "nude_score": 48,
-    "nude_score_notes": "German fitness influencer; public content described as workout and bikini lifestyle, not explicit nude."
+    "nude_score_notes": "German fitness influencer; public content described as workout and bikini lifestyle, not explicit nude.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Blac Chyna",
@@ -914,7 +974,10 @@
     ],
     "avatar_url": "/avatars/blacchyna.jpg",
     "nude_score": 84,
-    "nude_score_notes": "Celebrity OF; public promos and press describe explicit subscriber content as primary draw."
+    "nude_score_notes": "Celebrity OF; public promos and press describe explicit subscriber content as primary draw.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Belle Delphine",
@@ -953,7 +1016,10 @@
     ],
     "avatar_url": "/avatars/belledelphine.jpg",
     "nude_score": 86,
-    "nude_score_notes": "Public brand built on provocative explicit marketing (including viral stunts); press describes adult-style content catalog."
+    "nude_score_notes": "Public brand built on provocative explicit marketing (including viral stunts); press describes adult-style content catalog.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Bryce Adams",
@@ -995,7 +1061,10 @@
     ],
     "avatar_url": "/avatars/fitbryceadams.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Fitness creator; public promos market explicit workout and shower content with nude PPV bundles mentioned."
+    "nude_score_notes": "Fitness creator; public promos market explicit workout and shower content with nude PPV bundles mentioned.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Erica Mena",
@@ -1037,7 +1106,10 @@
     ],
     "avatar_url": "/avatars/ericamena.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Reality TV personality; public OF marketing emphasizes explicit photos and videos."
+    "nude_score_notes": "Reality TV personality; public OF marketing emphasizes explicit photos and videos.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Jordyn Woods",
@@ -1079,7 +1151,10 @@
     ],
     "avatar_url": "/avatars/jordynwoods.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Celebrity OF launch publicly framed around exclusive explicit subscriber content."
+    "nude_score_notes": "Celebrity OF launch publicly framed around exclusive explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Jem Wolfie",
@@ -1118,7 +1193,10 @@
     ],
     "avatar_url": "/avatars/jemwolfie.jpg",
     "nude_score": 68,
-    "nude_score_notes": "Fitness model; public marketing mixes bikini content with explicit nude PPV mentioned in fan discourse."
+    "nude_score_notes": "Fitness model; public marketing mixes bikini content with explicit nude PPV mentioned in fan discourse.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Amber Rose",
@@ -1160,7 +1238,10 @@
     ],
     "avatar_url": "/avatars/amberrose.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Model/celebrity OF; public bios promote explicit and uncensored subscriber content."
+    "nude_score_notes": "Model/celebrity OF; public bios promote explicit and uncensored subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Larsa Pippen",
@@ -1202,7 +1283,10 @@
     ],
     "avatar_url": "/avatars/larsapippen.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Reality TV personality OF; public promos market lingerie and explicit-style exclusive content."
+    "nude_score_notes": "Reality TV personality OF; public promos market lingerie and explicit-style exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Tyler Posey",
@@ -1244,7 +1328,10 @@
     ],
     "avatar_url": "/avatars/tylerposey.jpg",
     "nude_score": 45,
-    "nude_score_notes": "Male actor OF; public marketing focuses on behind-the-scenes and implied content, not explicit nude catalog."
+    "nude_score_notes": "Male actor OF; public marketing focuses on behind-the-scenes and implied content, not explicit nude catalog.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Drea de Matteo",
@@ -1286,7 +1373,10 @@
     ],
     "avatar_url": "/avatars/dreadematteo.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Sopranos actress OF; press coverage describes lingerie and explicit-style subscriber content."
+    "nude_score_notes": "Sopranos actress OF; press coverage describes lingerie and explicit-style subscriber content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Lily Allen",
@@ -1328,7 +1418,10 @@
     ],
     "avatar_url": "/avatars/lilyallenftse500.jpg",
     "nude_score": 18,
-    "nude_score_notes": "Billboard/People/Fox News: account dedicated exclusively to feet photos with strict 'only feet, no nudity' public statements."
+    "nude_score_notes": "Billboard/People/Fox News: account dedicated exclusively to feet photos with strict 'only feet, no nudity' public statements.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Lottie Moss",
@@ -1370,7 +1463,10 @@
     ],
     "avatar_url": "/avatars/lottiemossof.jpg",
     "nude_score": 68,
-    "nude_score_notes": "Model OF; public social promos market lingerie and topless-style exclusive content."
+    "nude_score_notes": "Model OF; public social promos market lingerie and topless-style exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Sami Sheen",
@@ -1412,7 +1508,10 @@
     ],
     "avatar_url": "/avatars/samisheen.jpg",
     "nude_score": 62,
-    "nude_score_notes": "Celebrity offspring OF; public marketing emphasizes lingerie and implied-nude exclusives."
+    "nude_score_notes": "Celebrity offspring OF; public marketing emphasizes lingerie and implied-nude exclusives.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Sonja Morgan",
@@ -1454,7 +1553,10 @@
     ],
     "avatar_url": "/avatars/sonjamorgan.jpg",
     "nude_score": 58,
-    "nude_score_notes": "RHONY star OF; press describes lingerie and tease content rather than explicit catalog."
+    "nude_score_notes": "RHONY star OF; press describes lingerie and tease content rather than explicit catalog.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Whitney Cummings",
@@ -1493,7 +1595,10 @@
     ],
     "avatar_url": "/avatars/whitney.jpg",
     "nude_score": 32,
-    "nude_score_notes": "Comedian OF; public statements frame content as comedy/empowerment with limited body-explicit marketing."
+    "nude_score_notes": "Comedian OF; public statements frame content as comedy/empowerment with limited body-explicit marketing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Shanna Moakler",
@@ -1535,7 +1640,10 @@
     ],
     "avatar_url": "/avatars/shannamoakler.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Model/reality OF; public promos market lingerie and explicit-style PPV content."
+    "nude_score_notes": "Model/reality OF; public promos market lingerie and explicit-style PPV content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Megan Barton-Hanson",
@@ -1577,7 +1685,10 @@
     ],
     "avatar_url": "/avatars/meganbartonhanson.jpg",
     "nude_score": 74,
-    "nude_score_notes": "UK reality star OF; press describes explicit subscriber content marketing."
+    "nude_score_notes": "UK reality star OF; press describes explicit subscriber content marketing.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Trey Songz",
@@ -1619,7 +1730,10 @@
     ],
     "avatar_url": "/avatars/treysongz.jpg",
     "nude_score": 38,
-    "nude_score_notes": "Male R&B artist; public OF promos focus on music exclusives, not body-explicit content."
+    "nude_score_notes": "Male R&B artist; public OF promos focus on music exclusives, not body-explicit content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Lana Rhoades",
@@ -1658,7 +1772,10 @@
     ],
     "avatar_url": "/avatars/lanarhoades.jpg",
     "nude_score": 94,
-    "nude_score_notes": "Major adult film star; press and public bios describe full explicit content as primary OnlyFans offering."
+    "nude_score_notes": "Major adult film star; press and public bios describe full explicit content as primary OnlyFans offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Safaree Samuels",
@@ -1700,7 +1817,10 @@
     ],
     "avatar_url": "/avatars/iamsafaree.jpg",
     "nude_score": 55,
-    "nude_score_notes": "Male rapper OF; public marketing emphasizes lifestyle content over explicit body sharing."
+    "nude_score_notes": "Male rapper OF; public marketing emphasizes lifestyle content over explicit body sharing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Madison Beer",
@@ -1742,7 +1862,10 @@
     ],
     "avatar_url": "/avatars/madisonbeer.jpg",
     "nude_score": 58,
-    "nude_score_notes": "Pop star OF; public marketing emphasizes exclusive behind-the-scenes with lingerie tease, not explicit nude claims."
+    "nude_score_notes": "Pop star OF; public marketing emphasizes exclusive behind-the-scenes with lingerie tease, not explicit nude claims.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Coco Austin",
@@ -1784,7 +1907,10 @@
     ],
     "avatar_url": "/avatars/coco.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Model/reality personality; public OF promos market lingerie and explicit-style content."
+    "nude_score_notes": "Model/reality personality; public OF promos market lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Amanda Bynes",
@@ -1823,7 +1949,10 @@
     ],
     "avatar_url": "/avatars/amandabynes.jpg",
     "nude_score": 35,
-    "nude_score_notes": "Limited public OF marketing; no press describing explicit body content catalog."
+    "nude_score_notes": "Limited public OF marketing; no press describing explicit body content catalog.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Pia Mia",
@@ -1862,7 +1991,10 @@
     ],
     "avatar_url": "/avatars/piamia.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Singer/influencer OF; public social promos market exclusive explicit subscriber content."
+    "nude_score_notes": "Singer/influencer OF; public social promos market exclusive explicit subscriber content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Austin Mahone",
@@ -1904,7 +2036,10 @@
     ],
     "avatar_url": "/avatars/austinmahone.jpg",
     "nude_score": 40,
-    "nude_score_notes": "Male pop artist OF; public promos focus on music/lifestyle exclusives."
+    "nude_score_notes": "Male pop artist OF; public promos focus on music/lifestyle exclusives.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Alex Adams",
@@ -1943,7 +2078,10 @@
     ],
     "avatar_url": "/avatars/alexadamsxxx.jpg",
     "nude_score": 92,
-    "nude_score_notes": "Adult content creator; public brand explicitly markets hardcore explicit videos."
+    "nude_score_notes": "Adult content creator; public brand explicitly markets hardcore explicit videos.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Gemma McCourt",
@@ -1985,7 +2123,10 @@
     ],
     "avatar_url": "/avatars/gem101.jpg",
     "nude_score": 82,
-    "nude_score_notes": "UK creator; public bios promote explicit photos and videos for subscribers."
+    "nude_score_notes": "UK creator; public bios promote explicit photos and videos for subscribers.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Sommer Ray",
@@ -2024,7 +2165,10 @@
     ],
     "avatar_url": "/avatars/sommerray.jpg",
     "nude_score": 48,
-    "nude_score_notes": "Fitness model; public content described as bikini and workout tease without explicit nude marketing."
+    "nude_score_notes": "Fitness model; public content described as bikini and workout tease without explicit nude marketing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Chloe Saxon",
@@ -2063,7 +2207,10 @@
     ],
     "avatar_url": "/avatars/chloesaxon.jpg",
     "nude_score": 78,
-    "nude_score_notes": "UK model OF; public promos market lingerie and explicit-style PPV bundles."
+    "nude_score_notes": "UK model OF; public promos market lingerie and explicit-style PPV bundles.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Grace Charis",
@@ -2102,7 +2249,10 @@
     ],
     "avatar_url": "/avatars/gracecharis.jpg",
     "nude_score": 55,
-    "nude_score_notes": "Golf influencer; public marketing emphasizes suggestive tease content; press does not describe full nude catalog."
+    "nude_score_notes": "Golf influencer; public marketing emphasizes suggestive tease content; press does not describe full nude catalog.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Megan Nutt",
@@ -2141,7 +2291,10 @@
     ],
     "avatar_url": "/avatars/megnutt02.jpg",
     "nude_score": 65,
-    "nude_score_notes": "TikTok creator OF; public thirst-trap marketing with lingerie content; mixed fan discourse on explicit PPV."
+    "nude_score_notes": "TikTok creator OF; public thirst-trap marketing with lingerie content; mixed fan discourse on explicit PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Cardi B",
@@ -2183,7 +2336,10 @@
     ],
     "avatar_url": "/avatars/iamcardib.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Celebrity OF; public promos market explicit behind-the-scenes and lingerie content."
+    "nude_score_notes": "Celebrity OF; public promos market explicit behind-the-scenes and lingerie content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Carmen Electra VIP",
@@ -2225,7 +2381,10 @@
     ],
     "avatar_url": "/avatars/carmenelectravip.jpg",
     "nude_score": 66,
-    "nude_score_notes": "VIP tier marketed with more revealing exclusive content per public promo pages."
+    "nude_score_notes": "VIP tier marketed with more revealing exclusive content per public promo pages.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Salice Rose",
@@ -2267,7 +2426,10 @@
     ],
     "avatar_url": "/avatars/salicerose.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Influencer OF; public bios promote exclusive lingerie and implied-nude content."
+    "nude_score_notes": "Influencer OF; public bios promote exclusive lingerie and implied-nude content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Daniella Chavez",
@@ -2309,7 +2471,10 @@
     ],
     "avatar_url": "/avatars/daniellachavez.jpg",
     "nude_score": 85,
-    "nude_score_notes": "Latina model OF; public promos emphasize explicit uncensored subscriber content."
+    "nude_score_notes": "Latina model OF; public promos emphasize explicit uncensored subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Key Alves",
@@ -2351,7 +2516,10 @@
     ],
     "avatar_url": "/avatars/keyalves.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Brazilian model; public social marketing describes explicit photos and videos."
+    "nude_score_notes": "Brazilian model; public social marketing describes explicit photos and videos.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Francia James",
@@ -2393,7 +2561,10 @@
     ],
     "avatar_url": "/avatars/francety.jpg",
     "nude_score": 84,
-    "nude_score_notes": "Latina creator; public bios market explicit uncensored content for subscribers."
+    "nude_score_notes": "Latina creator; public bios market explicit uncensored content for subscribers.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Liliana Hearts",
@@ -2432,7 +2603,10 @@
     ],
     "avatar_url": "/avatars/lilianaheartsss.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Latina model OF; public promos emphasize explicit lingerie and nude-style content."
+    "nude_score_notes": "Latina model OF; public promos emphasize explicit lingerie and nude-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Cintia Cossio",
@@ -2471,7 +2645,10 @@
     ],
     "avatar_url": "/avatars/cintiacossio.jpg",
     "nude_score": 83,
-    "nude_score_notes": "Argentine model; public social promos market explicit exclusive content."
+    "nude_score_notes": "Argentine model; public social promos market explicit exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Aida Cortés",
@@ -2510,7 +2687,10 @@
     ],
     "avatar_url": "/avatars/aidacortesll.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Latina creator; public bios promote uncensored explicit subscriber content."
+    "nude_score_notes": "Latina creator; public bios promote uncensored explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Katya Elise Henry",
@@ -2549,7 +2729,10 @@
     ],
     "avatar_url": "/avatars/katyaelisehenrysworld.jpg",
     "nude_score": 50,
-    "nude_score_notes": "Fitness influencer; public content described as workout and bikini lifestyle tease."
+    "nude_score_notes": "Fitness influencer; public content described as workout and bikini lifestyle tease.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Camilla Araujo",
@@ -2588,7 +2771,10 @@
     ],
     "avatar_url": "/avatars/camillaxaraujo.jpg",
     "nude_score": 80,
-    "nude_score_notes": "TikTok creator OF; public marketing emphasizes explicit exclusive subscriber content."
+    "nude_score_notes": "TikTok creator OF; public marketing emphasizes explicit exclusive subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Chimo",
@@ -2627,7 +2813,10 @@
     ],
     "avatar_url": "/avatars/chimocurves.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Latina model OF; public promos market explicit lingerie and nude-style content."
+    "nude_score_notes": "Latina model OF; public promos market explicit lingerie and nude-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Candelaria Tinelli",
@@ -2669,7 +2858,10 @@
     ],
     "avatar_url": "/avatars/candetinelli.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Argentine media personality; public OF marketing describes exclusive revealing content."
+    "nude_score_notes": "Argentine media personality; public OF marketing describes exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Michelle Rabbit",
@@ -2708,7 +2900,10 @@
     ],
     "avatar_url": "/avatars/michelleerabbit.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Latina creator; public bios promote explicit uncensored photos and videos."
+    "nude_score_notes": "Latina creator; public bios promote explicit uncensored photos and videos.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Andrea Garcia",
@@ -2747,7 +2942,10 @@
     ],
     "avatar_url": "/avatars/andreitax_garcia.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Latina model; public social promos market explicit subscriber content."
+    "nude_score_notes": "Latina model; public social promos market explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Virginia Sanhouse",
@@ -2786,7 +2984,10 @@
     ],
     "avatar_url": "/avatars/veebaby1612.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Venezuelan model OF; public marketing emphasizes explicit exclusive content."
+    "nude_score_notes": "Venezuelan model OF; public marketing emphasizes explicit exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Valentina Gomez",
@@ -2825,7 +3026,10 @@
     ],
     "avatar_url": "/avatars/valeng222.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Latina creator; public promos market lingerie and explicit-style PPV."
+    "nude_score_notes": "Latina creator; public promos market lingerie and explicit-style PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Aura Cristina Geithner",
@@ -2867,7 +3071,10 @@
     ],
     "avatar_url": "/avatars/criss-geithner.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Colombian TV personality OF; public marketing describes exclusive revealing content."
+    "nude_score_notes": "Colombian TV personality OF; public marketing describes exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Jostasy",
@@ -2906,7 +3113,10 @@
     ],
     "avatar_url": "/avatars/jostasy.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Latina creator; public bios promote explicit uncensored subscriber content."
+    "nude_score_notes": "Latina creator; public bios promote explicit uncensored subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Laura Van",
@@ -2945,7 +3155,10 @@
     ],
     "avatar_url": "/avatars/lauravansalazar.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Colombian model OF; public promos market explicit exclusive content."
+    "nude_score_notes": "Colombian model OF; public promos market explicit exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Yus Lopez",
@@ -2984,7 +3197,10 @@
     ],
     "avatar_url": "/avatars/yuslopez.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Argentine influencer OF; public marketing describes revealing exclusive content."
+    "nude_score_notes": "Argentine influencer OF; public marketing describes revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Sari",
@@ -3023,7 +3239,10 @@
     ],
     "avatar_url": "/avatars/sariahxoxo.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Latina creator; public bios promote explicit subscriber content."
+    "nude_score_notes": "Latina creator; public bios promote explicit subscriber content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Jade Lavoie",
@@ -3062,7 +3281,10 @@
     ],
     "avatar_url": "/avatars/misslavoie.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Canadian model OF; public promos market lingerie and explicit-style content."
+    "nude_score_notes": "Canadian model OF; public promos market lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Antonella Rios",
@@ -3101,7 +3323,10 @@
     ],
     "avatar_url": "/avatars/antonellarios.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Latina model; public social marketing describes exclusive revealing content."
+    "nude_score_notes": "Latina model; public social marketing describes exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Ana Espinola",
@@ -3140,7 +3365,10 @@
     ],
     "avatar_url": "/avatars/anaespinolavip.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Latina VIP OF; public promos emphasize uncensored explicit subscriber content."
+    "nude_score_notes": "Latina VIP OF; public promos emphasize uncensored explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Giulia Rosa",
@@ -3179,7 +3407,10 @@
     ],
     "avatar_url": "/avatars/giulia.rosa.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Italian model OF; public marketing describes lingerie and explicit-style content."
+    "nude_score_notes": "Italian model OF; public marketing describes lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Ester Bron",
@@ -3218,7 +3449,10 @@
     ],
     "avatar_url": "/avatars/esterb.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Latina creator; public bios promote exclusive revealing subscriber content."
+    "nude_score_notes": "Latina creator; public bios promote exclusive revealing subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Karol Rasado",
@@ -3257,7 +3491,10 @@
     ],
     "avatar_url": "/avatars/karolrosado.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Colombian model OF; public promos market explicit-style exclusive content."
+    "nude_score_notes": "Colombian model OF; public promos market explicit-style exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Valentina Abello",
@@ -3296,7 +3533,10 @@
     ],
     "avatar_url": "/avatars/valentinaabello.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Latina creator; public marketing describes uncensored exclusive content."
+    "nude_score_notes": "Latina creator; public marketing describes uncensored exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Adela Guerra",
@@ -3335,7 +3575,10 @@
     ],
     "avatar_url": "/avatars/adelaguerravip.jpg",
     "nude_score": 80,
-    "nude_score_notes": "VIP OF; public promos emphasize explicit uncensored subscriber content."
+    "nude_score_notes": "VIP OF; public promos emphasize explicit uncensored subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Diana Maux",
@@ -3374,7 +3617,10 @@
     ],
     "avatar_url": "/avatars/latinalight.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Latina model; public bios market lingerie and explicit-style PPV bundles."
+    "nude_score_notes": "Latina model; public bios market lingerie and explicit-style PPV bundles.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Twins Abello",
@@ -3413,7 +3659,10 @@
     ],
     "avatar_url": "/avatars/twinsabello.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Twin creators OF; public promos market explicit exclusive content."
+    "nude_score_notes": "Twin creators OF; public promos market explicit exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Hayley Maxfield",
@@ -3452,7 +3701,10 @@
     ],
     "avatar_url": "/avatars/hayleytothemax.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Model OF; public marketing describes lingerie and revealing exclusive content."
+    "nude_score_notes": "Model OF; public marketing describes lingerie and revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Kristen Rodriguez",
@@ -3491,7 +3743,10 @@
     ],
     "avatar_url": "/avatars/kristenrodz.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Latina creator; public promos market explicit-style subscriber content."
+    "nude_score_notes": "Latina creator; public promos market explicit-style subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Aliyah Marie",
@@ -3530,7 +3785,10 @@
     ],
     "avatar_url": "/avatars/itsaliyahmarie.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Model OF; public bios promote lingerie and explicit-style PPV."
+    "nude_score_notes": "Model OF; public bios promote lingerie and explicit-style PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Victoria Valentina",
@@ -3569,7 +3827,10 @@
     ],
     "avatar_url": "/avatars/victoriavalentinaf.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Latina model; public marketing describes exclusive revealing content."
+    "nude_score_notes": "Latina model; public marketing describes exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Stefany Piedrahita",
@@ -3608,7 +3869,10 @@
     ],
     "avatar_url": "/avatars/stefanypiett.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Colombian creator; public promos market explicit subscriber content."
+    "nude_score_notes": "Colombian creator; public promos market explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Toni Camille",
@@ -3647,7 +3911,10 @@
     ],
     "avatar_url": "/avatars/toni-camille.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Model OF; public bios promote lingerie and explicit-style content."
+    "nude_score_notes": "Model OF; public bios promote lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Jessika Kolosovas",
@@ -3686,7 +3953,10 @@
     ],
     "avatar_url": "/avatars/jessxo13.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Latina creator; public marketing describes revealing exclusive content."
+    "nude_score_notes": "Latina creator; public marketing describes revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Sabrina Sabrok",
@@ -3728,7 +3998,10 @@
     ],
     "avatar_url": "/avatars/sabrinasabrok.jpg",
     "nude_score": 88,
-    "nude_score_notes": "Mexican model/TV personality; press and public bios describe explicit adult content as core offering."
+    "nude_score_notes": "Mexican model/TV personality; press and public bios describe explicit adult content as core offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Fratiany",
@@ -3767,7 +4040,10 @@
     ],
     "avatar_url": "/avatars/fratianyy.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Latina creator; public promos market lingerie and explicit-style content."
+    "nude_score_notes": "Latina creator; public promos market lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Thaliahna Restrepo",
@@ -3806,7 +4082,10 @@
     ],
     "avatar_url": "/avatars/thaliarestrepo.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Colombian model OF; public marketing describes exclusive revealing content."
+    "nude_score_notes": "Colombian model OF; public marketing describes exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Gabriela Carvalho",
@@ -3845,7 +4124,10 @@
     ],
     "avatar_url": "/avatars/gabrielladecarvalho.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Brazilian creator; public bios promote explicit subscriber content."
+    "nude_score_notes": "Brazilian creator; public bios promote explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Emely Torres",
@@ -3884,7 +4166,10 @@
     ],
     "avatar_url": "/avatars/emmmyxo.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Latina model; public promos market lingerie and explicit-style PPV."
+    "nude_score_notes": "Latina model; public promos market lingerie and explicit-style PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Lorena Gálvez",
@@ -3923,7 +4208,10 @@
     ],
     "avatar_url": "/avatars/lore.galvez.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Latina creator; public marketing describes uncensored exclusive content."
+    "nude_score_notes": "Latina creator; public marketing describes uncensored exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Keiko",
@@ -3962,7 +4250,10 @@
     ],
     "avatar_url": "/avatars/keikotepes.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Latina model OF; public promos market revealing exclusive content."
+    "nude_score_notes": "Latina model OF; public promos market revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Tati Zaqui",
@@ -4004,7 +4295,10 @@
     ],
     "avatar_url": "/avatars/tatizaqui.ofc.jpg",
     "nude_score": 86,
-    "nude_score_notes": "Brazilian creator; press and public bios describe explicit adult content marketing."
+    "nude_score_notes": "Brazilian creator; press and public bios describe explicit adult content marketing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Mathilde Tantot",
@@ -4046,7 +4340,10 @@
     ],
     "avatar_url": "/avatars/mathildtantot.jpg",
     "nude_score": 52,
-    "nude_score_notes": "French fitness model; public content described as bikini and workout tease without explicit nude claims."
+    "nude_score_notes": "French fitness model; public content described as bikini and workout tease without explicit nude claims.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Pauline Tantot",
@@ -4088,7 +4385,10 @@
     ],
     "avatar_url": "/avatars/paulinetantot.jpg",
     "nude_score": 54,
-    "nude_score_notes": "French model; public marketing emphasizes lingerie and bikini lifestyle content."
+    "nude_score_notes": "French model; public marketing emphasizes lingerie and bikini lifestyle content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Clara Morgane",
@@ -4130,7 +4430,10 @@
     ],
     "avatar_url": "/avatars/claramorgane.jpg",
     "nude_score": 90,
-    "nude_score_notes": "Former French adult film star; press describes explicit content as primary OF offering."
+    "nude_score_notes": "Former French adult film star; press describes explicit content as primary OF offering.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Nathalie Andreani",
@@ -4172,7 +4475,10 @@
     ],
     "avatar_url": "/avatars/nathalieandreani.jpg",
     "nude_score": 74,
-    "nude_score_notes": "French model OF; public promos market lingerie and explicit-style content."
+    "nude_score_notes": "French model OF; public promos market lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Anissa Kate",
@@ -4211,7 +4517,10 @@
     ],
     "avatar_url": "/avatars/anissakate.jpg",
     "nude_score": 91,
-    "nude_score_notes": "French adult film star; public brand explicitly markets hardcore explicit content."
+    "nude_score_notes": "French adult film star; public brand explicitly markets hardcore explicit content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Shanna Kress",
@@ -4250,7 +4559,10 @@
     ],
     "avatar_url": "/avatars/shannakress.jpg",
     "nude_score": 72,
-    "nude_score_notes": "French influencer OF; public marketing describes revealing exclusive content."
+    "nude_score_notes": "French influencer OF; public marketing describes revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Amandine Pellissard",
@@ -4292,7 +4604,10 @@
     ],
     "avatar_url": "/avatars/amandinepellissard.jpg",
     "nude_score": 68,
-    "nude_score_notes": "French reality TV OF; public promos market lingerie and tease content."
+    "nude_score_notes": "French reality TV OF; public promos market lingerie and tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Sarah Fraisou",
@@ -4331,7 +4646,10 @@
     ],
     "avatar_url": "/avatars/sarahfraisou.jpg",
     "nude_score": 70,
-    "nude_score_notes": "French reality personality OF; public marketing describes exclusive revealing content."
+    "nude_score_notes": "French reality personality OF; public marketing describes exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Polska",
@@ -4370,7 +4688,10 @@
     ],
     "avatar_url": "/avatars/polska.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Polish creator; public bios promote explicit subscriber content."
+    "nude_score_notes": "Polish creator; public bios promote explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Nati",
@@ -4409,7 +4730,10 @@
     ],
     "avatar_url": "/avatars/theonlynati.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Polish model OF; public promos market lingerie and explicit-style content."
+    "nude_score_notes": "Polish model OF; public promos market lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Juliane Krauss",
@@ -4448,7 +4772,10 @@
     ],
     "avatar_url": "/avatars/juliane_krauss.jpg",
     "nude_score": 74,
-    "nude_score_notes": "German model; public marketing describes revealing exclusive content."
+    "nude_score_notes": "German model; public marketing describes revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Tamy",
@@ -4487,7 +4814,10 @@
     ],
     "avatar_url": "/avatars/tamytation_free.jpg",
     "nude_score": 72,
-    "nude_score_notes": "German creator; public promos market lingerie and explicit-style PPV."
+    "nude_score_notes": "German creator; public promos market lingerie and explicit-style PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Jasmin",
@@ -4526,7 +4856,10 @@
     ],
     "avatar_url": "/avatars/germanjasmin.jpg",
     "nude_score": 74,
-    "nude_score_notes": "German model OF; public bios promote exclusive revealing content."
+    "nude_score_notes": "German model OF; public bios promote exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Silje",
@@ -4565,7 +4898,10 @@
     ],
     "avatar_url": "/avatars/siljeofficial.jpg",
     "nude_score": 68,
-    "nude_score_notes": "Norwegian model; public marketing describes bikini and lingerie tease content."
+    "nude_score_notes": "Norwegian model; public marketing describes bikini and lingerie tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Brianna Boops",
@@ -4604,7 +4940,10 @@
     ],
     "avatar_url": "/avatars/briannaboops.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Model OF; public promos market explicit-style subscriber content."
+    "nude_score_notes": "Model OF; public promos market explicit-style subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Luna Bianchi",
@@ -4643,7 +4982,10 @@
     ],
     "avatar_url": "/avatars/luna.bianchi.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Italian model; public bios promote lingerie and explicit-style content."
+    "nude_score_notes": "Italian model; public bios promote lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Martina Vismara",
@@ -4685,7 +5027,10 @@
     ],
     "avatar_url": "/avatars/martinavismara.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Italian influencer; public marketing describes explicit exclusive subscriber content."
+    "nude_score_notes": "Italian influencer; public marketing describes explicit exclusive subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Giuliana Cabrazia",
@@ -4724,7 +5069,10 @@
     ],
     "avatar_url": "/avatars/giulianacabrazia.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Italian model OF; public promos market revealing exclusive content."
+    "nude_score_notes": "Italian model OF; public promos market revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Ilaria Borgonovo",
@@ -4763,7 +5111,10 @@
     ],
     "avatar_url": "/avatars/ilariaborgonovo.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Italian creator; public marketing describes lingerie and explicit-style PPV."
+    "nude_score_notes": "Italian creator; public marketing describes lingerie and explicit-style PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Virginia Olivero",
@@ -4802,7 +5153,10 @@
     ],
     "avatar_url": "/avatars/vi_olivero.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Italian model; public bios promote exclusive revealing content."
+    "nude_score_notes": "Italian model; public bios promote exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Chiara Bellini",
@@ -4841,7 +5195,10 @@
     ],
     "avatar_url": "/avatars/chiarabellinii.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Italian creator OF; public promos market lingerie and tease content."
+    "nude_score_notes": "Italian creator OF; public promos market lingerie and tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Tessa Capri",
@@ -4880,7 +5237,10 @@
     ],
     "avatar_url": "/avatars/tessaa.x0.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Model OF; public marketing describes explicit-style subscriber content."
+    "nude_score_notes": "Model OF; public marketing describes explicit-style subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Marta Kowalczyk",
@@ -4919,7 +5279,10 @@
     ],
     "avatar_url": "/avatars/excinderella.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Polish model; public promos market lingerie and explicit-style content."
+    "nude_score_notes": "Polish model; public promos market lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Aleksandra",
@@ -4958,7 +5321,10 @@
     ],
     "avatar_url": "/avatars/your_lovely_girl_vlada.jpg",
     "nude_score": 70,
-    "nude_score_notes": "European model OF; public bios promote revealing exclusive content."
+    "nude_score_notes": "European model OF; public bios promote revealing exclusive content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Reno Gold",
@@ -5000,7 +5366,10 @@
     ],
     "avatar_url": "/avatars/renogold.jpg",
     "nude_score": 88,
-    "nude_score_notes": "Male adult content creator; public brand explicitly markets nude and explicit videos."
+    "nude_score_notes": "Male adult content creator; public brand explicitly markets nude and explicit videos.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Dannii Harwood",
@@ -5042,7 +5411,10 @@
     ],
     "avatar_url": "/avatars/danniiharwood.jpg",
     "nude_score": 85,
-    "nude_score_notes": "UK adult model; press describes explicit content as primary OF offering."
+    "nude_score_notes": "UK adult model; press describes explicit content as primary OF offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Mila Mondell",
@@ -5084,7 +5456,10 @@
     ],
     "avatar_url": "/avatars/milamondell.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Model OF; public promos market lingerie and explicit-style PPV bundles."
+    "nude_score_notes": "Model OF; public promos market lingerie and explicit-style PPV bundles.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "DJ Khaled & Fat Joe",
@@ -5126,7 +5501,10 @@
     ],
     "avatar_url": "/avatars/djkhaledandfatjoe.jpg",
     "nude_score": 15,
-    "nude_score_notes": "Joint celebrity account; public marketing centers on music exclusives, not body content."
+    "nude_score_notes": "Joint celebrity account; public marketing centers on music exclusives, not body content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Bella Thorne VIP",
@@ -5168,7 +5546,10 @@
     ],
     "avatar_url": "/avatars/bellathorneoff.jpg",
     "nude_score": 83,
-    "nude_score_notes": "VIP tier publicly marketed as more explicit uncensored content versus main page."
+    "nude_score_notes": "VIP tier publicly marketed as more explicit uncensored content versus main page.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Neekolul",
@@ -5207,7 +5588,10 @@
     ],
     "avatar_url": "/avatars/neekolul.jpg",
     "nude_score": 45,
-    "nude_score_notes": "Twitch streamer OF; public content described as cosplay and bikini tease without explicit nude marketing."
+    "nude_score_notes": "Twitch streamer OF; public content described as cosplay and bikini tease without explicit nude marketing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Indie Foxx",
@@ -5246,7 +5630,10 @@
     ],
     "avatar_url": "/avatars/indiefoxx.jpg",
     "nude_score": 55,
-    "nude_score_notes": "Twitch streamer banned for suggestive content; public OF marketing emphasizes tease rather than documented explicit catalog."
+    "nude_score_notes": "Twitch streamer banned for suggestive content; public OF marketing emphasizes tease rather than documented explicit catalog.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Morgpie",
@@ -5285,7 +5672,10 @@
     ],
     "avatar_url": "/avatars/morgpie.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Twitch/OF crossover; public marketing emphasizes explicit subscriber content per fan discourse and promos."
+    "nude_score_notes": "Twitch/OF crossover; public marketing emphasizes explicit subscriber content per fan discourse and promos.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Hannah Owo",
@@ -5324,7 +5714,10 @@
     ],
     "avatar_url": "/avatars/hannahowo.jpg",
     "nude_score": 68,
-    "nude_score_notes": "Twitch/OF creator; public thirst-trap marketing with lingerie content; viral discourse on suggestive but not always full nude."
+    "nude_score_notes": "Twitch/OF creator; public thirst-trap marketing with lingerie content; viral discourse on suggestive but not always full nude.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Skylar Mae",
@@ -5363,7 +5756,10 @@
     ],
     "avatar_url": "/avatars/skylarmaexo.jpg",
     "nude_score": 88,
-    "nude_score_notes": "Known for explicit content marketing; public brand and press describe nude/explicit subscriber content."
+    "nude_score_notes": "Known for explicit content marketing; public brand and press describe nude/explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Emily Black",
@@ -5402,7 +5798,10 @@
     ],
     "avatar_url": "/avatars/emilyblack.jpg",
     "nude_score": 87,
-    "nude_score_notes": "UK creator; public promos and press describe explicit nude content as core offering."
+    "nude_score_notes": "UK creator; public promos and press describe explicit nude content as core offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Bonnie Blue",
@@ -5441,7 +5840,10 @@
     ],
     "avatar_url": "/avatars/bonnieblue.jpg",
     "nude_score": 95,
-    "nude_score_notes": "Press extensively documents extreme explicit content marketing; publicly discussed record-setting explicit challenges."
+    "nude_score_notes": "Press extensively documents extreme explicit content marketing; publicly discussed record-setting explicit challenges.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Faith Lianne",
@@ -5480,7 +5882,10 @@
     ],
     "avatar_url": "/avatars/faithlianne.jpg",
     "nude_score": 58,
-    "nude_score_notes": "TikTok model; public marketing emphasizes bikini and lingerie tease content."
+    "nude_score_notes": "TikTok model; public marketing emphasizes bikini and lingerie tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Ari Kytsya",
@@ -5519,7 +5924,10 @@
     ],
     "avatar_url": "/avatars/arikytsya.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Creator; public bios promote explicit uncensored subscriber content."
+    "nude_score_notes": "Creator; public bios promote explicit uncensored subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Marleny1",
@@ -5558,7 +5966,10 @@
     ],
     "avatar_url": "/avatars/marleny1.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Latina creator; public promos market explicit exclusive content."
+    "nude_score_notes": "Latina creator; public promos market explicit exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Waifumiia",
@@ -5597,7 +6008,10 @@
     ],
     "avatar_url": "/avatars/waifumiia.jpg",
     "nude_score": 65,
-    "nude_score_notes": "Twitch/OF creator; public marketing emphasizes cosplay and lingerie tease with some explicit PPV mentions."
+    "nude_score_notes": "Twitch/OF creator; public marketing emphasizes cosplay and lingerie tease with some explicit PPV mentions.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "PeachJars",
@@ -5636,7 +6050,10 @@
     ],
     "avatar_url": "/avatars/peachjars.jpg",
     "nude_score": 62,
-    "nude_score_notes": "Twitch streamer OF; public content described as bikini and cosplay tease marketing."
+    "nude_score_notes": "Twitch streamer OF; public content described as bikini and cosplay tease marketing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Ava Rosabella",
@@ -5675,7 +6092,10 @@
     ],
     "avatar_url": "/avatars/avarosabella.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Model OF; public promos market lingerie and explicit-style content."
+    "nude_score_notes": "Model OF; public promos market lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Barbie Rican",
@@ -5714,7 +6134,10 @@
     ],
     "avatar_url": "/avatars/barbirican.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Latina creator; public bios promote explicit subscriber content."
+    "nude_score_notes": "Latina creator; public bios promote explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Allison Avocado",
@@ -5753,7 +6176,10 @@
     ],
     "avatar_url": "/avatars/alliavocado.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Model OF; public marketing describes revealing exclusive content."
+    "nude_score_notes": "Model OF; public marketing describes revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Chloe Sasha",
@@ -5792,7 +6218,10 @@
     ],
     "avatar_url": "/avatars/chloe.sasha.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Creator; public promos market lingerie and explicit-style PPV."
+    "nude_score_notes": "Creator; public promos market lingerie and explicit-style PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Victorya",
@@ -5834,7 +6263,10 @@
     ],
     "avatar_url": "/avatars/victoryaxo.jpg",
     "nude_score": 82,
-    "nude_score_notes": "Latina model; public marketing describes uncensored explicit subscriber content."
+    "nude_score_notes": "Latina model; public marketing describes uncensored explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Tru Kait",
@@ -5873,7 +6305,10 @@
     ],
     "avatar_url": "/avatars/trukait.jpg",
     "nude_score": 92,
-    "nude_score_notes": "Adult film performer; press and public bios describe explicit hardcore content as primary offering."
+    "nude_score_notes": "Adult film performer; press and public bios describe explicit hardcore content as primary offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Romina Malaspina",
@@ -5915,7 +6350,10 @@
     ],
     "avatar_url": "/avatars/romimalaspina.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Argentine TV personality OF; public promos market exclusive revealing content."
+    "nude_score_notes": "Argentine TV personality OF; public promos market exclusive revealing content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Yinyleon",
@@ -5954,7 +6392,10 @@
     ],
     "avatar_url": "/avatars/yinyleon.jpg",
     "nude_score": 91,
-    "nude_score_notes": "Adult content creator; public brand explicitly markets hardcore explicit videos."
+    "nude_score_notes": "Adult content creator; public brand explicitly markets hardcore explicit videos.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Tiff Villagomez",
@@ -5996,7 +6437,10 @@
     ],
     "avatar_url": "/avatars/misstiff.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Latina model OF; public bios promote explicit uncensored content."
+    "nude_score_notes": "Latina model OF; public bios promote explicit uncensored content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Stephanie Rodriguez",
@@ -6035,7 +6479,10 @@
     ],
     "avatar_url": "/avatars/stephrodriguez.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Latina creator; public marketing describes exclusive revealing content."
+    "nude_score_notes": "Latina creator; public marketing describes exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Carolina Samani",
@@ -6074,7 +6521,10 @@
     ],
     "avatar_url": "/avatars/carolinasamani.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Model OF; public promos market lingerie and explicit-style content."
+    "nude_score_notes": "Model OF; public promos market lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Georgina",
@@ -6113,7 +6563,10 @@
     ],
     "avatar_url": "/avatars/georginnalatinaa.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Latina creator; public bios promote explicit-style subscriber content."
+    "nude_score_notes": "Latina creator; public bios promote explicit-style subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Paola Vega",
@@ -6152,7 +6605,10 @@
     ],
     "avatar_url": "/avatars/paolavegaoficial.jpg",
     "nude_score": 78,
-    "nude_score_notes": "Latina model; public marketing describes uncensored exclusive content."
+    "nude_score_notes": "Latina model; public marketing describes uncensored exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Daniela Melissa",
@@ -6191,7 +6647,10 @@
     ],
     "avatar_url": "/avatars/danielarb2000.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Latina creator; public promos market revealing exclusive content."
+    "nude_score_notes": "Latina creator; public promos market revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Solyluna",
@@ -6230,7 +6689,10 @@
     ],
     "avatar_url": "/avatars/solyluna24.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Latina model OF; public bios promote lingerie and explicit-style PPV."
+    "nude_score_notes": "Latina model OF; public bios promote lingerie and explicit-style PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Shunli Mei",
@@ -6269,7 +6731,10 @@
     ],
     "avatar_url": "/avatars/shunli_mei.jpg",
     "nude_score": 55,
-    "nude_score_notes": "Asian model; public marketing emphasizes bikini and lingerie tease content."
+    "nude_score_notes": "Asian model; public marketing emphasizes bikini and lingerie tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Danielle Nicole",
@@ -6308,7 +6773,10 @@
     ],
     "avatar_url": "/avatars/daniellenicollee.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Model OF; public promos market revealing exclusive content."
+    "nude_score_notes": "Model OF; public promos market revealing exclusive content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Andrea Ortiz",
@@ -6347,7 +6815,10 @@
     ],
     "avatar_url": "/avatars/andreaortiz01.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Latina creator; public marketing describes lingerie and tease content."
+    "nude_score_notes": "Latina creator; public marketing describes lingerie and tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Dulce Soltero",
@@ -6386,7 +6857,10 @@
     ],
     "avatar_url": "/avatars/dulcesoltero.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Latina model; public bios promote exclusive revealing content."
+    "nude_score_notes": "Latina model; public bios promote exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Jade Lewinsky",
@@ -6425,7 +6899,10 @@
     ],
     "avatar_url": "/avatars/jadelewinsky.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Model OF; public promos market explicit-style subscriber content."
+    "nude_score_notes": "Model OF; public promos market explicit-style subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Lorena Peach",
@@ -6464,7 +6941,10 @@
     ],
     "avatar_url": "/avatars/lorenapeach.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Latina creator; public marketing describes revealing exclusive content."
+    "nude_score_notes": "Latina creator; public marketing describes revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Poison Ivy",
@@ -6503,7 +6983,10 @@
     ],
     "avatar_url": "/avatars/p0ison.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Model OF; public bios promote lingerie and explicit-style PPV."
+    "nude_score_notes": "Model OF; public bios promote lingerie and explicit-style PPV.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Abella Croft",
@@ -6542,7 +7025,10 @@
     ],
     "avatar_url": "/avatars/abellacroft.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Creator; public promos market revealing exclusive content."
+    "nude_score_notes": "Creator; public promos market revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Julieta Bejarano",
@@ -6581,7 +7067,10 @@
     ],
     "avatar_url": "/avatars/julietabejarano.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Latina model; public marketing describes exclusive revealing content."
+    "nude_score_notes": "Latina model; public marketing describes exclusive revealing content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Amaya Blue",
@@ -6620,7 +7109,10 @@
     ],
     "avatar_url": "/avatars/amayablue1985.jpg",
     "nude_score": 68,
-    "nude_score_notes": "Model OF; public promos market lingerie and tease content."
+    "nude_score_notes": "Model OF; public promos market lingerie and tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Daniela C",
@@ -6659,7 +7151,10 @@
     ],
     "avatar_url": "/avatars/danielac1509.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Latina creator; public bios promote revealing exclusive content."
+    "nude_score_notes": "Latina creator; public bios promote revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Alejandro Ospina",
@@ -6698,7 +7193,10 @@
     ],
     "avatar_url": "/avatars/alejandroospina.jpg",
     "nude_score": 55,
-    "nude_score_notes": "Male Colombian creator; public marketing emphasizes fitness/lifestyle over explicit nude catalog."
+    "nude_score_notes": "Male Colombian creator; public marketing emphasizes fitness/lifestyle over explicit nude catalog.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Daniel Montoya",
@@ -6737,7 +7235,10 @@
     ],
     "avatar_url": "/avatars/danielmontoya.jpg",
     "nude_score": 52,
-    "nude_score_notes": "Male creator; public promos focus on lifestyle content rather than body-explicit sharing."
+    "nude_score_notes": "Male creator; public promos focus on lifestyle content rather than body-explicit sharing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Vanessa Sierra",
@@ -6779,7 +7280,10 @@
     ],
     "avatar_url": "/avatars/vanessasierra.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Australian influencer OF; public marketing describes lingerie and revealing exclusive content."
+    "nude_score_notes": "Australian influencer OF; public marketing describes lingerie and revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Bernard Tomic",
@@ -6821,7 +7325,10 @@
     ],
     "avatar_url": "/avatars/bernardtomic.jpg",
     "nude_score": 30,
-    "nude_score_notes": "Male tennis player OF; limited public body-explicit content marketing."
+    "nude_score_notes": "Male tennis player OF; limited public body-explicit content marketing.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Vanessa Sierra OF",
@@ -6863,7 +7370,10 @@
     ],
     "avatar_url": "/avatars/nessaoriley.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Australian model OF; public promos market revealing exclusive content."
+    "nude_score_notes": "Australian model OF; public promos market revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Azul Hermosa",
@@ -6902,7 +7412,10 @@
     ],
     "avatar_url": "/avatars/azul_hermosa.jpg",
     "nude_score": 90,
-    "nude_score_notes": "Adult film performer; press describes explicit hardcore content as primary OF offering."
+    "nude_score_notes": "Adult film performer; press describes explicit hardcore content as primary OF offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Angela White",
@@ -6944,7 +7457,10 @@
     ],
     "avatar_url": "/avatars/angelawhite.jpg",
     "nude_score": 95,
-    "nude_score_notes": "Major adult film star; public brand and press universally describe full explicit content catalog."
+    "nude_score_notes": "Major adult film star; public brand and press universally describe full explicit content catalog.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Riley Reid",
@@ -6986,7 +7502,10 @@
     ],
     "avatar_url": "/avatars/rileyreid.jpg",
     "nude_score": 95,
-    "nude_score_notes": "Top adult performer; press and public bios describe explicit hardcore content as core offering."
+    "nude_score_notes": "Top adult performer; press and public bios describe explicit hardcore content as core offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Abella Danger",
@@ -7028,7 +7547,10 @@
     ],
     "avatar_url": "/avatars/abelladanger.jpg",
     "nude_score": 94,
-    "nude_score_notes": "Major adult film star; public brand explicitly markets hardcore explicit subscriber content."
+    "nude_score_notes": "Major adult film star; public brand explicitly markets hardcore explicit subscriber content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Autumn Falls",
@@ -7067,7 +7589,10 @@
     ],
     "avatar_url": "/avatars/autumnfalls.jpg",
     "nude_score": 93,
-    "nude_score_notes": "Adult film performer; press describes explicit content as primary OnlyFans offering."
+    "nude_score_notes": "Adult film performer; press describes explicit content as primary OnlyFans offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Emily Willis",
@@ -7106,7 +7631,10 @@
     ],
     "avatar_url": "/avatars/emilywillis.jpg",
     "nude_score": 92,
-    "nude_score_notes": "Adult film star; public bios and press describe full explicit content catalog."
+    "nude_score_notes": "Adult film star; public bios and press describe full explicit content catalog.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Vina Sky",
@@ -7145,7 +7673,10 @@
     ],
     "avatar_url": "/avatars/vinasky.jpg",
     "nude_score": 89,
-    "nude_score_notes": "Adult performer; public brand markets explicit hardcore subscriber content."
+    "nude_score_notes": "Adult performer; public brand markets explicit hardcore subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Kazumi",
@@ -7184,7 +7715,10 @@
     ],
     "avatar_url": "/avatars/kazumisworld.jpg",
     "nude_score": 88,
-    "nude_score_notes": "Adult content creator; public promos describe explicit videos as core offering."
+    "nude_score_notes": "Adult content creator; public promos describe explicit videos as core offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Cobie",
@@ -7223,7 +7757,10 @@
     ],
     "avatar_url": "/avatars/cobie.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Creator; public marketing describes lingerie and explicit-style subscriber content."
+    "nude_score_notes": "Creator; public marketing describes lingerie and explicit-style subscriber content.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Princess Emily",
@@ -7262,7 +7799,10 @@
     ],
     "avatar_url": "/avatars/princessemily.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Model OF; public promos market revealing exclusive content."
+    "nude_score_notes": "Model OF; public promos market revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Nicoleponxo",
@@ -7301,7 +7841,10 @@
     ],
     "avatar_url": "/avatars/nicoleponxo.jpg",
     "nude_score": 76,
-    "nude_score_notes": "Latina creator; public bios promote explicit-style subscriber content."
+    "nude_score_notes": "Latina creator; public bios promote explicit-style subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Ari Kytsya Free",
@@ -7340,7 +7883,10 @@
     ],
     "avatar_url": "/avatars/arikytsyafree.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Free tier; public marketing describes tease with explicit PPV upsells."
+    "nude_score_notes": "Free tier; public marketing describes tease with explicit PPV upsells.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Buffpup",
@@ -7379,7 +7925,10 @@
     ],
     "avatar_url": "/avatars/buffpup.jpg",
     "nude_score": 28,
-    "nude_score_notes": "VTuber; public content described as SFW streaming and cosplay without body-explicit marketing."
+    "nude_score_notes": "VTuber; public content described as SFW streaming and cosplay without body-explicit marketing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Filian",
@@ -7418,7 +7967,10 @@
     ],
     "avatar_url": "/avatars/filian.jpg",
     "nude_score": 25,
-    "nude_score_notes": "VTuber; public brand centers on SFW anime/voice content, not body-explicit sharing."
+    "nude_score_notes": "VTuber; public brand centers on SFW anime/voice content, not body-explicit sharing.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Ironmouse",
@@ -7457,7 +8009,10 @@
     ],
     "avatar_url": "/avatars/ironmouse.jpg",
     "nude_score": 30,
-    "nude_score_notes": "VTuber; public content described as SFW streaming; OF marketed as supporter extras not explicit nude."
+    "nude_score_notes": "VTuber; public content described as SFW streaming; OF marketed as supporter extras not explicit nude.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Projekt Melody",
@@ -7496,7 +8051,10 @@
     ],
     "avatar_url": "/avatars/projektmelody.jpg",
     "nude_score": 78,
-    "nude_score_notes": "VTuber known for lewd branding; public marketing describes adult-style virtual content for subscribers."
+    "nude_score_notes": "VTuber known for lewd branding; public marketing describes adult-style virtual content for subscribers.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Camila Elle",
@@ -7535,7 +8093,10 @@
     ],
     "avatar_url": "/avatars/camilaelle.jpg",
     "nude_score": 80,
-    "nude_score_notes": "Model OF; public promos market explicit uncensored subscriber content."
+    "nude_score_notes": "Model OF; public promos market explicit uncensored subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Ariella Ferrera",
@@ -7574,7 +8135,10 @@
     ],
     "avatar_url": "/avatars/ariellaferrera.jpg",
     "nude_score": 90,
-    "nude_score_notes": "Adult film star; press describes explicit hardcore content as primary offering."
+    "nude_score_notes": "Adult film star; press describes explicit hardcore content as primary offering.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Eva Elfie",
@@ -7616,7 +8180,10 @@
     ],
     "avatar_url": "/avatars/evaelfie.jpg",
     "nude_score": 93,
-    "nude_score_notes": "Adult performer; public brand and press describe full explicit content catalog."
+    "nude_score_notes": "Adult performer; public brand and press describe full explicit content catalog.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Solazola",
@@ -7655,7 +8222,10 @@
     ],
     "avatar_url": "/avatars/solazola.jpg",
     "nude_score": 92,
-    "nude_score_notes": "Adult content creator; public bios explicitly market hardcore explicit videos."
+    "nude_score_notes": "Adult content creator; public bios explicitly market hardcore explicit videos.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Little Puck",
@@ -7694,7 +8264,10 @@
     ],
     "avatar_url": "/avatars/littlepuck.jpg",
     "nude_score": 75,
-    "nude_score_notes": "Adult niche creator; public marketing describes explicit subscriber content."
+    "nude_score_notes": "Adult niche creator; public marketing describes explicit subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Mewslut",
@@ -7733,7 +8306,10 @@
     ],
     "avatar_url": "/avatars/mewslut.jpg",
     "nude_score": 88,
-    "nude_score_notes": "Adult content creator; public brand markets explicit videos for subscribers."
+    "nude_score_notes": "Adult content creator; public brand markets explicit videos for subscribers.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "F1NN5TER",
@@ -7772,7 +8348,10 @@
     ],
     "avatar_url": "/avatars/f1nn5ter.jpg",
     "nude_score": 38,
-    "nude_score_notes": "Streamer; public OF content described as crossdressing/variety rather than traditional nude-explicit catalog."
+    "nude_score_notes": "Streamer; public OF content described as crossdressing/variety rather than traditional nude-explicit catalog.",
+    "avatar_source": "override",
+    "avatar_fallback": false,
+    "avatar_verified": true
   },
   {
     "name": "Quqco",
@@ -7811,7 +8390,10 @@
     ],
     "avatar_url": "/avatars/quqco.jpg",
     "nude_score": 48,
-    "nude_score_notes": "Cosplay streamer; public content described as bikini and cosplay tease."
+    "nude_score_notes": "Cosplay streamer; public content described as bikini and cosplay tease.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Meowriza",
@@ -7850,7 +8432,10 @@
     ],
     "avatar_url": "/avatars/meowriza.jpg",
     "nude_score": 42,
-    "nude_score_notes": "Cosplay creator; public marketing emphasizes tease content without explicit nude claims."
+    "nude_score_notes": "Cosplay creator; public marketing emphasizes tease content without explicit nude claims.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Valeria Kepler",
@@ -7889,7 +8474,10 @@
     ],
     "avatar_url": "/avatars/valeriakepler.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Model OF; public promos market revealing exclusive content."
+    "nude_score_notes": "Model OF; public promos market revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Chantal Daniela",
@@ -7928,7 +8516,10 @@
     ],
     "avatar_url": "/avatars/chantaldaniela.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Latina creator; public marketing describes lingerie and explicit-style content."
+    "nude_score_notes": "Latina creator; public marketing describes lingerie and explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Fiona",
@@ -7967,7 +8558,10 @@
     ],
     "avatar_url": "/avatars/f_iona.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Model OF; public bios promote revealing exclusive content."
+    "nude_score_notes": "Model OF; public bios promote revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Isabella Roy",
@@ -8006,7 +8600,10 @@
     ],
     "avatar_url": "/avatars/isabellaroy.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Creator; public promos market lingerie and explicit-style PPV."
+    "nude_score_notes": "Creator; public promos market lingerie and explicit-style PPV.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Shivashanti",
@@ -8045,7 +8642,10 @@
     ],
     "avatar_url": "/avatars/shivashanti420.jpg",
     "nude_score": 68,
-    "nude_score_notes": "Model OF; public marketing describes revealing tease content."
+    "nude_score_notes": "Model OF; public marketing describes revealing tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Cherry Savage",
@@ -8084,7 +8684,10 @@
     ],
     "avatar_url": "/avatars/savagexcherry.jpg",
     "nude_score": 74,
-    "nude_score_notes": "Creator; public bios promote explicit-style subscriber content."
+    "nude_score_notes": "Creator; public bios promote explicit-style subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Sandra Russo",
@@ -8123,7 +8726,10 @@
     ],
     "avatar_url": "/avatars/sandra_russo.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Model OF; public promos market revealing exclusive content."
+    "nude_score_notes": "Model OF; public promos market revealing exclusive content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Alessandra Russo",
@@ -8162,7 +8768,10 @@
     ],
     "avatar_url": "/avatars/itsalessandrarusso.jpg",
     "nude_score": 70,
-    "nude_score_notes": "Italian model; public marketing describes lingerie and tease content."
+    "nude_score_notes": "Italian model; public marketing describes lingerie and tease content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Diamond Girl",
@@ -8201,7 +8810,10 @@
     ],
     "avatar_url": "/avatars/diamondgirl_ul.jpg",
     "nude_score": 74,
-    "nude_score_notes": "European model OF; public promos market explicit-style content."
+    "nude_score_notes": "European model OF; public promos market explicit-style content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   },
   {
     "name": "Lovely Kira",
@@ -8240,6 +8852,9 @@
     ],
     "avatar_url": "/avatars/lovely_kira.jpg",
     "nude_score": 72,
-    "nude_score_notes": "Model OF; public bios promote revealing exclusive subscriber content."
+    "nude_score_notes": "Model OF; public bios promote revealing exclusive subscriber content.",
+    "avatar_source": "fallback",
+    "avatar_fallback": true,
+    "avatar_verified": false
   }
 ]
